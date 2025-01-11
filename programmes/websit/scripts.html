@@ -155,19 +155,216 @@
 
   <section>
     <div class="text-box">
-      <p onclick="toggleDropdown(1)">Script pour la création des tableaux d'URL et des concordanciers</p>
+      <p onclick="toggleDropdown(1)">Chinois : Script pour la création des tableaux d'URL et des concordanciers</p>
       <div id="dropdown1" class="dropdown-content">
-        Script1.
+        <pre><code>
+#!/usr/bin/env bash
+
+# Vérifier si un chemin de fichier a été fourni en argument
+if [[ -z "$1" ]]; then
+    echo "Veuillez fournir un chemin de fichier en tant qu'argument." >&2
+    exit 1
+fi
+
+# Debug: afficher le chemin du fichier fourni
+echo "Le fichier à lire : $1"
+
+# Définir le chemin du fichier de sortie HTML
+output_file="../tableaux/chinois.html"
+
+# Créer le fichier HTML et ajouter l'en-tête
+{
+    echo "&lt;html&gt;"
+    echo "&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;"
+    echo "&lt;meta charset='UTF-8'&gt;"  # Définir l'encodage en UTF-8
+    echo "&lt;body&gt;"
+    echo "&lt;table&gt;"
+    echo "&lt;tr&gt;&lt;th&gt;Numéro de ligne&lt;/th&gt;&lt;th&gt;Code HTTP&lt;/th&gt;&lt;th&gt;Encodage&lt;/th&gt;&lt;th&gt;Nombre de mots&lt;/th&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;Lien vers la page HTML&lt;/th&gt;&lt;th&gt;Lien vers le dump textuel&lt;/th&gt;&lt;th&gt;Compte&lt;/th&gt;&lt;th&gt;Contexte&lt;/th&gt;&lt;/tr&gt;"
+} &gt; "$output_file"
+
+# Initialiser un compteur pour le numéro de ligne et le nom des fichiers
+line_number=1
+
+# Fonction pour échapper les caractères spéciaux HTML
+escape_html() {
+    echo "$1" | sed -e 's/&/&amp;/g' -e 's/"/&quot;/g' -e 's/</&lt;/g' -e 's/>/&gt;/g'
+}
+
+# Définir le mot d'étude
+study_word="自由"
+
+# Lire chaque ligne du fichier
+while read -r line; do
+    # Échapper les caractères spéciaux de l'URL pour le HTML
+    escaped_url=$(escape_html "$line")
+    
+    # Obtenir le code HTTP de la requête
+    http_code=$(curl -o /dev/null -s -w "%{http_code}" "$line")
+    
+    # Si le code HTTP n'est pas 200, ignorer cette URL
+    if [[ "$http_code" -ne 200 ]]; then
+        echo "Erreur : L'URL $line renvoie un code HTTP $http_code. Elle ne sera pas traitée." >&2
+        echo "&lt;tr&gt;&lt;td&gt;$line_number&lt;/td&gt;&lt;td&gt;$http_code&lt;/td&gt;&lt;td&gt;Absence de résultat&lt;/td&gt;&lt;td&gt;Absence de résultat&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$escaped_url&quot; target=&quot;_blank&quot;&gt;$escaped_url&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Absence de résultat&lt;/td&gt;&lt;td&gt;Absence de résultat&lt;/td&gt;&lt;td&gt;Absence de résultat&lt;/td&gt;&lt;/tr&gt;" &gt;&gt; "$output_file"
+    else
+         # Nettoyer le nom de fichier pour éviter les caractères spéciaux
+        html_filename="../aspirations/chinois-$line_number.html"
+        text_filename="../dumps-text/chinois-$line_number.txt"
+        context_filename="../contextes/chinois-$line_number.txt"
+        
+        # Télécharger la page HTML et l'enregistrer
+        curl -sL "$line" -o "$html_filename"
+
+        # Vérifier si le fichier a été créé
+        if [[ ! -s "$html_filename" ]]; then
+            echo "Erreur : Le fichier $html_filename n'a pas été généré correctement pour $line." >&2
+            echo "&lt;tr&gt;&lt;td&gt;$line_number&lt;/td&gt;&lt;td&gt;$http_code&lt;/td&gt;&lt;td&gt;Erreur&lt;/td&gt;&lt;td&gt;Erreur&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$escaped_url&quot; target=&quot;_blank&quot;&gt;$escaped_url&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erreur&lt;/td&gt;&lt;td&gt;Erreur&lt;/td&gt;&lt;td&gt;Erreur&lt;/td&gt;&lt;/tr&gt;" &gt;&gt; "$output_file"
+            continue
+        fi
+        
+        # Obtenir le type de contenu et l'encodage si disponible
+        content_type=$(curl -sI "$line" | grep -i "Content-Type")
+        if [[ "$content_type" =~ charset=([a-zA-Z0-9-]+) ]]; then
+            encoding="${BASH_REMATCH[1]}"
+        else
+            encoding=$(curl -sL "$line" | pcregrep -o '&lt;meta\s+charset=&quot;[^&quot;]&quot;' | sed 's/.*charset=&quot;\([^&quot;]*\)&quot;.*/\1/')
+        fi
+
+        # Obtenir le contenu de la page et compter le nombre de mots
+        nombre_de_mot=$(curl -sL "$line" | wc -w)
+
+        # Télécharger le contenu textuel avec Lynx en utilisant l'option assume_charset=UTF-8
+        w3m -dump -O UTF-8 "$line" &gt; "$text_filename"
+
+        # Extraire les contextes contenant le mot d'étude
+        grep -B 1 -A 1 "$study_word" "$text_filename" &gt; "$context_filename"
+
+        # Compter le nombre d'occurrences du mot d'étude dans le dump
+        count=$(grep -o "$study_word" "$text_filename" | wc -l)
+
+        # Ajouter une ligne dans le tableau HTML avec les données
+        echo "&lt;tr&gt;&lt;td&gt;$line_number&lt;/td&gt;&lt;td&gt;$http_code&lt;/td&gt;&lt;td&gt;$encoding&lt;/td&gt;&lt;td&gt;$nombre_de_mot&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$escaped_url&quot; target=&quot;_blank&quot;&gt;$escaped_url&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$html_filename&quot; target=&quot;_blank&quot;&gt;Page HTML&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$text_filename&quot; target=&quot;_blank&quot;&gt;Dump Textuel&lt;/a&gt;&lt;/td&gt;&lt;td&gt;$count&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;$context_filename&quot; target=&quot;_blank&quot;&gt;Contexte&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;" &gt;&gt; "$output_file"
+    fi
+
+    # Incrémenter le compteur de lignes
+    ((line_number++))
+done &lt; "$1"
+
+# Clôturer le fichier HTML
+echo "&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" &gt;&gt; "$output_file"
+</code></pre>
       </div>
 
-      <p onclick="toggleDropdown(2)">Script pour la normalisation des textes pour iTrameur</p>
+      <p onclick="toggleDropdown(2)">Chinois : Script pour la normalisation des textes sous la formule PALS</p>
       <div id="dropdown2" class="dropdown-content">
-        Script2.
+        <pre><code>
+#!/bin/bash
+
+# Paramètre 1: Dossier dumps-text
+DUMPS_DIR=$1
+# Paramètre 2: Nom de base
+BASE_NAME=$2
+# Paramètre 3: Dossier contextes
+CONTEXTES_DIR=$3
+
+# Chemin des fichiers de sortie
+DUMPS_OUTPUT_FILE="../pals/dump-chinois.txt"
+CONTEXTES_OUTPUT_FILE="../pals/contextes-chinois.txt"
+
+# Obtenir la liste des fichiers de dumps-text triés par ordre numérique
+DUMPS_FILES=$(ls "$DUMPS_DIR" | sort -t'-' -k2,2n)
+
+# Traiter les fichiers du dossier dumps-text
+for file in $DUMPS_FILES; do
+    # Obtenir le chemin complet du fichier
+    full_file_path="$DUMPS_DIR/$file"
+
+    # Ne traiter que les fichiers ordinaires, ignorer les sous-répertoires
+    if [[ -f "$full_file_path" ]]; then
+        echo "Traitement du fichier dumps-text : $full_file_path"
+
+        # Appeler le script Python pour traiter le fichier et sauvegarder les résultats dans le fichier de sortie de dumps-text
+        python3 - <<EOF >> "$DUMPS_OUTPUT_FILE"
+import thulac
+
+# Initialiser le module thulac
+lac = thulac.thulac(seg_only=True)  # seg_only=True signifie qu'aucune étiquette de partie du discours n'est nécessaire
+
+# Lire le contenu du fichier
+with open("$full_file_path", "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Traitement de la segmentation en mots et affichage des résultats
+words = [word[0] for word in lac.cut(content)]
+print("\\n".join(words))
+EOF
+
+        echo "Résultats du fichier dumps-text ajoutés à : $DUMPS_OUTPUT_FILE"
+        echo "----------------------"
+    fi
+done
+
+# Obtenir la liste des fichiers de contextes triés par ordre numérique
+CONTEXTES_FILES=$(ls "$CONTEXTES_DIR" | sort -t'-' -k2,2n)
+
+# Traiter les fichiers du dossier contextes
+for context_file in $CONTEXTES_FILES; do
+    # Obtenir le chemin complet du fichier de contexte
+    full_context_file_path="$CONTEXTES_DIR/$context_file"
+
+    # Ne traiter que les fichiers ordinaires, ignorer les sous-répertoires
+    if [[ -f "$full_context_file_path" ]]; then
+        echo "Traitement du fichier contextes : $full_context_file_path"
+
+        # Appeler le script Python pour traiter le fichier et sauvegarder les résultats dans le fichier de sortie de contextes
+        python3 - <<EOF >> "$CONTEXTES_OUTPUT_FILE"
+import thulac
+
+# Initialiser le module thulac
+lac = thulac.thulac(seg_only=True)  # seg_only=True signifie qu'aucune étiquette de partie du discours n'est nécessaire
+
+# Lire le contenu du fichier
+with open("$full_context_file_path", "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Traitement de la segmentation en mots et affichage des résultats
+words = [word[0] for word in lac.cut(content)]
+print("\\n".join(words))
+EOF
+
+        echo "Résultats du fichier contextes ajoutés à : $CONTEXTES_OUTPUT_FILE"
+        echo "----------------------"
+    fi
+done
+
+# Supprimer toutes les lignes vides dans contextes-chinois.txt
+sed -i '' '/^$/d' "$CONTEXTES_OUTPUT_FILE"
+
+echo "Tous les fichiers ont été traités !"
+echo "Les résultats de dumps-text sont enregistrés dans : $DUMPS_OUTPUT_FILE"
+echo "Les résultats de contextes sont enregistrés dans : $CONTEXTES_OUTPUT_FILE"
+</code></pre>
+
+
       </div>
 
-      <p onclick="toggleDropdown(3)">Scripts pour la tokenisation des dumps et des contextes pour iTrameur</p>
+      <p onclick="toggleDropdown(3)">Français : Script pour la création des tableaux d'URL et des concordanciers</p>
       <div id="dropdown3" class="dropdown-content">
         Script3.
+      </div>
+      
+      <p onclick="toggleDropdown(4)">Français : Script pour la normalisation des textes sous la formule PALS</p>
+      <div id="dropdown4" class="dropdown-content">
+        Script4.
+      </div>
+      
+      <p onclick="toggleDropdown(5)">Arabe: Script pour la création des tableaux d'URL et des concordanciers</p>
+      <div id="dropdown5" class="dropdown-content">
+        Script5.
+      </div>
+      
+      <p onclick="toggleDropdown(6)">Arabe : Script pour la normalisation des textes sous la formule PALS</p>
+      <div id="dropdown6" class="dropdown-content">
+        Script6.
       </div>
     </div>
   </section>

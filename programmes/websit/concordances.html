@@ -6,93 +6,84 @@
   <title>Liberté en chinois, français et arabe</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <style>
-    /* 图片居中，去掉与页面顶部的间隙 */
     .header-image-container {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      margin: 0; /* 去除任何外部间隙 */
-      padding: 0; /* 去除任何内间隙 */
+      margin: 0;
+      padding: 0;
     }
 
     .header-image {
-      width: 90%;  /* 图片宽度100%，适应屏幕 */
-      height: 300px; /* 保持纵横比 */
-      object-fit: cover;  /* 确保图片不会被拉伸 */
+      width: 90%; 
+      height: 300px;
+      object-fit: cover;
     }
 
-    /* 强制设置透明背景，并在导航栏上方留空隙 */
     nav.navbar {
-      margin-top: 20px; /* 设置导航栏上方的空隙 */
-      background-color: transparent !important; /* 强制透明背景 */
+      margin-top: 20px;
+      background-color: transparent !important;
     }
 
-    /* 导航栏居中 */
     .navbar-menu {
       display: flex;
-      justify-content: center; /* 使导航栏内容居中 */
-      width: 100%; /* 让导航栏占满整个页面 */
+      justify-content: center;
+      width: 100%;
     }
 
     .navbar-end {
       display: flex;
-      justify-content: center; /* 使导航项居中 */
+      justify-content: center;
       width: 100%;
     }
 
-    /* 调整导航栏字体和字号 */
     .navbar-item {
-      font-family: 'Arial', sans-serif; /* 设置字体 */
-      font-size: 18px; /* 设置字号 */
-      font-weight: bold; /* 设置加粗 */
-      letter-spacing: 1px; /* 字母间距 */
-      margin-right: 20px; /* 设置每个标签之间的间距 */
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-right: 20px;
     }
 
-    /* 移除最后一个标签的右边距 */
     .navbar-item:last-child {
       margin-right: 0;
     }
 
-    /* 鼠标悬停时的背景色 */
     .navbar-item:hover {
-      background-color: #f0f0f0; /* 设定悬停时的背景色 */
+      background-color: #f0f0f0;
     }
 
-    /* 页面内容从顶部开始，去除顶部间隙 */
     body {
-      margin-top: 0; /* 确保页面内容从顶部开始 */
+      margin-top: 0;
     }
 
-    /* 文字行的样式 */
     .subtitle {
       text-align: center;
-      font-family: 'Verdana', sans-serif; /* 设置自定义字体 */
-      font-size: 40px; /* 设置字号 */
+      font-family: 'Verdana', sans-serif;
+      font-size: 40px;
       margin-top: 20px;
-      font-weight: bold; /* 设置加粗 */
-      color: #333; /* 设置字体颜色 */
+      font-weight: bold;
+      color: #333;
     }
 
-    /* 调整段落的样式，设置边框 */
     .text-box {
       margin-top: 20px;
       padding: 20px;
-      border: 3px solid transparent !important; /* 设置更粗的边框 */
-      border-radius: 6px; /* 更大的圆角边框 */
-      background-color: transparent !important; /* 设置浅灰色背景 */
-      font-family: 'Arial', sans-serif; /* 设置字体 */
-      font-size: 18px; /* 设置字号 */
-      width: 80%; /* 设置宽度 */
-      margin-left: auto; /* 居中对齐 */
-      margin-right: auto; /* 居中对齐 */
-      text-align: justify; /* 文字两端对齐 */
-      line-height: 1.6; /* 设置行高 */
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+      border: 3px solid transparent !important;
+      border-radius: 6px;
+      background-color: transparent !important;
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      width: 80%;
+      height: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+      line-height: 1.6;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    /* 如果需要可以设置文字框的不同背景颜色 */
     .text-box:first-of-type {
       background-color: #e9e9e9;
     }
@@ -101,59 +92,54 @@
       background-color: #f9f9f9;
     }
 
-    /* 增加浮动框的样式 */
-    .popup {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      padding: 20px;
-      width: 60%;
-      max-width: 600px;
-      background-color: #fff;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-      border-radius: 6px;
-    }
-
-    .popup table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .popup table, .popup th, .popup td {
-      border: 1px solid #ddd;
-    }
-
-    .popup th, .popup td {
-      padding: 8px;
-      text-align: left;
-    }
-
-    .popup th {
-      background-color: #f4f4f4;
-    }
-
-    /* 控制加粗文字 */
     .bold-link {
       font-weight: bold;
-      cursor: pointer;
       color: #0056b3;
       text-decoration: underline;
     }
 
+    /* Style for the dropdown */
+    .dropdown-content {
+      display: none;
+      background-color: #f9f9f9;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      position: absolute; /* Position it relative to the section */
+      top: 480px; /* Position just below the "Tableau Chinois" text */
+      left: 50%; /* Center it horizontally */
+      transform: translateX(-50%); /* Adjust to truly center the dropdown */
+      padding: 10px;
+      width: 300px;
+      max-height: 250px; /* Limit the height to 250px */
+      border-radius: 4px;
+      text-align: center;
+      overflow-y: auto; /* Allow vertical scrolling */
+    }
+
+    .dropdown-content a {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: normal;
+      text-decoration: none;
+      color: #0056b3;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #e0e0e0;
+    }
+
+    /* Show dropdown when active */
+    .show-dropdown {
+      display: block;
+    }
   </style>
 </head>
 <body>
-  <!-- 横版图片 -->
   <header>
     <div class="header-image-container">
       <img class="header-image" src="./headimage.png" alt="Header Image">
     </div>
   </header>
 
-  <!-- 导航栏 -->
   <nav class="navbar is-light">
     <div class="container">
       <div class="navbar-menu">
@@ -170,112 +156,61 @@
     </div>
   </nav>
 
-  <!-- 导航栏下面的文字 -->
   <section>
     <div class="subtitle">
-      Concordanciers
+      Concordances
     </div>
   </section>
 
-  <!-- 仅保留一段被框起来的文字 -->
   <section>
     <div class="text-box">
-      Présentation des tableaux de concordanciers.
+      Présentation des tableaux.
       <br><br>
-      <span class="bold-link" onclick="showPopup('popup1')">Concordancier Chinois</span>
+      <!-- Static Texts without links -->
+      <div id="tableau-chinois" class="bold-link" onclick="toggleDropdown('chinois-dropdown')">
+        Tableau Chinois
+      </div>
       <br>
-      <span class="bold-link" onclick="showPopup('popup2')">Concordancier Français</span>
+      Tableau Français
       <br>
-      <span class="bold-link" onclick="showPopup('popup3')">Concordancier Arabe</span>
+      Tableau Arabe
+      <br><br>
+      <!-- Dynamic Links -->
+      <div id="dynamic-links">
+        <!-- Links will be populated here by JavaScript -->
+      </div>
     </div>
   </section>
 
-  <!-- 弹出框1 -->
-  <div id="popup1" class="popup">
-    <table>
-      <thead>
-        <tr>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-        </tr>
-      </tbody>
-    </table>
-    <button onclick="closePopup('popup1')">cancel</button>
-  </div>
-
-  <!-- 弹出框2 -->
-  <div id="popup2" class="popup">
-    <table>
-      <thead>
-        <tr>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>A</td>
-          <td>B</td>
-          <td>C</td>
-        </tr>
-        <tr>
-          <td>D</td>
-          <td>E</td>
-          <td>F</td>
-        </tr>
-      </tbody>
-    </table>
-    <button onclick="closePopup('popup2')">cancel</button>
-  </div>
-
-  <!-- 弹出框3 -->
-  <div id="popup3" class="popup">
-    <table>
-      <thead>
-        <tr>
-          <th>X</th>
-          <th>Y</th>
-          <th>Z</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>X</td>
-          <td>Y</td>
-          <td>Z</td>
-        </tr>
-        <tr>
-          <td>M</td>
-          <td>N</td>
-          <td>O</td>
-        </tr>
-      </tbody>
-    </table>
-    <button onclick="closePopup('popup3')">cancel</button>
+  <!-- Dropdown for Tableau Chinois -->
+  <div id="chinois-dropdown" class="dropdown-content">
+    <!-- Links will be populated here by JavaScript -->
   </div>
 
   <script>
-    function showPopup(id) {
-      document.getElementById(id).style.display = 'block';
+    // Toggle the dropdown visibility
+    function toggleDropdown(dropdownId) {
+      const dropdown = document.getElementById(dropdownId);
+      dropdown.classList.toggle('show-dropdown');
     }
 
-    function closePopup(id) {
-      document.getElementById(id).style.display = 'none';
+    // Automatically generate chinois-1.html to chinois-50.html links
+    function generateDynamicLinks() {
+      const basePath = '../../concordances/';
+      const dropdown = document.getElementById('chinois-dropdown');
+      dropdown.innerHTML = ''; // Clear any previous links
+
+      for (let i = 1; i <= 50; i++) {
+        const fileName = `chinois-${i}.html`;
+        const link = document.createElement('a');
+        link.href = basePath + fileName;
+        link.textContent = `Link to ${fileName}`;
+        dropdown.appendChild(link);
+      }
     }
+
+    // Call function to generate links for tableau chinois
+    generateDynamicLinks();
   </script>
 </body>
 </html>
