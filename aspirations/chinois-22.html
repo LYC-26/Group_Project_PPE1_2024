@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>卡米耶：走出罗丹的阴影-中国社会科学网</title>
+    <meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="Keywords" content="" />
+<meta name="description" content="卡米耶：走出罗丹的阴影" />
+<meta name="baidu-site-verification" content="d2eTvy3SqO" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="132706">
+<meta name="contentid" content="5521165">
+<meta name="publishdate" content="2022-09-15">
+<meta name="author" content="胡子轩">
+<meta name="source" content="中国社会科学网-中国社会科学报">
+    <script type="text/javascript" src="../../images/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="../../images/sk_pc_mobile_v2022.js"></script>
+
+    <link class="stylefile" rel="stylesheet" href="../../images/sk_nav0_base_pc.css">
+    <link class="stylefile" rel="stylesheet" href="../../images/sk_all_pc.css">
+
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../images/sk_base_mobile.css" />
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../images/sk_all_mobile.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../images/idangerous.swiper2.7.6.css">
+    <script type="text/javascript" src="../../images/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../images/idangerous.swiper2.7.6.min.js"></script>
+    <script type="text/javascript" src="../../images/jquery.qrcode.min.js"></script>
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../../images/placeholder.js"></script>
+    <![endif]-->
+    <script>
+        
+
+
+        var isPC = IsPC();//获取是否为PC端
+        if (isPC) {//如果是PC端加载PC的js和css
+            $(".mobileStyle").remove();
+            dynamicLoadJs('../../images/sk_nav0_base_pc.js')
+        } else {//如果是移动端加载移动端的js和css
+            if (window.sessionStorage.getItem("isPc") == "true") {
+                var oMeta = document.createElement('meta');
+                oMeta.content = '';
+                oMeta.name = 'viewport';
+                document.getElementsByTagName('head')[0].appendChild(oMeta);
+                $(".mobileStyle").remove();
+                dynamicLoadJs('../../images/sk_nav0_base_pc.js')
+                $(function () {
+                    $(".AppBtn").css('display', 'block');
+                    $(".qrcodeCanvas_wrap").css('display', 'none');
+                    $(".nav_wrap").addClass("AppBtnBox");
+                })
+            } else {
+                $(".stylefile").remove();
+                dynamicLoadJs('../../images/sk_base_mobile.js')
+                $(function () {
+                    $("html,body").animate({scrollTop: 0}, 100);
+                })
+            }
+            $(function () {
+                //切换pc移动
+                $(".PcBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "true")
+                    window.location.reload()
+                })
+                $(".AppBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+                $(".AppBtn2").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<!-- 嵌套头部开始 -->
+<script>
+    // Quick Tracking 阿里sdk引入
+    (function(w, d, s, q) { 
+        w[q] =w[q] || []; 
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s); 
+        j.async=true; 
+        j.id='beacon-aplus'; 
+        j.src='https://d.alicdn.com/alilog/mlog/aplus/204201353.js'; 
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['appKey', 'qwfmf7ygk8c6a37if0oq266o']  }) 
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['aplus-rhost-v', 'quickaplus-server-api-cn-zhangjiakou.aliyuncs.com']  });
+
+
+
+    $(function() {
+        $('.search_input').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                gbkSub($(this))
+            } else {
+                $('.search_input').val( $(this).val() )
+            }
+        })
+        $('.search_btn').on('click', function(e) {
+            gbkSub($(this))
+        })
+
+        function gbkSub(obj) {
+            var val = encodeURIComponent($.trim ( obj.parent().find('.search_input').eq(0).val()) )
+            
+            // 埋点搜索
+            aplus_queue.push({
+                'action':'aplus.record',
+                'arguments':['search_click', 'CLK', {
+                    search_key: val,
+                    current_page_name: $('title').text(),
+                    page_name: $('title').text(), //您当前页面的自定义页面编码
+                }]
+
+            });
+            if ( val == '' ) {
+                // alert("请输入您要搜索的内容");
+                var url = 'http://www.cssn.cn/so/';
+                window.open(url);
+            } else {
+                var url = 'http://www.cssn.cn/so/s?qt=' + val;
+                window.open(url);
+            }
+        }
+    })
+
+        
+
+
+        $(function() {
+
+            var article_title = $('.qt_article_title').text();
+            var article_id = $('.qt_article_parent').attr('data-article_id');
+            var share_channel = $('.qt_article_parent').attr('data-share_channel');
+            var published_date = $('.qt_published_date').text();
+            var article_source = $('.qt_article_source').text();
+            var article_author = $('.qt_article_author').text();
+
+            // console.log('article_title:', article_title)
+            // console.log('article_id:', article_id)
+            // console.log('share_channel:', share_channel)
+            // console.log('published_date:', published_date)
+            // console.log('article_source:', article_source)
+            // console.log('article_author:', article_author)
+
+            // Quick Tracking 详情页浏览
+            aplus_queue.push({
+                'action':'aplus.sendPV',
+                'arguments':[{ is_auto: false}, {
+                    //保留字段
+                    page_name:'article_detail_page',
+                    page_title:'文章详情页',
+                    //可选参数
+                    article_title: article_title,
+                    article_id:article_id,
+                    article_author: article_author,
+                    article_source: article_source,
+                    published_date: published_date,
+                }]
+            });
+
+            // 点击分享埋点
+            $('.ops_icons a').on('click', function(e) {
+                var btnName = $(this).attr('title')
+                var isOriginal = ''
+                if (article_source.indexOf('中国社会科学网') != -1 && isOriginal != '') {
+                    isOriginal = '原创'
+                } else {
+                    isOriginal = '非原创'
+                }
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_share_click', 'CLK', {
+                        article_id: article_id,
+                        page_name: "article_detail_page", //您当前页面的自定义页面编码
+                        s_original: isOriginal,//btnName,
+                        article_title: article_title,
+                        published_date: published_date,
+                        article_source: article_source,
+                        article_author: article_author,
+                        share_channel: btnName
+                    }]
+                });
+            })
+
+            // 点击文章页中的链接埋点
+            $('.content_center a').on('click', function() {
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_hyperlinks_click', 'CLK', {
+                        article_id: $(this).attr('href'),
+                        page_name: "文章详情页-超链接点击", //您当前页面的自定义页面编码
+                    }]
+                });
+            })
+
+
+
+
+        })
+</script>
+<!-- head start -->
+<div class="top pcNone">
+    <div class="top_main">
+        <div class="top_left">
+            <a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a>
+        </div>
+        <div class="top_right">
+            <div class="PcBtn"><img src="/images/sk_m_pcbtn.png" alt="" /></div>
+            <div class="searchBtn"><img src="/images/sk_m_searchbtn.png" alt="" /></div>
+            <div class="AppBtn"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+            <div class="search_div mobileNone">
+                <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+                <input class="search_btn" name="searchButton" type="button" value="搜索" />
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search_div">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="搜索" />
+        </div>
+        <div class="search_close"></div>
+    </div>
+</div>
+<!-- head end -->
+<!-- nav start -->
+<div class="nav_wrap">
+    <div class="nav_main">
+        <div class="nav_box">
+            <ul class="nav_ul clear">
+                <li><a class="icon_learn" href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+                <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+                <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+                <li><a href="http://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+                <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+                <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+                <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+                <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+                <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告<i></i>招聘</a></li>
+                <li><a class="arrow" href="javascript:;">学科体系<i></i></a></li>
+            </ul>
+            <a class="nav_more nav_site_pc" href="javascript:;">+</a>
+            <a class="nav_more nav_site_more" href="javascript:;"><img src="/images/sk_nav_rtbg.png" /></a>
+        </div>
+        <div class="nav_fixed_logo"><a href="/"><img src="/images/sk02-logo-nav0.png" alt="" /></a>
+        </div>
+        <div class="nav_fixed_search">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="" />
+        </div>
+        <div class="AppBtn2"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+    </div>
+    <!-- 学科体系下拉菜单 -->
+    <div class="sub_xktx">
+        <div class="nav_wrapper">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+    </div>
+</div>
+<!-- nav end -->
+<div class="nav_site_more_con clear">
+    <i class="more_btn"></i>
+    <div class="layout clear">
+        <h1 class="clear"><a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a></h1>
+        <ul class="clear navtop">
+            <li class="icon_learn"><a href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+            <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+            <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+            <li><a href="https://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+            <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+            <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+            <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+            <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+            <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告 · 招聘</a></li>
+        </ul>
+        <div class="more_con clear">
+            <a href="/zjzg/" target="_blank" ignoreapd="true">志鉴中国</a>
+            <a href="/skgz/" target="_blank" ignoreapd="true">社科关注</a>
+            <a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a>
+            <a href="/dsskhs/" target="_blank" ignoreapd="true">社科好书</a>
+            <a href="/skqns/" target="_blank" ignoreapd="true">社科青年说</a>
+            <a href="/wlqglt/" target="_blank" ignoreapd="true">网络强国论坛</a>
+            <a href="/skrmt/" target="_blank" ignoreapd="true">社科融媒体</a>
+            <a href="/wkskjh/" target="_blank" ignoreapd="true">网刊</a>
+        </div>
+        <h3 class="clear">学科体系</h3>
+        <div class="more_con clear">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+        <h3 class="clear mobileNone">新媒体矩阵</h3>
+        <div class="more_con clear mobileNone">
+            <ul class="new_media_ul">
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922337226245876.png" alt="sk_v2022_front_wechat.png"/>
+                        <p>微信小程序</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929538050877342.jpg" alt="小程序106.jpg"/>
+                        <p>微信小程序</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336887208883.png" alt="sk_v2022_front_gzh.png"/>
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539559790487.jpg" alt="微信106.jpg"/>
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336458060142.png" alt="sk_v2022_front_zgxp.png"/>
+                        <p>中国学派</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539793588017.jpg" alt="学派106.jpg"/>
+                        <p>中国学派</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230615600845961620.png" alt="W020220922336137882083.png"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230616566952919336.jpg" alt="111.jpg"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929459900615313.png" alt="123.png"/>
+                        <p>新浪微博</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540194201728.jpg" alt="微博106.jpg"/>
+                        <p>新浪微博</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929460609289083.png" alt="123.png"/>
+                        <p>今日头条号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540425896749.jpg" alt="头条106.jpg"/>
+                        <p>今日头条号</p>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 嵌套头部结束 -->
+<!-- content -->
+<div class="wrap_fullWidth sk_warp_center_repeat clear qt_article_parent" data-article_id='5521165' data-share_channel="社科关注">
+    <div class="warp_center">
+        <div class="sk_crumbs">
+            <a href="../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../" target="_self" title="社科关注" class="CurrChnlCls">社科关注</a>
+        </div>
+        <div class="warp_center_content">
+            
+            <div class="content_head">
+                <h1 class="qt_article_title">卡米耶：走出罗丹的阴影</h1>
+                
+                <div class="head_intro clear">
+                    <div class="intro_left fl">
+                        <span class="qt_published_date">2022-09-15</span>
+                        <span class="qt_article_author"><font>作者：</font>杨茜</span>
+                        
+                        <span class="qt_article_source"><font>来源：</font>中国社会科学网-中国社会科学报</span>
+                    </div>
+                    <div class="intro_right fr">
+    <div class="view sk_share" id="ops_share"></div>
+    <script src="/images/share_cssn.min.js" charset="utf-8"></script>
+</div>
+                </div>
+            </div>
+            <div class="content_center">
+                <div class=TRS_Editor><p align="justify">　　8月8日，我来到距巴黎100公里的小城塞纳河畔诺让（Nogent- sur - Seine），参观卡米耶·克洛岱尔博物馆。明年是女雕塑家卡米耶（Camille Claudel，1864—1943）去世80周年，博物馆及法国艺术界将举办颇具规模的纪念活动，这里正在举办的一个临时展可视为纪念活动的序幕。小城静悄悄的，见不到行人和汽车。塞纳河从这里无声地流过，蝉鸣和鸟声打破了夏日的寂静。博物馆里也只有几个参观者，这是最理想的参观环境。然而，艺术家的雕塑作品，让我的内心掀起了层层波澜。</p>
+<p align="justify"><strong>　　“回首似旋风”</strong></p>
+<p align="justify">　　进入博物馆，首先吸引我的是名为《华尔兹》的一组四件作品。它们占据了单独的一个小展厅，中央圆形的展台上，四对华尔兹舞伴，是四种不同颜色——黑色、褐色、咖啡色和青绿色的大理石雕像。男性裸体，身材健硕，姿态前倾，右手护着舞伴的后腰，左手轻扶舞伴的右手；女性赤裸上身，腰臀以下是曳地长裙，低头靠在男舞伴的右肩。男女舞伴头离得很近，身体同时倾斜到一侧，仿佛忘却了外界的存在，沉醉在音乐和舞蹈的世界里。</p>
+<p align="justify">　　卡米耶的这部代表作品凝聚了她全部的艺术追求。12岁的时候，她就开始用塞纳河畔诺让的黏土雕塑人形。母亲是制作香槟的农民，对女儿的这个爱好非常反感。幸亏从事贷款抵押业务的父亲支持她，让邻居、后来成为知名雕塑家和画家的阿尔弗雷德·布歇（Alfred Boucher，1850—1934）评估女儿的才能。布歇看到了卡米耶的艺术潜力，答应指点、辅导她。为了得到专业的训练，卡米耶来到巴黎注册了艺术课程。巴黎的艺术氛围给了卡米耶施展才能的舞台。1887年，她创作的《背秸秆的小女孩儿》引起业界关注。在1888年的巴黎美术沙龙展上，她根据印度传说故事创作的一对情侣相拥吻的雕塑获得了成功。在这个时代，造型艺术领域还极少见到女性的身影，卡米耶可算是女中豪杰，她穿着工装、手持凿刀，试图开拓出一条女性艺术家的独立、自由之路。</p>
+<p align="justify">　　用宋代李之仪的《江神子》里那句“须信欢情，回首似旋风”来形容卡米耶《华尔兹》这件作品，是再切题不过的了。谈到卡米耶时，尤其是她和法国著名雕塑家罗丹（Auguste Rodin，1840—1917）的情感纠葛，是艺术史上绕不过的话题。</p>
+<p align="justify"><strong>　　心底的哀求</strong></p>
+<p align="justify">　　卡米耶在巴黎美术学院学习时，她的指导老师布歇先生获得了沙龙奖金赴意大利研修。临行前，他将卡米耶委托给同行罗丹，希望他继续指导她。罗丹初次见到卡米耶的作品就被震撼到了，觉得她是个才女。问题是卡米耶不仅是个才女，还是个美丽的年轻女性。罗丹大卡米耶24岁，有同居女友，叫罗斯·伯莱，他们已经育有一子。虽然卡米耶最初力图保持女性的自尊和骄傲，但罗丹在地位、名声、经济上都占有绝对优势，从此他们成为长达十年的情人。在他们各自的雕塑作品中，都留下了这段炙热情感的痕迹。卡米耶在罗丹工作室期间，她是他的模特、助手和参谋。罗丹的大型雕塑作品《地狱之门》和《加莱义民》中，卡米耶承担的是高难度的雕刻，比如手脚部分。另外在艺术上，他们之间的帮助也不是单向的，卡米耶的创作也影响了罗丹的创作。虽然在工作中，他们互称“先生”和“小姐”，但是人人都知道他们的关系。19世纪末的法国还相当保守。罗丹不愿意离开罗斯，所以不能给卡米耶婚姻。卡米耶还流产了一两次。</p>
+<p align="justify">　　此时，卡米耶的父亲已经去世，她坚持学习雕塑，不能给家庭带来经济上的收入，已经招致了母亲的反感。和罗丹的关系以及堕胎，在信奉天主教的母亲看来就是“罪恶”。但卡米耶拥有叛逆、骄傲的天性，她要抗争，唯一的武器就是她的创作。她一方面在情感上还依赖着罗丹；另一方面，她要摆脱罗丹的影响，创立自己的工作室，找到自己的创作风格。</p>
+<p align="justify">　　艺术上取得的成就并没有给卡米耶带来事业上的成功。她的作品卖得不多，男性主宰的艺术沙龙对女性作品罕有褒扬。她在经济上很难独立，情感上的失败成为她心理健康的杀手。在她遇到困难的时候，她的家庭抛弃了她，罗丹抛弃了她，社会也抛弃了她。1913年，她的母亲和弟弟保罗·克洛岱尔（Paul claudel，1868—1955）要求将她送进精神病院，从此，这个本该还有精品问世的天才女艺术家在高墙禁闭的疯人院里度过了30年的时光，直至死去。逝世时身边没有一个亲人。</p>
+<p align="justify">　　卡米耶在1893—1900年创作的《成熟》是一组青铜人像，一男两女。作品不仅代表了她作为艺术家的创作高度，也映射了罗丹、罗斯及卡米耶的三角关系。男人拒绝了年轻女子，选择了成熟，就是选择了死亡；年轻女子也是在被拒绝中走向成熟，走向死亡。所以这件作品的主题是衰老和死亡。这座雕像最令人动容的是，跪在那里祈求的，是一个美丽、骄傲、天才的女艺术家。她向社会、向时代发出心底的哀求——放过我，给我一条生路！</p>
+<p align="justify"><strong>　　独立的艺术生命</strong></p>
+<p align="justify">　　卡米耶生前连身体的自由都被剥夺了，何谈艺术的自由。19世纪末，女性的艺术作品往往只被看成是房间的装饰品。1888年，卡米耶在巴黎的高伯蓝一带有了自己的工作室，从某种程度上摆脱了母亲。1890年以后，她创作的几部作品，比如克劳修（Clotho）代表法国参加了1893年美国芝加哥的世博会展览。卡米耶还受到日本艺术的影响，开始了她自己称之为“自然素描”的系列画作。她不再像罗丹一样关注宏大社会、历史主题，而是关注生活中的凡人琐事；不但画小题材，而且用小材料。1895年，她创作了《聊天的人》，通过四个女性的胴体坐姿和头部动作，可以看出她们正在热聊一件趣闻，那生动逼真的形象，让人想到老北京的泥人张，几个小泥人在城墙根边谈天说事儿的俏皮、轻松。1897年，她用石膏制作了名为《波浪》的雕塑。后来她改成用缟玛瑙刻波浪，浪尖上矗立着三个手拉手的裸体青铜女人像。这些已经完全区别于罗丹的作品，表现了一个成熟的女性雕刻家现实、抒情、细腻的一面。卡米耶那灵与肉完美结合的作品与同时代男性生殖器崇拜一统天下的雕塑大相径庭。在她的手下，女性身体不再是性欲望的对象。男女拥抱的塑像里，双方表情和肢体表达出的是平等的、相互的爱意。</p>
+<p align="justify">　　然而，这样一个富有才华的艺术家在其逝前30年和卒后40年间，竟被人们完全遗忘了。直到20世纪80年代，她的名字才被重新提起。1982年，法国作家安娜·德尔贝（Anne Delbée）根据卡米耶的生平创作了小说《一个女人》，多次再版。1987年，安娜·里维埃尔（Anne Rivière）创作的传记《卡米耶——被禁止的女人》出版。1988年，伊莎贝拉·阿佳妮和热拉尔·德帕迪约主演的电影《卡米耶·克洛岱尔》（中文翻译为《罗丹的情人》不准确）影响很大。1993年，卡米耶去世50周年，她的家乡举办了展览活动。2004年，卡米耶博物馆之友协会成立，名誉主席是卡米耶的侄孙女。这个团体将热爱卡米耶雕塑艺术的粉丝集中起来，投身于其作品的收藏、宣传和研究活动中，并通过举行展览、讲座、音乐会、雕塑造型培训班等活动，让更多的人了解艺术家及其作品。</p>
+<p align="justify">　　卡米耶，已经从罗丹的阴影中彻底走出，人们纪念她、欣赏她，不再是因为罗丹，而是因为她独特的艺术。人们对卡米耶的关注，也从她个人的悲剧故事以及和罗丹的爱情关系上转到她的才华和作品上。即使是谈论她和罗丹的关系，人们也发现二人除了情感，更多地表现出了艺术上的相互依存关系。从称谓上看，卡米耶不再是“罗丹的情人”“罗丹的学生”，而是“罗丹的合作者”“罗丹的艺术启发者”。2021年，法国文化台制作了一期关于卡米耶的专辑节目，邀请了两位嘉宾——卡米耶博物馆馆长、艺术史学者西塞尔·伯何堂（Cecile Bertran）和巴黎第八大学历史学家、女性研究中心研究员雅尼克·里帕 （Yannick Ripa）。前者认为卡米耶是法国19世纪末最伟大的女雕塑家。后者指出，卡米耶作出的贡献是独一无二的。因为传统认为凡是跟火、黏土等充满阳刚之气的物质材料有关的艺术是男性的专属。女性被允许接触的是和月经活动有关的水质的流动的材料，比如哺乳的奶或者艺术中的水彩。女人适合的是生育而不是创造。卡米耶大胆向传统习俗挑战，首开女性雕塑的先河。</p>
+<p align="justify">　　目前，卡米耶·克洛岱尔博物馆正在举办一个临时展——法比恩·维迪尔（Fabienne Verdier，1962— ）彩色玻璃画展。法比恩是一位以娴熟的中国水墨技法而闻名的法国画家。她根据卡米耶的《华尔兹》雕像创作了独具特色的玻璃画。圆形玻璃上是巨大的毛笔留下的金黄色旋涡形轨迹，让人想到旋转的风、水、火或者光。我觉得她抓住了卡米耶雕塑作品的精神内核——旋转，不停地旋转！</p>
+<p align="justify">　　驻足在法比恩有中国风特色的作品前，我仿佛看到了两位女艺术家跨域时空的对话。经过一生的奋斗和她的艺术追随者的努力，卡米耶·克洛岱尔终于赢得了独立的艺术价值和生命。今天在法国，她的作品和罗丹作品没有高下之分，甚至其《华尔兹》第二版的拍卖价是罗丹作品《吻》的10倍以上。一个有趣的现象，就是过去人们提到克洛岱尔这个名字，想到的是保罗·克洛岱尔，那个著名的诗人、剧作家，曾经在中国生活多年但却不懂中文的外交家。许多人谴责在妹妹被迫关进疯人院中他的不作为，甚至是母亲的帮凶。在我看来，他没有起到一个哥哥应有的保护作用。今天再提到克洛岱尔这个名字，人们想到的是卡米耶·克洛岱尔。曾经著名的，正在变得暗淡；曾经无名的，开始闪耀璀璨的光芒，历史就是这样将真相还给后人。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify"><strong>　　（作者系北京语言大学汉语学院副教授）</strong></p></div>
+                
+            </div>
+            
+            <div class="content_zz">
+                转载请注明来源：<strong>中国社会科学网</strong>（责编：胡子轩）
+            </div>
+            <!-- 二维码 -->
+            <div class="qrcodeCanvas_wrap">
+                <div class="qrcodeCanvas"></div>
+                <p>扫码在手机上查看</p>
+            </div>
+            <div class="warp_center_links clear">
+    <div class="view">
+        <div class="sk_title_02">
+            <span>社科推荐</span>
+        </div>
+        <ul>
+            
+            <li><a href="https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml" target="_blank">跨学科聚焦人工智能多领域应用</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832997.shtml" target="_blank">学界关注国防语言能力建设</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832998.shtml" target="_blank">“改革再造一个新广东”丛书发布</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832198.shtml" target="_blank">推进文化繁荣  建设文化强国</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832197.shtml" target="_blank">聚焦新质生产力与可持续发展</a></li>
+            
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="fiexd_title_wrap">
+    <div class="fiexd_title">
+        <span class="fiexd_title_text"></span>
+    </div>
+</div>
+<script>
+    // 二维码
+    $('.qrcodeCanvas').qrcode({
+        text: window.location.href
+    });
+
+    var isPC = IsPC();
+    if (isPC) {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '20%',
+            'height': '20%',
+            'margin-left': '40%'
+        })
+    } else {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '50%',
+            'height': '50%',
+            'margin-left': '25%'
+        })
+    }
+
+    var navWrapH = $('.nav_wrap').outerHeight()
+    var crumbsH = $('.sk_crumbs').outerHeight()
+    var warpCenterH = parseInt( $('.warp_center_content').css('padding-top') )
+    // var titleH = $('.content_head').find('h1').eq(0).outerHeight()
+
+    var headHeight = navWrapH + crumbsH + warpCenterH
+
+    $('.fiexd_title_text').text($('.content_head').find('h1').eq(0).text())
+    // $('.fiexd_subTitle_text').text($('.content_head').find('h2').eq(0).text())
+    // $('.fiexd_title_wrap').css('top', navWrapH)
+    // console.log( 'headHeight:', headHeight )
+
+    // console.log(warpCenterH)
+    $(window).on('scroll', function() {
+
+        if ( $(window).scrollTop() > headHeight ) {
+
+            // $('.fiexd_title_wrap').show().stop().animate({'top': navWrapH},500)
+
+            $('.fiexd_title_wrap').show().css('top', navWrapH)
+
+        } else {
+            //     $('.fiexd_title_wrap').stop().animate({'top': 0} ,500, function() {
+            //         $(this).hide()
+            //     })
+
+            $('.fiexd_title_wrap').css({
+                'top': -navWrapH-32
+            })
+            // console.log( $(window).scrollTop() )
+        }
+    })
+</script>
+<!-- footer -->
+<div class="sk_footer sk_footer_white">
+    <div class="links">
+    <a href="/gywm/" target="_blank" ignoreapd="true">关于我们</a>
+    <a href="/ggfw/" target="_blank" ignoreapd="true">广告服务</a>
+    <a href="/wzsm/" target="_blank" ignoreapd="true">网站声明</a>
+    <a href="/wzjc/" target="_blank" ignoreapd="true">网站纠错</a>
+    <a href="/lxwm/" target="_blank" ignoreapd="true">联系我们</a>
+</div>
+<div class="icp">
+    <span>举报电话：010-65393398</span>
+    <span>举报邮箱：zgshkxw@cass.org.cn</span>
+    <span>互联网新闻信息服务许可证：10120220003</span>
+    <span><a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/" ignoreapd="true">京ICP备11013869号</a></span>
+    <span><a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030146" ignoreapd="true">京公网安备11010502030146号</a></span>
+</div>
+<div class="icp icp_sscp">
+    <span class="sk_sscp_logo"><img src="/images/sk_logo_sscp.png" alt="" /></span>
+    <span>中国社会科学杂志社版权所有，未经书面授权禁止使用</span>
+    <span>Copyright &copy; 2011-2025 by www.cssn.cn all rights reserved</span>
+
+    <div class="knet">
+        <script src="https://kxlogo.knet.cn/seallogo.dll?sn=a13101211010042869jlua000000&size=3"></script>
+    </div>
+
+</div>
+<div class="rightBar mobileNone">
+    <a href="javascript:void(0);" class="backTop"></a>
+</div>
+<!--天润代码统计-->
+<div style="display:none">
+<script src="/images/cssn_webdig.js" language="javascript" type="text/javascript"></script>
+</div>
+<!-- cssn.cn Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ac7f8383ed02699dcafe4c2cba61e1f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<script>
+    $(".content_center").find("div").removeAttr("class");
+	var htm=$(".content_center").html();
+	htm=htm.replace(/div/ig, "p");
+	$(".content_center").html(htm);
+
+</script>
+</body>
+</html>

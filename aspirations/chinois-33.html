@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>走近江永女书及其文化语境-中国社会科学网</title>
+    <meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="Keywords" content="" />
+<meta name="description" content="走近江永女书及其文化语境" />
+<meta name="baidu-site-verification" content="d2eTvy3SqO" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="131527">
+<meta name="contentid" content="5458386">
+<meta name="publishdate" content="2020-07-21">
+<meta name="author" content="skw-zhaomh">
+<meta name="source" content="中国社会科学网-中国社会科学报">
+    <script type="text/javascript" src="../../../images/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="../../../images/sk_pc_mobile_v2022.js"></script>
+
+    <link class="stylefile" rel="stylesheet" href="../../../images/sk_nav0_base_pc.css">
+    <link class="stylefile" rel="stylesheet" href="../../../images/sk_all_pc.css">
+
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/sk_base_mobile.css" />
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/sk_all_mobile.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../images/idangerous.swiper2.7.6.css">
+    <script type="text/javascript" src="../../../images/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../../images/idangerous.swiper2.7.6.min.js"></script>
+    <script type="text/javascript" src="../../../images/jquery.qrcode.min.js"></script>
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../../../images/placeholder.js"></script>
+    <![endif]-->
+    <script>
+        
+
+
+        var isPC = IsPC();//获取是否为PC端
+        if (isPC) {//如果是PC端加载PC的js和css
+            $(".mobileStyle").remove();
+            dynamicLoadJs('../../../images/sk_nav0_base_pc.js')
+        } else {//如果是移动端加载移动端的js和css
+            if (window.sessionStorage.getItem("isPc") == "true") {
+                var oMeta = document.createElement('meta');
+                oMeta.content = '';
+                oMeta.name = 'viewport';
+                document.getElementsByTagName('head')[0].appendChild(oMeta);
+                $(".mobileStyle").remove();
+                dynamicLoadJs('../../../images/sk_nav0_base_pc.js')
+                $(function () {
+                    $(".AppBtn").css('display', 'block');
+                    $(".qrcodeCanvas_wrap").css('display', 'none');
+                    $(".nav_wrap").addClass("AppBtnBox");
+                })
+            } else {
+                $(".stylefile").remove();
+                dynamicLoadJs('../../../images/sk_base_mobile.js')
+                $(function () {
+                    $("html,body").animate({scrollTop: 0}, 100);
+                })
+            }
+            $(function () {
+                //切换pc移动
+                $(".PcBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "true")
+                    window.location.reload()
+                })
+                $(".AppBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+                $(".AppBtn2").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<!-- 嵌套头部开始 -->
+<script>
+    // Quick Tracking 阿里sdk引入
+    (function(w, d, s, q) { 
+        w[q] =w[q] || []; 
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s); 
+        j.async=true; 
+        j.id='beacon-aplus'; 
+        j.src='https://d.alicdn.com/alilog/mlog/aplus/204201353.js'; 
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['appKey', 'qwfmf7ygk8c6a37if0oq266o']  }) 
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['aplus-rhost-v', 'quickaplus-server-api-cn-zhangjiakou.aliyuncs.com']  });
+
+
+
+    $(function() {
+        $('.search_input').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                gbkSub($(this))
+            } else {
+                $('.search_input').val( $(this).val() )
+            }
+        })
+        $('.search_btn').on('click', function(e) {
+            gbkSub($(this))
+        })
+
+        function gbkSub(obj) {
+            var val = encodeURIComponent($.trim ( obj.parent().find('.search_input').eq(0).val()) )
+            
+            // 埋点搜索
+            aplus_queue.push({
+                'action':'aplus.record',
+                'arguments':['search_click', 'CLK', {
+                    search_key: val,
+                    current_page_name: $('title').text(),
+                    page_name: $('title').text(), //您当前页面的自定义页面编码
+                }]
+
+            });
+            if ( val == '' ) {
+                // alert("请输入您要搜索的内容");
+                var url = 'http://www.cssn.cn/so/';
+                window.open(url);
+            } else {
+                var url = 'http://www.cssn.cn/so/s?qt=' + val;
+                window.open(url);
+            }
+        }
+    })
+
+        
+
+
+        $(function() {
+
+            var article_title = $('.qt_article_title').text();
+            var article_id = $('.qt_article_parent').attr('data-article_id');
+            var share_channel = $('.qt_article_parent').attr('data-share_channel');
+            var published_date = $('.qt_published_date').text();
+            var article_source = $('.qt_article_source').text();
+            var article_author = $('.qt_article_author').text();
+
+            // console.log('article_title:', article_title)
+            // console.log('article_id:', article_id)
+            // console.log('share_channel:', share_channel)
+            // console.log('published_date:', published_date)
+            // console.log('article_source:', article_source)
+            // console.log('article_author:', article_author)
+
+            // Quick Tracking 详情页浏览
+            aplus_queue.push({
+                'action':'aplus.sendPV',
+                'arguments':[{ is_auto: false}, {
+                    //保留字段
+                    page_name:'article_detail_page',
+                    page_title:'文章详情页',
+                    //可选参数
+                    article_title: article_title,
+                    article_id:article_id,
+                    article_author: article_author,
+                    article_source: article_source,
+                    published_date: published_date,
+                }]
+            });
+
+            // 点击分享埋点
+            $('.ops_icons a').on('click', function(e) {
+                var btnName = $(this).attr('title')
+                var isOriginal = ''
+                if (article_source.indexOf('中国社会科学网') != -1 && isOriginal != '') {
+                    isOriginal = '原创'
+                } else {
+                    isOriginal = '非原创'
+                }
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_share_click', 'CLK', {
+                        article_id: article_id,
+                        page_name: "article_detail_page", //您当前页面的自定义页面编码
+                        s_original: isOriginal,//btnName,
+                        article_title: article_title,
+                        published_date: published_date,
+                        article_source: article_source,
+                        article_author: article_author,
+                        share_channel: btnName
+                    }]
+                });
+            })
+
+            // 点击文章页中的链接埋点
+            $('.content_center a').on('click', function() {
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_hyperlinks_click', 'CLK', {
+                        article_id: $(this).attr('href'),
+                        page_name: "文章详情页-超链接点击", //您当前页面的自定义页面编码
+                    }]
+                });
+            })
+
+
+
+
+        })
+</script>
+<!-- head start -->
+<div class="top pcNone">
+    <div class="top_main">
+        <div class="top_left">
+            <a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a>
+        </div>
+        <div class="top_right">
+            <div class="PcBtn"><img src="/images/sk_m_pcbtn.png" alt="" /></div>
+            <div class="searchBtn"><img src="/images/sk_m_searchbtn.png" alt="" /></div>
+            <div class="AppBtn"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+            <div class="search_div mobileNone">
+                <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+                <input class="search_btn" name="searchButton" type="button" value="搜索" />
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search_div">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="搜索" />
+        </div>
+        <div class="search_close"></div>
+    </div>
+</div>
+<!-- head end -->
+<!-- nav start -->
+<div class="nav_wrap">
+    <div class="nav_main">
+        <div class="nav_box">
+            <ul class="nav_ul clear">
+                <li><a class="icon_learn" href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+                <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+                <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+                <li><a href="http://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+                <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+                <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+                <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+                <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+                <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告<i></i>招聘</a></li>
+                <li><a class="arrow" href="javascript:;">学科体系<i></i></a></li>
+            </ul>
+            <a class="nav_more nav_site_pc" href="javascript:;">+</a>
+            <a class="nav_more nav_site_more" href="javascript:;"><img src="/images/sk_nav_rtbg.png" /></a>
+        </div>
+        <div class="nav_fixed_logo"><a href="/"><img src="/images/sk02-logo-nav0.png" alt="" /></a>
+        </div>
+        <div class="nav_fixed_search">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="" />
+        </div>
+        <div class="AppBtn2"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+    </div>
+    <!-- 学科体系下拉菜单 -->
+    <div class="sub_xktx">
+        <div class="nav_wrapper">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+    </div>
+</div>
+<!-- nav end -->
+<div class="nav_site_more_con clear">
+    <i class="more_btn"></i>
+    <div class="layout clear">
+        <h1 class="clear"><a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a></h1>
+        <ul class="clear navtop">
+            <li class="icon_learn"><a href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+            <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+            <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+            <li><a href="https://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+            <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+            <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+            <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+            <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+            <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告 · 招聘</a></li>
+        </ul>
+        <div class="more_con clear">
+            <a href="/zjzg/" target="_blank" ignoreapd="true">志鉴中国</a>
+            <a href="/skgz/" target="_blank" ignoreapd="true">社科关注</a>
+            <a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a>
+            <a href="/dsskhs/" target="_blank" ignoreapd="true">社科好书</a>
+            <a href="/skqns/" target="_blank" ignoreapd="true">社科青年说</a>
+            <a href="/wlqglt/" target="_blank" ignoreapd="true">网络强国论坛</a>
+            <a href="/skrmt/" target="_blank" ignoreapd="true">社科融媒体</a>
+            <a href="/wkskjh/" target="_blank" ignoreapd="true">网刊</a>
+        </div>
+        <h3 class="clear">学科体系</h3>
+        <div class="more_con clear">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+        <h3 class="clear mobileNone">新媒体矩阵</h3>
+        <div class="more_con clear mobileNone">
+            <ul class="new_media_ul">
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922337226245876.png" alt="sk_v2022_front_wechat.png"/>
+                        <p>微信小程序</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929538050877342.jpg" alt="小程序106.jpg"/>
+                        <p>微信小程序</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336887208883.png" alt="sk_v2022_front_gzh.png"/>
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539559790487.jpg" alt="微信106.jpg"/>
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336458060142.png" alt="sk_v2022_front_zgxp.png"/>
+                        <p>中国学派</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539793588017.jpg" alt="学派106.jpg"/>
+                        <p>中国学派</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230615600845961620.png" alt="W020220922336137882083.png"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230616566952919336.jpg" alt="111.jpg"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929459900615313.png" alt="123.png"/>
+                        <p>新浪微博</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540194201728.jpg" alt="微博106.jpg"/>
+                        <p>新浪微博</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929460609289083.png" alt="123.png"/>
+                        <p>今日头条号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540425896749.jpg" alt="头条106.jpg"/>
+                        <p>今日头条号</p>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 嵌套头部结束 -->
+<!-- content -->
+<div class="wrap_fullWidth sk_warp_center_repeat clear qt_article_parent" data-article_id='5458386' data-share_channel="本网原创">
+    <div class="warp_center">
+        <div class="sk_crumbs">
+            <a href="../../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../../" target="_self" title="社科关注" class="CurrChnlCls">社科关注</a>&nbsp;>&nbsp;<a href="../" target="_self" title="本网原创" class="CurrChnlCls">本网原创</a>
+        </div>
+        <div class="warp_center_content">
+            
+            <div class="content_head">
+                <h1 class="qt_article_title">走近江永女书及其文化语境</h1>
+                
+                <div class="head_intro clear">
+                    <div class="intro_left fl">
+                        <span class="qt_published_date">2020-07-21</span>
+                        <span class="qt_article_author"><font>作者：</font>秦思</span>
+                        
+                        <span class="qt_article_source"><font>来源：</font>中国社会科学网-中国社会科学报</span>
+                    </div>
+                    <div class="intro_right fr">
+    <div class="view sk_share" id="ops_share"></div>
+    <script src="/images/share_cssn.min.js" charset="utf-8"></script>
+</div>
+                </div>
+            </div>
+            <div class="content_center">
+                <div class=TRS_Editor><p align="justify"><font style="font-size: 12pt">　　女书是流传在湖南省永州市江永县一带，仅由女性在特定场合使用及传承，主要用于书写女性生活的文字系统，并被吉尼斯世界纪录列为“世界上最具性别特征的文字”。作为一种举世罕见的性别文字系统，一种口头吟诵与书面书写相结合的民间语言文化，女书书写着女性本位的中国故事。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　女书在文字及书写载体方面特色鲜明。文字方面，字体倾斜修长，娟秀清癯，当地又称“长脚蚊字”。其虽是脱胎于汉字的一种借源文字，也存在一批难以溯源的自造字。再者，女书的书写载体颇为局限，主要包含纸、扇、帕、书四类。它们除交流信息、抒情达意之外，往往做工精细，被女性视为信物伴于身侧，直至人死书焚。这些特征可通过异质性、私密性、审美性和简便性得以解释。</font></p>
+<p align="justify"><font style="font-size: 12pt"><strong>　　江永女书：行走在方言与语域之间</strong></font></p>
+<p align="justify"><font style="font-size: 12pt">　　女书的语言变体属性极为特殊，目前学界尚未准确界定。我们认为，女书是一种兼具方言及语域属性的语言变体。语言变体被普遍划分为两大类，根据使用者、语言使用为界定标准的语言变体，分别称为方言、语域。可女书突破了这两个范畴，同时凸显了使用者及使用场合等特征，方言或语域不足以单独描述其内涵。作为方言，女书是湖南江永方言基础上的妇女群体语，是一种从属于社会方言的性别方言。它在话题及词汇等方面具有女性方言的诸多特征。譬如，女书的话题主要包括老同结交、个人身世、情感诉说、劝慰训导、女红制作和风俗娱乐等，涉及典型女性话题的文本占80%以上；女书词汇偏爱雅致、委婉型。作为语域，女书的使用限于特定的场合（婚嫁仪式、女红制作、女性节日、女神祭祀等）、话题（婚姻及家庭生活等）、对象（老同及女性亲友）和方式（纸、扇、帕、书及口头吟诵）。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　方言与语域之间的界限并非泾渭分明。这二者间应有一个过渡地带，存在互含关系，甚至有一种同时凸显二者属性的语言变体，女书可以为证。为阐释这种方言与语域典型交汇的语言变体，我们提出“域言”概念。这可观照女书、职业方言及隐语行话等受使用者及语言使用双重支配的语言现象。例如，菇山话、站话、军话、绍句、沙巴文及水书等。它们不仅明确限定了使用者的社会身份、职业，也限定了使用的场合、对象、话题和方式。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　女书的特质不仅在于其特殊的语言变体属性，抑或性别特征鲜明的文字及文本，更重要的是，透过女书本体，我们可以清楚地看到一种游离于主流之外的女性文化。女书应是“多民族互动融合下的女性自我意识回归”这一社会文化语境的投射。</font></p>
+<p align="justify"><font style="font-size: 12pt"><strong>　　江永的历史背景：多民族互动融合</strong></font></p>
+<p align="justify"><font style="font-size: 12pt">　　对女书的理解与诠释，不能停留在静态平面，需要观照文化语境的历时变迁，关注自古以来女书流传地的多民族互动融合这一历史背景。江永是楚、越及中原文化的交汇地，也是汉族及瑶族等30多个民族的杂居区，汉风瑶俗等在此交替更迭、互动融合。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　据《江永县志》等志书记载，江永的人口构成曾以南方少数民族为主，其中以瑶族为代表。唐宋以降，江永瑶民起义频发并屡遭镇压，致使部分瑶民南下迁离，同时不断有汉族流民因战乱迁移至此。故而，江永由瑶族等南方少数民族的集聚地逐渐发展为以汉瑶为主的多民族杂居地，南北文化不断拉锯，在此形成了特殊的风尚。这里既是推崇理学的教化之地，又具有少数民族特色；既有男耕女织、男主外女主内的传统家庭模式，又有女性掌管家财的母系氏族遗韵；既有男尊女卑、女无再适及以顺为正的传统妾妇之道，又有招郎入赘、男从女姓及不落夫家的瑶族自由婚俗；既有女子无才便是德的桎梏，又有女性追寻文化知识的渴望。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　由此可见，封建礼制中以男性为中心的传统并非一以贯之地盛行于江永。江永的社会风俗发端于百越之后瑶族等南方少数民族的母系氏族传统，转型于汉族儒家伦理纲常的介入。这种多民族互动融合的社会文化背景，使得当地语言现象纷繁复杂，给新文字及异质文化的产生提供了自由空间，由此滋生出了女书等一系列语言变体。</font></p>
+<p align="justify"><font style="font-size: 12pt"><strong>　　江永女性的自我意识流变：滥觞、疏离与回归</strong></font></p>
+<p align="justify"><font style="font-size: 12pt">　　与这种多民族互动的历史文化语境相伴而生的，是江永女性的意识形态及价值观念的流变。她们经历了自我意识和群体意识的滥觞、疏离与回归。纵观数十年来的女书研究，多延续着百年来中国妇女史观的“五四传统”，对女性形成了无权、无地位、受压迫的可怜受害者的刻板印象。然而，封建社会中并非尽是祥林嫂，江永女性也并非自始至终处于被压制的状态。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　江永女性的价值观，早前曾深受瑶族社会普遍存在的两性平等观念影响。而在儒家伦理纲常介入后，当地女性才被不断压制及边缘化。她们长期被政权及夫权束缚，被剥夺了话语权、受教育权以及参与劳动权等社会活动权。即便如此，她们也并未被动麻木地忍受。在汉瑶两种迥异文化的双重影响下，边缘感、性别冲突、认同危机协同对自由平等的追求，加速了江永女性对儒家性别文化和以男性为中心的主流社会的反抗，甚至引起了对外婚制及从夫居等婚姻制度的抵触，她们往往更留恋亲密无间的女性团体。女性自我意识和群体意识便再次觉醒及回归。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　这种女性意识体现在女性专属的文字系统的创制，以及女书作品中女性的大力发声。文中既有“自想自叹伤心哭，几夜天光愁断肠”的泣血自诉，又有“因为封建不合理，世世代代受煎熬”的控诉，还有“我自心红自欢乐，难承姐娘真有心”的欢喜。不过，从女书作品可窥见女性意识的回归具有局限性。这体现在女书内容仅局限于与妇女相关的问题，几乎未介入政治、经济、文化和教育等社会主流领域。譬如，无反映社会生活的契约、账目与诉讼状，无用于文化传承的教学课本，就连翻译的汉文作品，也多为通俗文学，未涉及政治、经济等。这种疏离于社会主流的现象，体现并加剧了女书及女性身份的边缘性，反衬出封建的男权意识形态未曾离开。</font></p>
+<p align="justify"><font style="font-size: 12pt"><strong>　　女性本位的文化场域：别样的民俗活动</strong></font></p>
+<p align="justify"><font style="font-size: 12pt">　　江永女性在婚嫁礼俗、女性节日、女神祭祀和老同结交等民俗及社交活动中，借由女书构筑了一种女性本位的文化场域。这极大扩展了女性的活动空间，强化了其自我意识及群体意识。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　尽管唐宋以来江永地区开始逐渐接纳汉文化，可仍保留着不少瑶族风俗，其中不乏以女性为主体的民俗风尚。譬如，贺三朝及不落夫家等婚俗。贺三朝是指新娘婚后第三天回娘家，女友前来赠送女书三朝书以贺新婚。不落夫家则是指女性从出嫁至生子期间需留于娘家做女红，不得从夫而居。又如，花山庙会与娘娘庙会等女神祭祀活动，斗牛节与吹凉节等女性专属节日，女书吟诵便是其中的必备环节。再如，结老同在江永女性中也尤为盛行。年纪相近的几位女性，若相处融洽，可结拜老同，以女书共谱结交书，共同学习女书，终身往来女书信件以分享悲喜、慰藉劝解，构筑深厚情谊。可见，江永女性并未因封建礼教及“不落夫家”而驻足于闺房之内，而是在与男性相对隔绝的环境下，借由女书建构了一个封闭的、自由的女性社会，以满足精神追求。女书依托各类民俗活动，在此女性社会中起到了交际凝聚、娱乐调适、习俗礼仪、教化传授及物化储存功能。</font></p>
+<p align="justify"><font style="font-size: 12pt">　　总之，女书这种方言与语域的典型交汇体，以其独特的方式书写着专属于女性的中国故事。它体现了多民族互动融合中女性自我意识的回归及能动的创造力。依照女书，新的语言变体类型“域言”得以提出。这不仅为女书的语言变体属性提供了新的视角，而且能进一步完善方言与语域之间的关系，补益社会语言学的语言变体相关理论，从而观照职业方言及行业隐语等语言现象。这对女书研究及社会语言学均有着积极意义。</font></p>
+<p align="justify"><font style="font-size: 12pt"><strong>　　（作者单位：华中师范大学外国语学院）</strong></font></p>
+<p align="justify">&nbsp;</p></div>
+                
+            </div>
+            
+            <div class="content_zz">
+                转载请注明来源：<strong>中国社会科学网</strong>（责编：赵明豪）
+            </div>
+            <!-- 二维码 -->
+            <div class="qrcodeCanvas_wrap">
+                <div class="qrcodeCanvas"></div>
+                <p>扫码在手机上查看</p>
+            </div>
+            <div class="warp_center_links clear">
+    <div class="view">
+        <div class="sk_title_02">
+            <span>社科推荐</span>
+        </div>
+        <ul>
+            
+            <li><a href="https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml" target="_blank">跨学科聚焦人工智能多领域应用</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832997.shtml" target="_blank">学界关注国防语言能力建设</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832998.shtml" target="_blank">“改革再造一个新广东”丛书发布</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832198.shtml" target="_blank">推进文化繁荣  建设文化强国</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832197.shtml" target="_blank">聚焦新质生产力与可持续发展</a></li>
+            
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="fiexd_title_wrap">
+    <div class="fiexd_title">
+        <span class="fiexd_title_text"></span>
+    </div>
+</div>
+<script>
+    // 二维码
+    $('.qrcodeCanvas').qrcode({
+        text: window.location.href
+    });
+
+    var isPC = IsPC();
+    if (isPC) {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '20%',
+            'height': '20%',
+            'margin-left': '40%'
+        })
+    } else {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '50%',
+            'height': '50%',
+            'margin-left': '25%'
+        })
+    }
+
+    var navWrapH = $('.nav_wrap').outerHeight()
+    var crumbsH = $('.sk_crumbs').outerHeight()
+    var warpCenterH = parseInt( $('.warp_center_content').css('padding-top') )
+    // var titleH = $('.content_head').find('h1').eq(0).outerHeight()
+
+    var headHeight = navWrapH + crumbsH + warpCenterH
+
+    $('.fiexd_title_text').text($('.content_head').find('h1').eq(0).text())
+    // $('.fiexd_subTitle_text').text($('.content_head').find('h2').eq(0).text())
+    // $('.fiexd_title_wrap').css('top', navWrapH)
+    // console.log( 'headHeight:', headHeight )
+
+    // console.log(warpCenterH)
+    $(window).on('scroll', function() {
+
+        if ( $(window).scrollTop() > headHeight ) {
+
+            // $('.fiexd_title_wrap').show().stop().animate({'top': navWrapH},500)
+
+            $('.fiexd_title_wrap').show().css('top', navWrapH)
+
+        } else {
+            //     $('.fiexd_title_wrap').stop().animate({'top': 0} ,500, function() {
+            //         $(this).hide()
+            //     })
+
+            $('.fiexd_title_wrap').css({
+                'top': -navWrapH-32
+            })
+            // console.log( $(window).scrollTop() )
+        }
+    })
+</script>
+<!-- footer -->
+<div class="sk_footer sk_footer_white">
+    <div class="links">
+    <a href="/gywm/" target="_blank" ignoreapd="true">关于我们</a>
+    <a href="/ggfw/" target="_blank" ignoreapd="true">广告服务</a>
+    <a href="/wzsm/" target="_blank" ignoreapd="true">网站声明</a>
+    <a href="/wzjc/" target="_blank" ignoreapd="true">网站纠错</a>
+    <a href="/lxwm/" target="_blank" ignoreapd="true">联系我们</a>
+</div>
+<div class="icp">
+    <span>举报电话：010-65393398</span>
+    <span>举报邮箱：zgshkxw@cass.org.cn</span>
+    <span>互联网新闻信息服务许可证：10120220003</span>
+    <span><a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/" ignoreapd="true">京ICP备11013869号</a></span>
+    <span><a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030146" ignoreapd="true">京公网安备11010502030146号</a></span>
+</div>
+<div class="icp icp_sscp">
+    <span class="sk_sscp_logo"><img src="/images/sk_logo_sscp.png" alt="" /></span>
+    <span>中国社会科学杂志社版权所有，未经书面授权禁止使用</span>
+    <span>Copyright &copy; 2011-2025 by www.cssn.cn all rights reserved</span>
+
+    <div class="knet">
+        <script src="https://kxlogo.knet.cn/seallogo.dll?sn=a13101211010042869jlua000000&size=3"></script>
+    </div>
+
+</div>
+<div class="rightBar mobileNone">
+    <a href="javascript:void(0);" class="backTop"></a>
+</div>
+<!--天润代码统计-->
+<div style="display:none">
+<script src="/images/cssn_webdig.js" language="javascript" type="text/javascript"></script>
+</div>
+<!-- cssn.cn Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ac7f8383ed02699dcafe4c2cba61e1f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<script>
+    $(".content_center").find("div").removeAttr("class");
+	var htm=$(".content_center").html();
+	htm=htm.replace(/div/ig, "p");
+	$(".content_center").html(htm);
+
+</script>
+</body>
+</html>

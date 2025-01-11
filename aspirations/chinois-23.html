@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>全球化视野下的法国大革命史研究-中国社会科学网</title>
+    <meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="Keywords" content="" />
+<meta name="description" content="全球化视野下的法国大革命史研究" />
+<meta name="baidu-site-verification" content="d2eTvy3SqO" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="131527">
+<meta name="contentid" content="5458926">
+<meta name="publishdate" content="2020-08-27">
+<meta name="author" content="孙龙">
+<meta name="source" content="中国社会科学网-中国社会科学报">
+    <script type="text/javascript" src="../../../images/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="../../../images/sk_pc_mobile_v2022.js"></script>
+
+    <link class="stylefile" rel="stylesheet" href="../../../images/sk_nav0_base_pc.css">
+    <link class="stylefile" rel="stylesheet" href="../../../images/sk_all_pc.css">
+
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/sk_base_mobile.css" />
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/sk_all_mobile.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../images/idangerous.swiper2.7.6.css">
+    <script type="text/javascript" src="../../../images/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../../images/idangerous.swiper2.7.6.min.js"></script>
+    <script type="text/javascript" src="../../../images/jquery.qrcode.min.js"></script>
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../../../images/placeholder.js"></script>
+    <![endif]-->
+    <script>
+        
+
+
+        var isPC = IsPC();//获取是否为PC端
+        if (isPC) {//如果是PC端加载PC的js和css
+            $(".mobileStyle").remove();
+            dynamicLoadJs('../../../images/sk_nav0_base_pc.js')
+        } else {//如果是移动端加载移动端的js和css
+            if (window.sessionStorage.getItem("isPc") == "true") {
+                var oMeta = document.createElement('meta');
+                oMeta.content = '';
+                oMeta.name = 'viewport';
+                document.getElementsByTagName('head')[0].appendChild(oMeta);
+                $(".mobileStyle").remove();
+                dynamicLoadJs('../../../images/sk_nav0_base_pc.js')
+                $(function () {
+                    $(".AppBtn").css('display', 'block');
+                    $(".qrcodeCanvas_wrap").css('display', 'none');
+                    $(".nav_wrap").addClass("AppBtnBox");
+                })
+            } else {
+                $(".stylefile").remove();
+                dynamicLoadJs('../../../images/sk_base_mobile.js')
+                $(function () {
+                    $("html,body").animate({scrollTop: 0}, 100);
+                })
+            }
+            $(function () {
+                //切换pc移动
+                $(".PcBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "true")
+                    window.location.reload()
+                })
+                $(".AppBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+                $(".AppBtn2").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<!-- 嵌套头部开始 -->
+<script>
+    // Quick Tracking 阿里sdk引入
+    (function(w, d, s, q) { 
+        w[q] =w[q] || []; 
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s); 
+        j.async=true; 
+        j.id='beacon-aplus'; 
+        j.src='https://d.alicdn.com/alilog/mlog/aplus/204201353.js'; 
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['appKey', 'qwfmf7ygk8c6a37if0oq266o']  }) 
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['aplus-rhost-v', 'quickaplus-server-api-cn-zhangjiakou.aliyuncs.com']  });
+
+
+
+    $(function() {
+        $('.search_input').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                gbkSub($(this))
+            } else {
+                $('.search_input').val( $(this).val() )
+            }
+        })
+        $('.search_btn').on('click', function(e) {
+            gbkSub($(this))
+        })
+
+        function gbkSub(obj) {
+            var val = encodeURIComponent($.trim ( obj.parent().find('.search_input').eq(0).val()) )
+            
+            // 埋点搜索
+            aplus_queue.push({
+                'action':'aplus.record',
+                'arguments':['search_click', 'CLK', {
+                    search_key: val,
+                    current_page_name: $('title').text(),
+                    page_name: $('title').text(), //您当前页面的自定义页面编码
+                }]
+
+            });
+            if ( val == '' ) {
+                // alert("请输入您要搜索的内容");
+                var url = 'http://www.cssn.cn/so/';
+                window.open(url);
+            } else {
+                var url = 'http://www.cssn.cn/so/s?qt=' + val;
+                window.open(url);
+            }
+        }
+    })
+
+        
+
+
+        $(function() {
+
+            var article_title = $('.qt_article_title').text();
+            var article_id = $('.qt_article_parent').attr('data-article_id');
+            var share_channel = $('.qt_article_parent').attr('data-share_channel');
+            var published_date = $('.qt_published_date').text();
+            var article_source = $('.qt_article_source').text();
+            var article_author = $('.qt_article_author').text();
+
+            // console.log('article_title:', article_title)
+            // console.log('article_id:', article_id)
+            // console.log('share_channel:', share_channel)
+            // console.log('published_date:', published_date)
+            // console.log('article_source:', article_source)
+            // console.log('article_author:', article_author)
+
+            // Quick Tracking 详情页浏览
+            aplus_queue.push({
+                'action':'aplus.sendPV',
+                'arguments':[{ is_auto: false}, {
+                    //保留字段
+                    page_name:'article_detail_page',
+                    page_title:'文章详情页',
+                    //可选参数
+                    article_title: article_title,
+                    article_id:article_id,
+                    article_author: article_author,
+                    article_source: article_source,
+                    published_date: published_date,
+                }]
+            });
+
+            // 点击分享埋点
+            $('.ops_icons a').on('click', function(e) {
+                var btnName = $(this).attr('title')
+                var isOriginal = ''
+                if (article_source.indexOf('中国社会科学网') != -1 && isOriginal != '') {
+                    isOriginal = '原创'
+                } else {
+                    isOriginal = '非原创'
+                }
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_share_click', 'CLK', {
+                        article_id: article_id,
+                        page_name: "article_detail_page", //您当前页面的自定义页面编码
+                        s_original: isOriginal,//btnName,
+                        article_title: article_title,
+                        published_date: published_date,
+                        article_source: article_source,
+                        article_author: article_author,
+                        share_channel: btnName
+                    }]
+                });
+            })
+
+            // 点击文章页中的链接埋点
+            $('.content_center a').on('click', function() {
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_hyperlinks_click', 'CLK', {
+                        article_id: $(this).attr('href'),
+                        page_name: "文章详情页-超链接点击", //您当前页面的自定义页面编码
+                    }]
+                });
+            })
+
+
+
+
+        })
+</script>
+<!-- head start -->
+<div class="top pcNone">
+    <div class="top_main">
+        <div class="top_left">
+            <a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a>
+        </div>
+        <div class="top_right">
+            <div class="PcBtn"><img src="/images/sk_m_pcbtn.png" alt="" /></div>
+            <div class="searchBtn"><img src="/images/sk_m_searchbtn.png" alt="" /></div>
+            <div class="AppBtn"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+            <div class="search_div mobileNone">
+                <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+                <input class="search_btn" name="searchButton" type="button" value="搜索" />
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search_div">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="搜索" />
+        </div>
+        <div class="search_close"></div>
+    </div>
+</div>
+<!-- head end -->
+<!-- nav start -->
+<div class="nav_wrap">
+    <div class="nav_main">
+        <div class="nav_box">
+            <ul class="nav_ul clear">
+                <li><a class="icon_learn" href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+                <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+                <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+                <li><a href="http://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+                <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+                <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+                <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+                <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+                <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告<i></i>招聘</a></li>
+                <li><a class="arrow" href="javascript:;">学科体系<i></i></a></li>
+            </ul>
+            <a class="nav_more nav_site_pc" href="javascript:;">+</a>
+            <a class="nav_more nav_site_more" href="javascript:;"><img src="/images/sk_nav_rtbg.png" /></a>
+        </div>
+        <div class="nav_fixed_logo"><a href="/"><img src="/images/sk02-logo-nav0.png" alt="" /></a>
+        </div>
+        <div class="nav_fixed_search">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="" />
+        </div>
+        <div class="AppBtn2"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+    </div>
+    <!-- 学科体系下拉菜单 -->
+    <div class="sub_xktx">
+        <div class="nav_wrapper">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+    </div>
+</div>
+<!-- nav end -->
+<div class="nav_site_more_con clear">
+    <i class="more_btn"></i>
+    <div class="layout clear">
+        <h1 class="clear"><a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a></h1>
+        <ul class="clear navtop">
+            <li class="icon_learn"><a href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+            <li><a href="/xszg/" target="_blank" ignoreapd="true">学术中国</a></li>
+            <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+            <li><a href="https://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+            <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+            <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+            <li><a href="/gjgc/" target="_blank" ignoreapd="true">国际观察</a></li>
+            <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+            <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告 · 招聘</a></li>
+        </ul>
+        <div class="more_con clear">
+            <a href="/zjzg/" target="_blank" ignoreapd="true">志鉴中国</a>
+            <a href="/skgz/" target="_blank" ignoreapd="true">社科关注</a>
+            <a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a>
+            <a href="/dsskhs/" target="_blank" ignoreapd="true">社科好书</a>
+            <a href="/skqns/" target="_blank" ignoreapd="true">社科青年说</a>
+            <a href="/wlqglt/" target="_blank" ignoreapd="true">网络强国论坛</a>
+            <a href="/skrmt/" target="_blank" ignoreapd="true">社科融媒体</a>
+            <a href="/wkskjh/" target="_blank" ignoreapd="true">网刊</a>
+        </div>
+        <h3 class="clear">学科体系</h3>
+        <div class="more_con clear">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+        <h3 class="clear mobileNone">新媒体矩阵</h3>
+        <div class="more_con clear mobileNone">
+            <ul class="new_media_ul">
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922337226245876.png" alt="sk_v2022_front_wechat.png"/>
+                        <p>微信小程序</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929538050877342.jpg" alt="小程序106.jpg"/>
+                        <p>微信小程序</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336887208883.png" alt="sk_v2022_front_gzh.png"/>
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539559790487.jpg" alt="微信106.jpg"/>
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336458060142.png" alt="sk_v2022_front_zgxp.png"/>
+                        <p>中国学派</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539793588017.jpg" alt="学派106.jpg"/>
+                        <p>中国学派</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230615600845961620.png" alt="W020220922336137882083.png"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230616566952919336.jpg" alt="111.jpg"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929459900615313.png" alt="123.png"/>
+                        <p>新浪微博</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540194201728.jpg" alt="微博106.jpg"/>
+                        <p>新浪微博</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929460609289083.png" alt="123.png"/>
+                        <p>今日头条号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540425896749.jpg" alt="头条106.jpg"/>
+                        <p>今日头条号</p>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 嵌套头部结束 -->
+<!-- content -->
+<div class="wrap_fullWidth sk_warp_center_repeat clear qt_article_parent" data-article_id='5458926' data-share_channel="本网原创">
+    <div class="warp_center">
+        <div class="sk_crumbs">
+            <a href="../../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../../" target="_self" title="社科关注" class="CurrChnlCls">社科关注</a>&nbsp;>&nbsp;<a href="../" target="_self" title="本网原创" class="CurrChnlCls">本网原创</a>
+        </div>
+        <div class="warp_center_content">
+            
+            <div class="content_head">
+                <h1 class="qt_article_title">全球化视野下的法国大革命史研究</h1>
+                <h2>——访著名法国史专家、墨尔本大学荣休教授彼得·麦克菲</h2>
+                <div class="head_intro clear">
+                    <div class="intro_left fl">
+                        <span class="qt_published_date">2020-08-27</span>
+                        <span class="qt_article_author"><font>作者：</font>杨磊</span>
+                        
+                        <span class="qt_article_source"><font>来源：</font>中国社会科学网-中国社会科学报</span>
+                    </div>
+                    <div class="intro_right fr">
+    <div class="view sk_share" id="ops_share"></div>
+    <script src="/images/share_cssn.min.js" charset="utf-8"></script>
+</div>
+                </div>
+            </div>
+            <div class="content_center">
+                <div class=TRS_Editor><p align="left"><font style="font-size: 12pt; line-height: 150%"><font style="font-size: 12pt"><font style="font-size: 12pt"><font style="line-height: 150%">　　<font style="font-size: 12pt; line-height: 150%" face="楷体,楷体_GB2312">彼得·麦克菲（Peter McPhee），澳大利亚墨尔本大学荣休教授、国际知名的法国史专家，澳大利亚人文科学院院士、社会科学院院士，2002—2003年曾担任澳大利亚学术委员会主席，还曾担任墨尔本大学教务长、历史系主任。他专治法国现代史、法国大革命史，代表作有《农村生活的政治：法国乡村的政治变迁（1846—1852）》（1992）、《法国南部的革命与环境变迁（1780—1830）》（1999）、《法国社会史（1789—1914）》（2004）、《罗伯斯庇尔传》（2012）等。其中，2016年由耶鲁大学出版社出版的《自由与毁灭:法国大革命史》被翻译成中文，在2019年由中信出版社出版。由于其在教学与学术领域的杰出贡献，麦克菲在2003年荣获澳大利亚世纪勋章。</font></font></font></font></font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">&nbsp;</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　在全球化的今天，法国大革命的研究也走向了全球化。自从20世纪50年代帕尔默（R.R.Palmer，1909—2002）和戈德肖（Jacques Godechot，1907—1989）提出“大西洋革命”这一概念起，历史学家们开始放眼全球探究其起源、发展和影响。彼得·麦克菲教授正是法国大革命全球化研究潮流中的佼佼者。他曾在2016年第4期《世界历史》上发表《姐妹共和国——比较视野下的美国革命和法国大革命》一文，阐述了“法国大革命只有在跨国史或全球史的视野中才能得到充分理解”这一观点。麦克菲在其关于法国大革命史的新作《自由与毁灭：法国大革命史》一书中更加详细地分析了法国大革命的全球性。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　作为《自由与毁灭》一书中文版译者，我在翻译过程中多次向麦克菲教授求教，他都作了热心的解答，并且欣然应允写下中文版序言。2018年10月，应浙江大学历史系张弛副教授及该校“法国启蒙运动和大革命研究青年创新团队”的邀请，麦克菲教授来杭州进行了为期一周的访学，我有幸向他当面请教。这之后，我们又通过远程交流的方式，就全球化视野下的法国大革命史研究新进展进行了深入的探讨。</font></p>
+<p align="left"><font style="font-size: 12pt"><font style="font-size: 12pt"><font style="line-height: 150%"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">马克思主义对我的研究</strong></font><font style="font-size: 12pt; line-height: 150%"><strong style="font-size: 12pt; line-height: 150%">具有决定性意义</strong></font></font></font></font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊</strong>：您已经从事了近40年的法国大革命史研究，是什么吸引您从事这项研究的？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲</strong>：首先，我认为法国大革命是世界历史上的主要转折点之一。当然，只有很少的事件产生了如此重大的影响，中国革命也是其中之一。法国大革命是一场成功的革命，它永久地改变了法国和世界很多地方。其次，法国大革命的理想振奋人心，它发生在欧洲被绝对王权统治时期，贵族具有特权，农民不得不将劳动成果拱手让出，全国只有天主教一种正统的宗教。法国大革命改变了这一切，这也是其有趣的地方。再次，法国大革命还富有争议性，直到现在仍然如此，因为它引起了很多分裂和很多的死亡。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>您的个人经历对您选择法国大革命研究有哪些影响？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲</strong>：我认为个人经历影响了我的学术选择。我成长于乡间的小镇，一直以来都对这样的问题感兴趣：一场像法国大革命那样伟大的革命对居住在小城镇和农村的人会有怎样的影响？当地人如何度过这一时期？他们看待法国大革命的态度如何？这些兴趣都与我成长于乡村、祖辈从事农业生产的经历有关。我在2016年出版的一本法国大革命史研究书籍《自由与毁灭》当中，就对普通人给予了很多关注——不仅仅是写巴黎的政治史，还试图书写整个国家范围的历史。法国大革命不仅仅是发生在巴黎的事件。像很多伟大的革命一样，法国大革命改变了这个国家所有人的生活，所有人都受到了影响。我在这本书中试图捕捉法国各地人民各种各样的经历，更多的篇幅放在了法国大革命对外省人民的影响上。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>我在阅读您的这本书时能够感受到您对普通人的同情，您是通过什么方式将大革命史写得如此绘声绘色？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>我认为最重要的是我做了很多调查。我花了很多时间研究法国地方省份的档案，并且走访了很多外省的城镇，从中发现了很多非常有意思的故事。我还前往法国大革命时期一些具有独特经历的地方，通过对这些地方的描写，我认为读者能够体会到与我同样的感受。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>在《自由与毁灭》一书中，您经常采用马克思的阶级斗争理论来进行分析，描写了大量关于教士、保王党、雅各宾派之间的冲突。您是如何将阶级斗争和平民视角这两种不同的方式结合起来分析法国大革命的？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>很显然，马克思的著作对于研究这段历史具有决定性意义。当我还是一名学生时，受到了乔治·鲁德（George Rudé，1910—1993）的影响，他后来也成为了我的好友。鲁德是第一个真正详细研究法国大革命中群众的人，他写的《法国大革命中的群众》 （1959）一书对我产生了重要影响。同样，鲁德在索邦的好友、《法国革命史年鉴》主编阿尔贝·索布尔（Albert Soboul，1914—1982）也对我影响颇深。我与他们不同的地方在于，我更关注乡村社会的阶级斗争，而不仅仅是巴黎。我认为应当将阶级置于历史语境中来理解，关键在于，阶级并不是一成不变的。对于法国大革命时期的人们来说，他们同样会受到宗教、政治、社会文化等一系列因素的影响。我认为采取唯物史观研究阶级是非常有价值的，但是我有很多盎格鲁—撒克逊世界的同行并不赞同我的看法。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　他们更加关注政治史，不认为法国大革命有着深刻的社会和经济起源。例如，威廉·多伊尔（William Doyle）认为法国大革命是由于统治集团犯下的一系列错误引起的。我认为这两方面的因素都有。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊</strong>：您能否谈一下历史学家乔治·鲁德，他对您的学术研究产生了什么影响？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>我最初对法国大革命感兴趣是在1968年墨尔本大学毕业时，当时我购买了一本乔治·鲁德的《法国大革命中的群众》。这本书很快就成为经典，因为他在书中赋予了1789年及之后的起义者形象和“面孔”，一直以来他们都被笼统地称为“乌合之众”。对于一个在1968年偏左翼的年轻学生来说，鲁德的书启发了我探究“自下而上的历史”的兴趣。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　乔治·鲁德1910年出生在奥斯陆，1919年跟随父母移居伦敦。1931年他从剑桥大学毕业，后来因对政治产生兴趣在1935年加入英国共产党，随后又去了一趟苏联。鲁德与阿尔贝·索布尔、艾瑞克·霍布斯鲍姆（Eric Hobsbawm，1917—2012）一起，对20世纪60年代的历史书写产生了重要影响，他们共同开辟了“眼光向下”的历史写作方式，这对随后70年代社会史研究的井喷至关重要。他曾经于20世纪60年代在澳大利亚任教，其间出版了至少七本关于法国、英国和欧洲历史的书籍，其中就包括像《革命欧洲（1783—1815）》（1964，与艾瑞克·霍布斯鲍姆合著）这样的畅销书。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　与他在1988年出版的法国大革命教科书一道，乔治·鲁德成为研究这一时期最有名、作品最畅销的作者，他对那一代学生产生了重要影响。作为一名马克思主义历史学家，鲁德的主要关注点在于探究18世纪末工业革命和法国大革命对社会结构、经济结构、统治精英等带来的根本性转变以及城市群众的集体抗议。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　鲁德的著作一直以来受到好评并且具有影响力，不仅是因为他本人博学多识、概念上清晰明了，还因为他具有深入浅出、侃侃而谈的能力。他是一个具有人格魅力的人、一个慷慨的人。他在澳大利亚这10年里交际广泛，与当地学者、学生及民众结下了宝贵的友谊。第一次遇到他是在我博士刚毕业时，当时他在墨尔本的乐卓博大学（La Trobe University）访学，我担任他的课程助教。在同一年，他开设了以他名字命名的、两年一次的研讨班。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%"><font style="font-size: 12pt"><font style="font-size: 12pt"><font style="line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">法国大革命史研究的新动向</strong></font></font></font></font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>在研究法国大革命的40年当中，您对这场大革命的看法有没有大的变化？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　<strong>　麦克菲：</strong>你知道，一个人如果过了40年以后仍然没有改变是一件可悲的事。在我进行博士论文写作时，我研究的课题是1848年革命后第二共和国时期的佩皮尼昂，这座城市地处法国与西班牙交界的地方，我的第一本书也是由此产生的。但是后来我意识到法国大革命的重要性，即使是在1848年革命时期，人们的思想仍然受到法国大革命的影响，这也是我为什么回过头来研究法国大革命的原因所在。与很多法国历史学家一样，我对法国大革命的看法最大的改变就是意识到了其国际化影响的重要性。法国大革命的影响不仅限于法国，还应当包括后来第一帝国时期发生的种种事件，甚至包括加勒比海地区发生的一系列事件。我们应当从法国大革命对世界其他地区的影响上来认识其重要性。例如，法国大革命不仅影响了欧洲，还影响了阿拉伯国家、印度和中国。因此，法国大革命研究的最大变化，就是人们看到了法国大革命有着全球化的起源和国际化的影响。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国大革命前的危机不仅仅是由于国内因素引起的，还有国际竞争、全球战略的因素。法国在1763年七年战争的失利导致法国失去了北美、加勒比海地区大片殖民地，战争的直接后果是当法国在1774年面临粮食危机时，无法通过殖民地的输入来缓解。法国介入美国独立战争后，通过举债的方式筹集军费，导致政府必须在短期内偿还高额利率的到期债务。1786年英法贸易协定签订后，法国的纺织业在英国廉价产品的冲击下引发了大规模失业，紧接着是1788年的灾难性歉收。导致法国大革命爆发的经济危机、财政危机都可以从当时法国的全球战略和国际竞争当中找到根源。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国大革命的影响不仅在于法国国内，对当时封建王权占主导地位的欧洲各国也产生了极大冲击。法国大革命用人民主权取代了绝对王权，用选举产生的立宪政府取代了贵族特权和天主教会，废除了封建制度。欧洲各国担心法国大革命在本国重演，因此联合保王党势力镇压法国大革命，双方产生了激烈的冲突。法国革命者采取了一系列激进措施保卫革命，对于这些措施的评价，之前有很多右派历史学家认为法国大革命从一开始就有“原罪”，但是近年来，谭璇（Timothy Tackett）、米歇尔·比亚尔（Michel Biard）等人认为，反革命行为和外国军事入侵迫使法国政府采取越来越激进的措施来拯救国家，原罪论不能成立。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>有哪些历史学家影响了您对法国大革命全球化的看法？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>美国历史学家帕尔默和法国历史学家戈德肖在20世纪50年代对我影响很大，自他们以后，很多历史学家试图将法国大革命的概念进一步扩展。而现在对我影响较大的历史学家之一，是任教于加州理工大学洛杉矶分校的印度裔历史学家桑贾伊·苏布拉曼尼亚姆（Sanjay Subrahmanyam），他曾经在美国和法国执教，这使得他在写作法国大革命时有着更为广阔的视野。很多法国历史学家将法国大革命看作发生在法国的事，但是现在你需要将欧洲启蒙运动、美国独立战争以及法国大革命对其他国家和地区的影响等国际因素考虑在内。我指导的一位博士生伊恩·科勒（Ian Coller）写的博士论文就是关于法国大革命对中东、北非伊斯兰世界的影响。他的发现令人振奋，阿拉伯世界激进的思想家受到法国大革命的鼓舞，但是他们并不准备全盘照搬，而是详细考察了法国大革命，然后将其与他们所处的具体情境结合起来。例如在埃及，当时就有人利用《人权宣言》来反抗奥斯曼帝国。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>您是如何将环境史研究与法国大革命史研究结合在一起的？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>农村环境的历史一直以来都与法国大革命的历史息息相关。大革命前的农村社会建立在控制和利用资源上。耕作土地的人（农民）和拥有土地的人（农民只占有大约35%的土地，其余的土地从地主手中租种）之间存在根本上的矛盾。拥有土地的农民还必须缴纳种类繁多的收成税：领主赋税、教会什一税、国家税收等。法国2800万人口中直接从事土地耕种的人达到了85%。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国的环境数千年以来一直都在变动，但是法国大革命这段时期加速了这种变化。在法国大革命之前，路易十五在18世纪60年代颁布法令鼓励农民开垦荒地，这经常会导致丘陵地区的水土流失。法国大革命时期加剧了长期以来的环境压力：人们利用了1789年权威的崩塌，直接采取非法的行动砍伐树木、占有公有土地、侵占私有财产。到了1801年，大约有1/4的法国森林被非法砍伐，在很多地区乡村贫民非法占有并开垦公有土地。这些非法占有的痕迹直到今天我们仍可以在南方一些石灰质荒地看到。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　革命政府意识得到了对森林和山地的破坏，但是无力推行保护环境的立法。只有拿破仑政权成功地重建了自1669年柯尔柏时代的中央保护森林的政策，他扭转了革命初年私人可以随意砍伐森林的自由主义政策，原本属于公社的森林现在归国家所有。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　直到19世纪60年代，法国的森林覆盖率才恢复到大革命前的水平。在很多地区，公有土地仍然掌握在私人手中，但是在高原地区，公有土地由于主要用于放牧得以完好保存。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>您认为法国人在大革命时期追求的自由是什么？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲</strong>：这是一个非常好的问题。我们回到1789年的《人权宣言》中可以发现，自由是在不伤害其他人权利前提下的一切权利。对于自由唯一的限制就是其他人的权利，你可以做一切想做的事情，只要你尊重其他人的权利。这是对自由的经典定义，但是将其付诸实践会产生多种含义。例如，对于农民来说，自由意味着从封建主义中解放，可以自由支配自己的土地；对新教徒和犹太人来说，自由意味着信仰自由；对于女性来说，自由意味着组建女性俱乐部的权利；自由对于奴隶来说尤其重要，它意味着人身解放。随着革命的发展，自由的经典定义对于不同的群体来说开始有了多种解释。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>有关法国大革命时期平等的研究有什么进展？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong>麦克菲：</strong>与自由的概念一样，平等的概念在法国大革命时期也在不断变化，一开始革命家们认为平等就是法律面前人人平等，后来平等变为在政治上平等，然后一些女性主张平等还应包括两性之间的平等。那么，平等是不是同样适用于奴隶、穷人？如果一个社会过于强调自由，会导致很多不平等；如果过于强调平等，则会导致很多不自由。两者必须维持在一个平衡的状态，两者都是公共生活的核心，很多争论的核心都是如何平衡两者的关系。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　对于我来说，没有一个简单的答案，也没有最终的结论，因为人们总是有各种各样的不满，但这是一件好事。索邦大学的皮埃尔·塞尔纳（Pierre Serna）教授最近写了一本谈论法国大革命时期的动物权利的书，他认为如果我们处在一个新的社会，一个彼此尊重个人权利的社会，那么人们伤害动物的权利是对的吗？在法国大革命时期的巴黎，斗狗是最受人欢迎的娱乐之一，很多人认为应该禁止斗狗活动，他们的理由是如果我们通过了废除奴役人的法律，废除了酷刑，为什么我们还要让人来折磨动物呢？当然，这些问题答案一直都是开放的。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>您在书中提到法国大革命当中产生了立宪主义、社会主义，甚至是早期共产主义的思想，这些思想当中都包含着对自由与平等的诉求，您是如何看待这些不同思想中的相同之处的？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong>麦克菲：</strong>我认为这些不同思想也是法国大革命令人着迷的原因，因为它们都在追问什么是真正的自由和平等。法国大革命《人权宣言》宣布所有人生而自由且平等，那么自由、平等意味着什么？这就是问题的源头。一些人的理解是法律面前人人平等，依法享有信仰、言论等自由。但是后来像罗伯斯庇尔这样的革命者认为，如果人生而自由平等，我们必须让所有人享有平等的投票权利。后来的无套裤汉认为，如果一些人过于富有而另一些人十分贫穷，我们怎么能够说人人平等呢？这就是为什么无套裤汉们主张重新分配社会财富的原因。最后，巴贝夫（Fran?觭ois-No?觕l Babeuf，1760—1797）认为问题的根源在于私有财产，只要有了私有财产就会有贫富分化，因此唯一要做的就是消除私有财产。但是这些人都认同自由与平等的重要性，他们的分歧在于自由与平等的含义是什么以及如何实现它们的方式上。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊</strong>：您曾经写过罗伯斯庇尔的传记，但是您在《自由与毁灭》一书中对他着墨较少，这是为什么呢？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong>麦克菲</strong>：这与我研究历史的方法有关，我不认为只讲述少数伟大人物的故事就能了解一段历史。尽管像罗伯斯庇尔这样的人起到了重要作用，但是当历史学家们谈法国大革命时期的恐怖统治时，好像是在与罗伯斯庇尔本人画等号。这种看法是完全错误的，罗伯斯庇尔只是12人委员会当中的一员，他们每个月只有通过选举的方式才能进入到救国委员会。如果罗伯斯庇尔看过我的书，我认为他会赞同我的看法。罗伯斯庇尔本人极力反对个人崇拜，尽管他早在1791年就已经是巴黎最受欢迎的政治家，但是当巴黎人民欢呼着将他举过头顶时，他感到十分愤怒。他说：我花了两年的时间试图阻止这类事情发生，人们不应当将一个人当作国王来崇拜，革命现在取得的成果是所有人共同努力的结果。我认为人们之所以将恐怖统治与他个人联系起来，是因为罗伯斯庇尔擅长做长篇演讲，这些演讲有很多精彩之处，也有很多糟糕的长篇大论。事实上，罗伯斯庇尔真正在救国委员会的时间只有一年，他不是发号施令的人，他只是委员之一。这也是为什么我在《自由与毁灭》一书中没有对罗伯斯庇尔做过多的描写，我试图减少个人对历史的影响，因为这并不符合史实。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%"><font style="font-size: 12pt"><font style="font-size: 12pt"><font style="line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">历史研究与现实关怀</strong></font></font></font></font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>在《自由与毁灭》一书中，您提到了法国作家大仲马的父亲托马·亚历山大·仲马将军，他曾经为法国大革命的胜利立下汗马功劳。今天的法国人是如何看待这位黑人共和国英雄的？法国人又是如何看待历史上的奴隶制的？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲：</strong>现在，已经很少有法国人，包括有加勒比海和非洲背景在内的法国人知道仲马将军的故事。不过，他的儿子大仲马已在19世纪最畅销的小说《基督山伯爵》中，将父亲被那不勒斯国王关押20个月的经历，写成了唐泰斯14年的监狱生活，小说至今深受读者欢迎，这就已经足矣。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国大革命时期最具争议和激烈的斗争之一就是奴隶制在1794年的废除。事实上，废除奴隶制的法令只适用于加勒比海殖民地。在留尼汪和印度洋其他地区的殖民地，奴隶制直到1848年才被废除。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国历史上的奴隶制问题一直以来都很重要和富有争议性。2006年5月10日，当议会将奴隶制视作反人性罪行的决定通过5周年的时候，法国总统希拉克下令将这个日子变成国家纪念日。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　法国的大西洋沿岸港口波尔多、南特和拉罗谢尔，曾经在18世纪因为法国加勒比海地区的奴隶种植园贸易而兴盛。他们已经承认这段历史，尤其是在南特。在这座城市当中，人们承认并保留了奴隶制存在的痕迹，在码头的船坞上保留着一栋18世纪奴隶贩子和商人的房子，在那里面陈列着奴隶贸易存在的各种物品，这些物品与旁边重建的奴隶船一道无言地讲述着那段历史。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">杨磊：</strong>您如何看待现在法国的“黄背心”运动，它与法国历史上的群众有何联系？</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">麦克菲</strong>：马克龙在2018年5月当选总统后，社会当中的工薪阶层、退休人员和领取福利金的人员当中产生了普遍的不满，他们认为降税政策降低了他们的购买力，受益的只是富裕群体。这种不满随着2018年11月17日政府提高燃油税而爆发了。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　对于抗议者来说，穿着统一的“制服”是一种聪明的策略。黄背心很容易识别，并且突出了依靠汽车出行的郊区和外省人民的身份。黄背心运动并没有正式的组织和领导者，也没有一个“论坛”，社交媒体提供了这一机制。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　那么，黄背心们是谁？巴黎和外省的大多数抗议者都是普通的中产和中下阶层的人，在各个郊区和地方城市之间也会有所差异。一些抗议者直接将黄背心抗议活动与1789年的抗议活动及革命相联系。抗议最令人感兴趣的一点是将230年前的公共讨论变换了一种形式。当路易十六在1789年5月召集三级会议时，他在这一过程中也指导了王国内4万多个教区的人民起草陈情书，这些陈情书由代表们带到了凡尔赛。2018—2019年，法国的数万名抗议者也起草了他们的陈情书。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　这些陈情书代表了广泛的不满，很多都是互相矛盾的。比如要求在降低税收的同时提高社会福利；在降低柴油价格的同时对气候变化采取更多行动；在降低物价的同时提高工资；在开放更多大学的同时免收费用。但是，这些诉求本质上是对“一些人”的不满，这些人是法国富裕的“政治阶层”以及他们在商界和巴黎官僚体系当中的盟友，他们被视作全球化经济的受益者。马克龙也因此被称为“富人的总统”，一个不愿听取意见的新路易十六。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">　　黄背心抗议活动由于多种因素已经被削弱了。其中的一点是，由于抗议规模的减少，媒体的关注点逐渐集中于少数极右翼和极左群体对巴黎的破坏上。</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%">&nbsp;</font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%"><font style="font-size: 12pt"><font style="font-size: 12pt"><font style="line-height: 150%">　　<strong style="font-size: 12pt; line-height: 150%">（本文系浙江大学中央高校基本科研业务费专项资金资助项目“法国启蒙运动和大革命研究青年创新团队”阶段性成果）</strong></font></font></font></font></p>
+<p align="left"><font style="font-size: 12pt; line-height: 150%"><strong style="font-size: 12pt; line-height: 150%">　　（作者系河南大学历史文化学院讲师；文字编译整理过程中得到张弛、韩方航的帮助，在此致谢）</strong></font></p></div>
+                
+            </div>
+            
+            <div class="content_zz">
+                转载请注明来源：<strong>中国社会科学网</strong>（责编：孙龙）
+            </div>
+            <!-- 二维码 -->
+            <div class="qrcodeCanvas_wrap">
+                <div class="qrcodeCanvas"></div>
+                <p>扫码在手机上查看</p>
+            </div>
+            <div class="warp_center_links clear">
+    <div class="view">
+        <div class="sk_title_02">
+            <span>社科推荐</span>
+        </div>
+        <ul>
+            
+            <li><a href="https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml" target="_blank">跨学科聚焦人工智能多领域应用</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832997.shtml" target="_blank">学界关注国防语言能力建设</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202501/t20250110_5832998.shtml" target="_blank">“改革再造一个新广东”丛书发布</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832198.shtml" target="_blank">推进文化繁荣  建设文化强国</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/202501/t20250109_5832197.shtml" target="_blank">聚焦新质生产力与可持续发展</a></li>
+            
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="fiexd_title_wrap">
+    <div class="fiexd_title">
+        <span class="fiexd_title_text"></span>
+    </div>
+</div>
+<script>
+    // 二维码
+    $('.qrcodeCanvas').qrcode({
+        text: window.location.href
+    });
+
+    var isPC = IsPC();
+    if (isPC) {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '20%',
+            'height': '20%',
+            'margin-left': '40%'
+        })
+    } else {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '50%',
+            'height': '50%',
+            'margin-left': '25%'
+        })
+    }
+
+    var navWrapH = $('.nav_wrap').outerHeight()
+    var crumbsH = $('.sk_crumbs').outerHeight()
+    var warpCenterH = parseInt( $('.warp_center_content').css('padding-top') )
+    // var titleH = $('.content_head').find('h1').eq(0).outerHeight()
+
+    var headHeight = navWrapH + crumbsH + warpCenterH
+
+    $('.fiexd_title_text').text($('.content_head').find('h1').eq(0).text())
+    // $('.fiexd_subTitle_text').text($('.content_head').find('h2').eq(0).text())
+    // $('.fiexd_title_wrap').css('top', navWrapH)
+    // console.log( 'headHeight:', headHeight )
+
+    // console.log(warpCenterH)
+    $(window).on('scroll', function() {
+
+        if ( $(window).scrollTop() > headHeight ) {
+
+            // $('.fiexd_title_wrap').show().stop().animate({'top': navWrapH},500)
+
+            $('.fiexd_title_wrap').show().css('top', navWrapH)
+
+        } else {
+            //     $('.fiexd_title_wrap').stop().animate({'top': 0} ,500, function() {
+            //         $(this).hide()
+            //     })
+
+            $('.fiexd_title_wrap').css({
+                'top': -navWrapH-32
+            })
+            // console.log( $(window).scrollTop() )
+        }
+    })
+</script>
+<!-- footer -->
+<div class="sk_footer sk_footer_white">
+    <div class="links">
+    <a href="/gywm/" target="_blank" ignoreapd="true">关于我们</a>
+    <a href="/ggfw/" target="_blank" ignoreapd="true">广告服务</a>
+    <a href="/wzsm/" target="_blank" ignoreapd="true">网站声明</a>
+    <a href="/wzjc/" target="_blank" ignoreapd="true">网站纠错</a>
+    <a href="/lxwm/" target="_blank" ignoreapd="true">联系我们</a>
+</div>
+<div class="icp">
+    <span>举报电话：010-65393398</span>
+    <span>举报邮箱：zgshkxw@cass.org.cn</span>
+    <span>互联网新闻信息服务许可证：10120220003</span>
+    <span><a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/" ignoreapd="true">京ICP备11013869号</a></span>
+    <span><a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030146" ignoreapd="true">京公网安备11010502030146号</a></span>
+</div>
+<div class="icp icp_sscp">
+    <span class="sk_sscp_logo"><img src="/images/sk_logo_sscp.png" alt="" /></span>
+    <span>中国社会科学杂志社版权所有，未经书面授权禁止使用</span>
+    <span>Copyright &copy; 2011-2025 by www.cssn.cn all rights reserved</span>
+
+    <div class="knet">
+        <script src="https://kxlogo.knet.cn/seallogo.dll?sn=a13101211010042869jlua000000&size=3"></script>
+    </div>
+
+</div>
+<div class="rightBar mobileNone">
+    <a href="javascript:void(0);" class="backTop"></a>
+</div>
+<!--天润代码统计-->
+<div style="display:none">
+<script src="/images/cssn_webdig.js" language="javascript" type="text/javascript"></script>
+</div>
+<!-- cssn.cn Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ac7f8383ed02699dcafe4c2cba61e1f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<script>
+    $(".content_center").find("div").removeAttr("class");
+	var htm=$(".content_center").html();
+	htm=htm.replace(/div/ig, "p");
+	$(".content_center").html(htm);
+
+</script>
+</body>
+</html>
