@@ -1,0 +1,70 @@
+<section>
+  <div class="text-box">
+    Présentation des tableaux.
+    <br><br>
+    <!-- Static Texts with links -->
+    <div id="tableau-chinois" class="bold-link" onclick="toggleDropdown('chinois-dropdown')">
+      Tableau Chinois
+    </div>
+    <br>
+    Tableau Français
+    <br>
+    <div id="tableau-arabe" class="bold-link" onclick="toggleDropdown('arabe-dropdown')">
+      Tableau Arabe
+    </div>
+    <br><br>
+    <!-- Dynamic Links -->
+    <div id="dynamic-links">
+      <!-- Links will be populated here by JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- Dropdown for Tableau Chinois -->
+<div id="chinois-dropdown" class="dropdown-content">
+  <!-- Links will be populated here by JavaScript -->
+</div>
+
+<!-- Dropdown for Tableau Arabe -->
+<div id="arabe-dropdown" class="dropdown-content">
+  <!-- Links will be populated here by JavaScript -->
+</div>
+
+<script>
+  // Toggle the dropdown visibility
+  function toggleDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    dropdown.classList.toggle('show-dropdown');
+  }
+
+  // Automatically generate chinois-1.html to chinois-50.html and arabe-1.html to arabe-50.html links
+  function generateDynamicLinks() {
+    const basePath = 'https://lyc-26.github.io/Group_Project_PPE1_2024/concordances/';
+
+    // Generate links for Tableau Chinois
+    const chinoisDropdown = document.getElementById('chinois-dropdown');
+    chinoisDropdown.innerHTML = ''; // Clear any previous links
+    for (let i = 1; i <= 50; i++) {
+      const fileName = `chinois-${i}.html`;
+      const link = document.createElement('a');
+      link.href = basePath + fileName;
+      link.textContent = `Link to ${fileName}`;
+      chinoisDropdown.appendChild(link);
+    }
+
+    // Generate links for Tableau Arabe
+    const arabeDropdown = document.getElementById('arabe-dropdown');
+    arabeDropdown.innerHTML = ''; // Clear any previous links
+    for (let i = 1; i <= 50; i++) {
+      const fileName = `arabe-${i}.html`;
+      const link = document.createElement('a');
+      link.href = basePath + fileName;
+      link.textContent = `Lien vers ${fileName}`;
+      arabeDropdown.appendChild(link);
+    }
+  }
+
+  // Call function to generate links for both tables
+  generateDynamicLinks();
+</script>
+
