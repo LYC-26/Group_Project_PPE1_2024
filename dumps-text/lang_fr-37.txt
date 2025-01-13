@@ -1,0 +1,854 @@
+ 
+Rechercher : [                    ] 
+Rechercher : [                    ] 
+  • Allemand
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Terminale s
+      □ Tous niveaux
+  • Anglais
+      □ 1ere es
+      □ 1ere l
+      □ 1ere s
+      □ 1ere stmg
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Ce2
+      □ Cm1
+      □ Cm2
+      □ Terminale
+      □ Terminale l
+      □ Terminale s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Arts appliqués
+      □ 1ere
+      □ 2nde
+      □ Terminale
+      □ Tous niveaux
+  • Bac special revision
+      □ 1ere
+      □ Terminale
+      □ Tous niveaux
+  • Chinois
+      □ Tous niveaux
+  • Communication
+      □ 1ere
+      □ 1ere stmg
+      □ Grande Ecole
+      □ Terminale
+      □ Terminale stmg
+      □ Tous niveaux
+  • Droit
+      □ 1ere stmg
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Cp
+      □ Droit Administratif et International
+      □ Terminale stmg
+      □ Tous niveaux
+  • Economie gestion
+      □ 1ere stmg
+      □ Terminale stmg
+      □ Tous niveaux
+  • Education musicale
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Tous niveaux
+  • Espagnol
+      □ 1ere s
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 6eme
+      □ Terminale s
+      □ Tous niveaux
+  • Français
+      □ 1ere es
+      □ 1ere l
+      □ 1ere s
+      □ 1ere stmg
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Terminale
+      □ Tous niveaux
+  • Géographie
+      □ 1ere
+      □ 1ere l
+      □ 1ere s
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Ce2
+      □ Cm1
+      □ Terminale
+      □ Terminale es
+      □ Terminale l
+      □ Terminale s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Histoire
+      □ 1ere
+      □ 1ere es
+      □ 1ere l
+      □ 1ere s
+      □ 1ere st2s
+      □ 1ere sti2d
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Ce2
+      □ Cm2
+      □ Terminale
+      □ Terminale es
+      □ Terminale l
+      □ Terminale s
+      □ Terminale st2s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Informatique
+      □ Tous niveaux
+  • Latin
+      □ 1ere
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ Tous niveaux
+  • Management
+      □ 1ere stmg
+      □ Terminale stmg
+      □ Tous niveaux
+  • Mathématiques
+      □ 1ere es
+      □ 1ere l
+      □ 1ere s
+      □ 1ere st2s
+      □ 1ere sti2d
+      □ 1ere stmg
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ annales BREVET
+      □ Ce1
+      □ Ce2
+      □ Cm1
+      □ Cm2
+      □ Cp
+      □ Terminale
+      □ Terminale es
+      □ Terminale l
+      □ Terminale s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Philosophie
+      □ 2nde
+      □ Terminale es
+      □ Terminale l
+      □ Terminale s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Physique-Chimie
+      □ 1ere
+      □ 1ere es
+      □ 1ere s
+      □ 1ere st2s
+      □ 1ere sti2d
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Cp
+      □ Terminale
+      □ Terminale s
+      □ Terminale st2s
+      □ Tous niveaux
+  • SES
+      □ 1ere es
+      □ 2nde
+      □ Terminale es
+      □ Tous niveaux
+  • Sport
+      □ Tous niveaux
+  • SVT
+      □ 1ere
+      □ 1ere es
+      □ 1ere l
+      □ 1ere s
+      □ 1ere st2s
+      □ 2nde
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Ce1
+      □ Cm1
+      □ Cm2
+      □ Cp
+      □ Terminale es
+      □ Terminale s
+      □ Terminale stmg
+      □ Tous niveaux
+  • Technologie
+      □ 3eme
+      □ 4eme
+      □ 5eme
+      □ 6eme
+      □ Cp
+      □ Tous niveaux
+
+Faut-il fixer des limites à notre liberté ?
+
+Par Olivier
+
+|
+>
+
+Rédigé le 27 juillet 2024
+
+|
+
+7 minutes de lecture
+
+Mot liberté écrit sur un mur
+RessourcesPhilosophieTerminale sLa Liberté et ses Limites
+Chapters close button
+
+Chapitres
+
+ 1. 01. Introduction : la définition de liberté(s)
+ 2. 02. Les libertés n'existent que grâce à leurs limites
+ 3. 03. La liberté, une obligation au sein de la société
+ 4. 04. Conclusion : liberté(s) et contrainte(s), un lien inévitable
+
+La question de savoir s'il faut se fixer des limites à notre liberté est un
+débat complexe et profond. La liberté est un droit fondamental et précieux,
+essentiel à notre épanouissement personnel et collectif. Toutefois, une liberté
+sans limites peut mener à des abus et des conflits.
+
+Il est crucial de réfléchir aux contours de notre liberté, aux responsabilités
+qu'elle implique et aux conséquences de nos actions sur autrui et sur la
+société.
+
+Découvrons ensemble des pistes de réflexion !
+
+Superprof logo
+Les meilleurs professeurs de Philosophie disponibles
+Chrys
+5
+5 (229 avis)
+Chrys
+78€
+/h
+Gift icon
+1^er cours offert !
+Julien
+5
+5 (36 avis)
+Julien
+50€
+/h
+Gift icon
+1^er cours offert !
+Thibault
+5
+5 (42 avis)
+Thibault
+198€
+/h
+Gift icon
+1^er cours offert !
+Sophie
+4,9
+4,9 (36 avis)
+Sophie
+45€
+/h
+Gift icon
+1^er cours offert !
+Olivier
+5
+5 (22 avis)
+Olivier
+50€
+/h
+Gift icon
+1^er cours offert !
+Thomas
+5
+5 (24 avis)
+Thomas
+50€
+/h
+Gift icon
+1^er cours offert !
+Théodore
+4,9
+4,9 (23 avis)
+Théodore
+50€
+/h
+Gift icon
+1^er cours offert !
+Alexandre
+5
+5 (121 avis)
+Alexandre
+49€
+/h
+Gift icon
+1^er cours offert !
+Chrys
+5
+5 (229 avis)
+Chrys
+78€
+/h
+Gift icon
+1^er cours offert !
+Julien
+5
+5 (36 avis)
+Julien
+50€
+/h
+Gift icon
+1^er cours offert !
+Thibault
+5
+5 (42 avis)
+Thibault
+198€
+/h
+Gift icon
+1^er cours offert !
+Sophie
+4,9
+4,9 (36 avis)
+Sophie
+45€
+/h
+Gift icon
+1^er cours offert !
+Olivier
+5
+5 (22 avis)
+Olivier
+50€
+/h
+Gift icon
+1^er cours offert !
+Thomas
+5
+5 (24 avis)
+Thomas
+50€
+/h
+Gift icon
+1^er cours offert !
+Théodore
+4,9
+4,9 (23 avis)
+Théodore
+50€
+/h
+Gift icon
+1^er cours offert !
+Alexandre
+5
+5 (121 avis)
+Alexandre
+49€
+/h
+Gift icon
+1^er cours offert !
+C'est parti
+
+Introduction : la définition de liberté(s)
+
+A quoi servent les lois ?
+Les lois se comportent comme un cadre qui nous guide vers la liberté.
+
+Nous vivons au sein d'une société où les Hommes sont aujourd'hui considérés
+comme libres et égaux et dans un monde où la volonté des peuples à disposer
+d'eux-mêmes, est reconnue (principe fondamental de l'ONU). Les individus ont
+ainsi la possibilité de se déplacer librement, d'exprimer leurs opinions ou
+d'élire leur propre gouvernement.
+
+Malgré le fait que cette notion de liberté soit logiquement liée à celle du
+bonheur, nous pouvons être amené à nous poser les questions suivantes :
+
+    Notre liberté doit-elle nécessairement entrevoir des limites ? L'absence de
+    lois et de contraintes n'aurait-elle pas tendance non seulement à nuire à
+    notre bonheur mais également à celui des autres ? Être libre, est-ce faire
+    ce que l'on veut ?
+
+Avant de débuter dans notre réflexion, prenons le temps de définir la notion de
+liberté.
+
+  • La liberté est la faculté d'agir selon sa volonté en fonction des moyens
+    dont on dispose sans être entravé par le pouvoir d'autrui.
+  • Elle est donc la capacité à se déterminer soi-même à des choix qui
+    dépendent de nous.
+  • Au sens physique, la liberté exprime l'absence de contraintes alors qu'elle
+    désigne au sens politique d'abord l'indépendance à l'égard de tout pouvoir.
+  • En revanche, la liberté morale suppose la responsabilité de ses actes et la
+    possibilité de choisir entre le bien et le mal. La liberté concerne donc
+    globalement tout ce qui s'oppose à la nécessité.
+
+Dans le but de répondre à nos différentes problématiques, nous opterons pour un
+plan classique, c'est-à-dire dialectique. Nous méditerons pour commencer sur
+les raisons qui nous poussent à penser qu'il est essentiel d'imposer des
+limites à notre liberté puis nous aborderons le fait selon lequel des limites
+ne sont pas indispensables puisque l'Homme est condamné à être libre.
+
+Les libertés n'existent que grâce à leurs limites
+
+Les limites inhérentes aux libertés sont essentielles pour garantir un
+équilibre harmonieux en société.
+
+Sans restrictions, la liberté individuelle peut empiéter sur les droits et le
+bien-être des autres, créant des conflits et des injustices.
+
+Des règles et des lois sont donc nécessaires pour encadrer les libertés,
+assurant ainsi le respect mutuel et la cohésion sociale.
+
+Ces limites permettent de prévenir les abus, de protéger les plus vulnérables
+et de maintenir l'ordre public, tout en préservant les valeurs fondamentales de
+liberté et de justice.
+
+personne en train de regarder la mer les bras ouverts
+La liberté, une histoire d'idées ou de limites ?
+
+    "Je ne puis prendre ma liberté pour but que si je prend également celle des
+    autres pour objectif"
+
+    Sartre, L'existentialisme est un humanisme (1946)
+
+Cette condition exprime l'importance d'une liberté individuelle régie par un
+certain nombre de lois en faveur de la collectivité. Un Homme avec une entière
+liberté aurait donc tendance à nuire à la société puisqu'il pourrait exercer un
+pouvoir absolu sur bon lui semble sans se soucier d'autrui. Nous devons par
+conséquent nous soumettre à une législation bâtie à partir des droits de
+l'Homme et avons le devoir de respecter les droits des autres.
+
+Ces droits créent donc des obligations, qui loin de limiter les libertés, les
+garantissent au contraire.
+
+Nous devons en outre nous sensibiliser et nous assigner au respect des devoirs
+concernant la morale en nous efforçant pour cela de différencier le bien du
+mal. Si Rousseau écrivit : « L'obéissance à la loi qu'on s'est prescrite est
+liberté », c'est bien parce que cet ensemble de règles a été instauré pour
+rendre non seulement l'Homme libre mais pour le conduire également vers le
+bonheur, c'est-à-dire vers un état durable de satisfaction et de plénitude.
+L'individu doit donc faire preuve de morale et de devoirs envers les droits de
+ses voisins.
+
+    "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui"
+
+    Article 4 de la Déclaration Universelle des Droits de l'Homme
+
+En effet, c'est parce que tout le monde a un droit égal à la liberté que cette
+dernière est limitée par celle des autres et la leur par la mienne. Nous ne
+jouissons pas donc d'une liberté absolue, sinon il n'y en aurait plus aucune
+dans notre société.
+
+La liberté est donc une condition à notre vie en société, en démocratie dans
+notre cas.
+
+C'est grâce à elle que nous vivons dans ce que l'on appelle un "Etat de droit".
+Cela signifie que c'est l'Etat qui veille à ce que les libertés de tout le
+monde soient respectées. L'outil qu'il utilise s'appelle donc la loi. C'est
+d'ailleurs dans la loi que l'on retrouve tous les principes de garantie des
+libertés :
+
+  • Loi concernant la laïcité
+  • Loi concernant la liberté de circuler
+  • Loi concernant la liberté de propriété ainsi qu'une multitude d'autres
+
+On retrouve donc la notion d'intérêt général, par lequel l'intérêt de la
+société toute entière prime sur l'intérêt particulier. Les libertés d'un
+individu ou d'un groupe d'individus est donc toujours moins importante que
+celles de la société entière. La santé publique ou la sûreté nationale sont
+toujours prioritaires sur les libertés individuelles.
+
+De nombreux exemples viennent illustrer cette notion :
+
+Le pass sanitaire dans le cadre de la pandémie COVID de 2020
+
+L'expropriation pour la création des routes
+
+La liberté, une obligation au sein de la société
+
+représentation de la justice
+Justice et liberté sont deux concepts étroits
+
+La liberté est une obligation en société car elle permet l'expression
+individuelle et la diversité des idées, essentielles au progrès et à l'harmonie
+collective.
+
+En garantissant la liberté, une société favorise la créativité, l'innovation et
+le bien-être de ses membres. Cependant, cette liberté doit être équilibrée avec
+le respect des droits des autres pour maintenir l'ordre et la justice.
+
+Ainsi, la liberté devient une responsabilité partagée, essentielle à une
+coexistence pacifique et prospère.
+
+En outre, il serait particulièrement intéressant que nous nous interrogions sur
+l'idée que l'Homme ne doit pas être assujetti d'un trop grand nombre
+d'objectifs et qu'il lui est tout autant bénéfique qu'il se fixe lui-même des
+limites, en usant pour cela de sa raison.
+
+De ce fait, la manière avec laquelle Schopenhauer conçoit le bonheur peut être
+très intéressante :
+
+    "Pour ne pas devenir très malheureux, le moyen le plus certain est de ne
+    pas demander à être très heureux"
+
+    Schopenhauer
+
+L'individu doit ainsi allier ses actes à la raison pour se fixer des limites
+afin de ne pas nuire à son bonheur. Il doit donc toujours garder à l'esprit
+qu'il est incessamment contraint aux conditions de son existence et qu'il doit
+ainsi adapter ses désirs pour pas convoiter l'impossible ou l'inatteignable.
+
+Ainsi ces arguments plaident en faveur du fait qu'il est essentiel que des
+limites régissent notre liberté au quotidien, sous peine de nuire non seulement
+à notre bonheur mais à celui des autres.
+
+Pour autant, notre liberté doit-elle nécessairement entrevoir des limites
+supplémentaires sachant que nous n'avons jamais été, et cela dès notre
+naissance, entièrement libre ?
+
+Dans son ouvrage sur l'Éthique, Spinoza expliquait : « Nous nous pensons libre
+par le simple fait que nous avons conscience de nos actions mais sommes
+ignorant des causes par lesquelles nous sommes déterminées ». Nous n'aurions
+donc finalement plus totalement conscience de ce pourquoi nous agissons et ne
+sommes ainsi plus tellement libre dans nos décisions et nos choix.
+
+Pour autant, selon Sartre, « l'Homme est condamné à être libre » et fait
+exception à la nature en échappant à tout déterminisme. Il n'est donc pas en
+soi une nature mais une espèce possédant une sorte de liberté radicale et
+absolue. Il choisit totalement son existence et en est pleinement responsable.
+Le monde dans lequel nous vivons n'est en outre pas réductible à des lois
+prévisibles ce qui nous laisse songer qu'il subsiste un indéterminisme
+fondamental dans la nature.
+
+Nous ajouterons aussi qu'au sein du monde dans lequel nous cohabitons, aucune
+réelle liberté ne persistera, et cela en raison du modèle adopté : le
+capitalisme.
+
+  • En effet, que pourrait être la liberté du pauvre face à celle du riche ?
+    Marx prenait l'image « d'un renard libre dans un poulailler libre ».
+    Garantir la liberté de tous c'est donc la rendre possible pour chacun
+  • Dans le cas contraire, nous ne pourrions que l'assimiler à un principe sans
+    contenu réel. Évidemment, nous n'atteindrons jamais totalement l'égalité,
+    la question n'est donc plus de fixer des lois pour tous, mais de les
+    adapter sur l'équité des rapports dans le but d'aider au maximum ceux qui
+    le nécessite
+
+La liberté implique donc également une responsabilité : celle de ses actes.
+Pour cause, elle est limitée par les lois de notre société. Par exemple, si par
+ma liberté je mets en danger ou je dérange quelqu'un, je peux être poursuivi
+pénalement. De même, si quelqu'un exerce sa liberté au delà de ma sécurité, je
+suis en droit de me faire défendre afin de pouvoir exercer ma propre liberté.
+
+Dans l'article 4 de la Déclaration Universelle des Droits de l'Homme, il est
+également inscrit que "Les bornes bornes [de notre liberté] ne peuvent être
+définies que par la loi". La loi est donc la garante de notre liberté et exerce
+sur nous tous une protection et non pas une simple limitation.
+
+C'est le cas par exemple du code de la route, qui définit les règles à
+respecter au volant, afin que tout le monde soit libre de circuler en toute
+sécurité.
+
+Conclusion : liberté(s) et contrainte(s), un lien inévitable
+
+Nous avons donc mené une réflexion sur la liberté et sur les limites qu'il
+était nécessaire de nous fixer.
+
+Les différents arguments consentis nous ont permis d'aboutir aux conclusions
+suivantes : les lois et les devoirs sont essentiels dans une société afin de
+garantir la liberté individuelle mais également collective.
+
+L'individu doit en outre agir avec moralité en usant de sa raison pour ne pas
+nuire à son bonheur et à celui d'autrui. L'Homme ne pourra en outre être
+totalement libre (Spinoza) bien qu'il soit pourtant condamné à l'être (Sartre).
+
+La seule chose qui puisse maintenant influer sur l'égalité se situe au sein de
+notre modèle et dans les mains de ceux que nous élisons pour diriger notre
+Monde. L'intérêt général et la responsabilité sont donc les deux notions qui
+s'imposent quand il s'agit de faire régner la liberté au sein d'une société. Et
+sur le plan économique, il y a encore bien des progrès à faire selon Marx...
+
+Vous avez aimé cet article ? Notez-le !
+
+Aucune information ? Sérieusement ?Ok, nous tacherons de faire mieux pour le
+prochainLa moyenne, ouf ! Pas mieux ?Merci. Posez vos questions dans les
+commentaires.Un plaisir de vous aider ! :) 4,10 (155 note(s))
+●Loading...
+[prof-de-ma]
+
+Olivier
+
+Professeur en lycée et classe prépa, je vous livre ici quelques conseils utiles
+à travers mes cours !
+
+Ces articles pourraient vous intéresser
+
+Un livre ouvert en extérieur.
+
+La vérité : définition, critère, problématique
+
+Conception philosophique de notion de vérité La vérité est dans l’imaginaire.
+Eugène Ionesco ➡️ La vérité, en philosophie, est généralement définie comme la
+correspondance de nos déclarations avec la réalité objective (ou comme ce qui
+est conforme à la réalité). Les critères pour déterminer la vérité varient
+selon les idées et les théories philosophiques. Ils[…]
+
+24 juin 2024 ∙ 8 minutes de lecture
+
+Une femme rit au milieu de confettis.
+
+Sujets de Dissertation sur la Notion du Bonheur
+
+Quels sujets sur le bonheur peuvent tomber au baccalauréat de philosophie ? En
+Terminale, l'épreuve de philosophie au bac est une épreuve importante, qui
+s'impose comme le rendez-vous de la pensée ! Un rendez-vous où, pendant 4
+heures, il faudra choisir entre deux sujets de dissertation, ou un sujet
+d'explication de texte. ➡️ Trois grands[…]
+
+28 avril 2024 ∙ 7 minutes de lecture
+
+Une femme de dos face à un paysage.
+
+Sujet de Dissertation sur la Notion de Conscience
+
+Les sujets de dissertation sur la conscience La conscience des mots amène à la
+conscience de soi : à se connaître, à se reconnaître. Octavio Paz En
+philosophie, la conscience est généralement comprise comme la faculté mentale
+par laquelle nous sommes conscients de nous-mêmes et du monde qui nous entoure.
+Elle englobe la perception, la[…]
+
+20 mars 2024 ∙ 6 minutes de lecture
+
+personne en train de marcher avec sa mallette de travail
+
+Définition et conception du travail en rapport avec l’homme
+
+Définition philosophique du concept de travail Le travail, pilier économique et
+social, suscite des enjeux majeurs. Il impacte la production, la répartition
+des richesses, l'emploi, tout en influençant l'identité individuelle et la
+cohésion sociale. Son évolution interpelle notre compréhension de la société
+contemporaine. ? Voici une analyse de la notion de travail dans nos sociétés[…]
+
+27 février 2024 ∙ 9 minutes de lecture
+
+livre
+
+Corrigé Bac S de Philosophie : Dépend-t-il de Nous d’Être Heureux ?
+
+L'Homme est-il responsable de son bonheur ? La problématique de notre capacité
+à être heureux interroge la balance entre notre autonomie personnelle et les
+influences externes. Cette dissertation explore les limites de notre contrôle
+sur le bonheur, scrutant le rôle des choix individuels face aux forces sociales
+et circonstances. Voici une définition préliminaire des termes[…]
+
+29 janvier 2024 ∙ 9 minutes de lecture
+
+Une femme se regarde dans un miroir.
+
+Plan complet pour dissertation
+
+Exemple de plan complet de dissertation : Suis-je ce que j'ai conscience d'être
+? Conscience signifie d’abord mémoire. Henri Bergson ➡️ Suis-je ce que j'ai
+conscience d'être ? Face à un tel sujet philosophique, de nombreuses idées de
+problématiques et de plans peuvent venir à l'esprit. Car oui, ce sujet fait
+appel à des concepts[…]
+
+13 décembre 2023 ∙ 7 minutes de lecture
+
+[artiste-pe]
+
+Sujets de Dissertation sur l’Art
+
+Sur quels sujets traitant de l'art pouvez-vous tomber au baccalauréat ? Sujets
+de dissertation L'art est-il soumis à des règles ? L'œuvre d'art est-elle une
+imitation de la nature ? Pourquoi applique-t-on le terme de "création" à
+l'activité artistique ? Une œuvre d'art est-elle un objet sacré ? L'art
+n'a-t-il pour fin que le plaisir[…]
+
+26 janvier 2023 ∙ 8 minutes de lecture
+
+[citation-i]
+
+Les citations importantes pour le bac de philosophie
+
+Quelles sont les citations incontournables pour l'épreuve de Philosophie ? Nous
+avons regroupé pour vous dans cet articles toutes les citations qui pourront
+vous être utiles lors de vos dissertations en philosophie. Ces dernières sont
+classées par sujet pour vous aider à les retrouver facilement. En avant les
+révisions ! La conscience "Connais-toi toi même"[…]
+
+26 janvier 2023 ∙ 14 minutes de lecture
+
+[choisir-he]
+
+Être Heureux
+
+Dépend-il de nous d'être heureux ? Définissons le bonheur Au sens commun, le
+bonheur désigne un état émotionnel agréable, équilibré et durable, dans lequel
+une personne se retrouve après avoir atteint des objectifs et des désirs
+essentiels. La tension, l'inquiétude et le problème n'existent plus, et il
+perçoit positivement ses propres circonstances. Il se sent[…]
+
+26 janvier 2023 ∙ 13 minutes de lecture
+
+Si vous désirez une aide personnalisée, contactez dès maintenant l’un de nos
+professeurs !
+
+>
+Laissez-nous un commentaire
+
+Annuler la réponse
+
+                  [                    ]
+                  [                    ]
+                  [                    ]
+                  [                    ]
+                  [                    ]
+                  [                    ]
+                  [                    ]
+Votre commentaire [                    ]
+
+Nom * [                              ]
+
+E-mail * [                              ]
+
+[Envoyer] 
+
+Current ye@r * [5.5                 ]
+
+Leave this field empty [                    ]
+
+[wp_user_]
+Jean Norbert RAKOTOMENA
+Juin 2022
+
+Je suis médecin et je cherche une méthode pour comprendre faire un bon devoir
+de philosophie,j’étais perdu en terminales, mo souhait de savoir poser les
+problématiques
+
+Répondre
+Chloé Galouchko
+Chloé Galouchko
+Juillet 2022
+
+Bonjour, avez-vous essayé de contacter l’un de nos professeurs pour recevoir
+une aide personnalisée ?
+
+Répondre
+[wp_user_]
+Othiniel
+Décembre 2023
+
+Non pas encore
+
+Répondre
+[wp_user_]
+grovogui
+Mars 2022
+
+j’ai besion d’un professeur pour me détailler la notion du liberté.
+
+Répondre
+[wp_user_]
+Cangas Tcharly
+Juillet 2023
+
+Je besoin d’un professeur pour me faire bien comprendre le concept de la
+liberté
+
+Répondre
+Chloé Galouchko
+Chloé Galouchko
+Avril 2022
+
+Tu trouveras sans doutes un professeur de philosophie près de chez toi qui
+pourra t’aider grâce à la plateforme superprof 🙂
+
+Répondre
+[wp_user_]
+Kali
+Janvier 2022
+
+Cool
+
+Répondre
+Mathieu
+Mathieu
+Octobre 2021
+
+Bonjour,
+La réponse à cette question est dans l’article.
+Bonne journée !
+
+Répondre
+Afficher tous les commentaires
+
+  • >
+
+    La plateforme qui connecte profs particuliers et élèves
+
+  • Ressources Superprof
+      □ Allemand
+      □ Anglais
+      □ Arts appliqués
+      □ Bac special revision
+      □ Chinois
+      □ Communication
+      □ Droit
+      □ Economie gestion
+      □ Education musicale
+      □ Espagnol
+      □ Français
+      □ Géographie
+      □ Histoire
+      □ Informatique
+      □ Latin
+      □ Management
+      □ Mathématiques
+      □ Philosophie
+      □ Physique-Chimie
+      □ SES
+      □ Sport
+      □ SVT
+      □ Technologie
+  • À propos
+      □ Trouver un prof particulier
+      □ Qui sommes-nous ?
+      □ Aide
+      □ Ressources ES
+      □ Ressources EN
+  •      
+

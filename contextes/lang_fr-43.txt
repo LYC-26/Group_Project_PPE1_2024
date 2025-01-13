@@ -1,0 +1,232 @@
+ 1. Le Conseil constitutionnel
+ 2. Les Membres
+ 3. Libertés et ordre public
+
+Page
+
+Libertés et ordre public
+
+  • Share more
+--
+Sommaire
+
+  • I - Les notions de libertés et d'ordre public
+      □ A - La notion de libertés
+      □ B - La notion d'ordre public
+  • II - La conciliation entre les libertés et l'ordre public
+      □ A - L'ordre public est nécessaire à l'exercice des libertés
+      □ B - La limitation des libertés peut être légitimée par la sauvegarde de
+        l'ordre public
+  • III - Le contrôle de la conciliation par le Conseil constitutionnel
+      □ A - Le contrôle de proportionnalité
+      □ B - L'utilisation de la technique des «réserves d'interprétation» dans
+        la conciliation entre libertés et ordre public
+
+Pierre Mazeaud, 2003
+--
+
+Pourquoi parler aujourd'hui de la Constitution de 1848 ? Parce qu'elle nous
+montre que la conciliation entre l'ordre et la liberté n'est pas un problème
+récent, qui daterait du 11 septembre 2001. Lors de la rédaction de la
+constitution, un débat très intéressant eut lieu devant l'assemblée
+--
+peuple... ? On a tout simplement posé un problème, l'éternel problème de la
+conciliation du droit de l'individu avec le droit de la société, de la
+conciliation de l'ordre avec la liberté”^ 1.
+
+Quant à la Constitution de 1958, c'est elle qui a créé le Conseil
+constitutionnel et lui a permis de contrôler la conciliation faite par le
+législateur entre les libertés et l'ordre public.
+
+Ma brève intervention d'aujourd'hui a pour but de vous présenter comment le
+Conseil constitutionnel procède à ce contrôle. Auparavant, il me paraît
+important de préciser brièvement les notions de libertés et d'ordre public en
+droit français.
+
+I - Les notions de libertés et d'ordre public
+
+A - La notion de libertés
+
+Dans “L'esprit des lois” (chapitre II du livre XI), édité à Genève en 1748, le
+philosophe Montesquieu écrit : “II n'y a point de mot qui ait reçu plus de
+différentes significations, et qui ait frappé les esprits de tant de manières,
+que celui de liberté”.
+
+C'est la raison pour laquelle je ne parle pas de liberté au singulier mais de
+libertés au pluriel.
+
+Parmi ces libertés et sans trop entrer dans les détails, nous trouvons :
+
+1) Celles qui relèvent du respect de l'autonomie de la personne : la sûreté ou
+la liberté individuelle^ 2 au sens de l'habeas corpus, le respect de la vie
+privée, l'inviolabilité du domicile ou des correspondances, le respect de la
+personne humaine^ 3 ;
+
+2) Les libertés d'agir : liberté d'aller et venir, liberté d'entreprendre^ 4 ;
+liberté contractuelle.
+
+3) Les libertés de la pensée : liberté de conscience et d'opinion, libre
+communication des pensées (presse écrite et audiovisuel...), liberté de
+l'enseignement, liberté d'association^ 5, liberté de manifestation ^ 6,
+libertés politiques^ 7.
+
+4) Les libertés à contenu économique et social : propriété, liberté syndicale^
+8, droit de grève...
+
+--
+n'en constitue pas moins une sorte de “fonds commun” des pays démocratiques.
+
+En revanche, l'originalité française vient de ce que ces libertés ont des
+sources historiques diverses, dont certaines sont anciennes et que leur énoncé
+est généralement plus vague que dans les démocraties dont les constitutions,
+--
+l'une et l'autre dans ses décisions. Garantie de la sécurité des personnes et
+des biens, l'ordre public est regardé par la jurisprudence du Conseil comme le
+“bouclier” de certaines des plus fondamentales de nos libertés : “La prévention
+des atteintes à l'ordre public est nécessaire à la sauvegarde de droits de
+valeur constitutionnelle”.
+--
+large, tel que l'ordre public social, sanitaire, écologique). Le “cœur” de cet
+ordre public ( au sens strict du terme) me semble être le principe de la
+“sûreté” garantie par la Déclaration de 1789 : il n'est pas de liberté possible
+dans une société où les individus craignent pour la sécurité de leur personne.
+
+--
+Ils permettent en outre de prendre en compte des considérations d'intérêt
+général en vue d'atténuer la portée de certaines règles constitutionnelles, y
+compris des droits ou libertés.
+
+L'ordre public a été l'un des premiers objectifs dégagés par le Conseil
+constitutionnel. Il a ainsi jugé, en 1981, que la liberté individuelle et celle
+d'aller et venir doivent être conciliées avec “ce qui est nécessaire pour la
+sauvegarde des fins d'intérêt général ayant valeur constitutionnelle” comme le
+maintien de l'ordre public (décision des 19 et 20 janvier, 1981 surla loi
+sécurité et liberté).
+
+Cette philosophie se retrouve dans la Convention européenne des droits de
+l'homme. En effet, certaines libertés qui y sont proclamées peuvent faire
+l'objet de restrictions lorsque ces dernières - je cite - “constituent des
+mesures nécessaires, dans une société démocratique, à la sécurité nationale, à
+--
+protection de la réputation ou des droits d'autrui, pour empêcher la
+divulgation d'informations confidentielles ou pour garantir l'autorité et
+l'impartialité du pouvoir judiciaire.” C'est le cas, par exemple, de la liberté
+d'expression proclamée par l'article 11 de la Convention européenne des droits
+de l'homme.
+
+II - La conciliation entre les libertés et l'ordre public
+
+A - L'ordre public est nécessaire à l'exercice des libertés
+
+Pour le Conseil constitutionnel, l'ordre public se présente, je l'ai dit, comme
+--
+
+Le premier est de 1981. Il s'agit d'une décision relative à la loi dite
+“sécurité et liberté”, dans laquelle le Conseil juge que “la recherche des
+auteurs d'infractions et la prévention d'atteintes à l'ordre public, notamment
+d'atteintes à la sécurité des personnes et des biens, sont nécessaires à la
+--
+
+“II appartient au législateur d'opérer la conciliation nécessaire entre le
+respect des libertés et la sauvegarde de l'ordre public sans lequel l'exercice
+des libertés ne saurait être assuré”. Le Conseil constitutionnel en déduit que,
+si la Constitution, dans son article 36, ne vise que l'état de siège, “elle n'a
+pas pour autant exclu la possibilité pour le législateur de prévoir un régime
+d'état d'urgence pour concilier, comme il vient d'être dit, les exigences de la
+liberté et la sauvegarde de l'ordre public”.
+
+B - La limitation des libertés peut être légitimée par la sauvegarde de l'ordre
+public
+
+Le maintien de l'ordre public étant une nécessité pour l'exercice des libertés,
+il en découle que, dans certaines circonstance les libertés peuvent étre
+limitées pour sauvegarder l'ordre public.
+
+Ce pouvoir de limitation appartient au législateur dès lors que l'article 34 de
+la Constitution dispose que la loi fixe les règles concernant les garanties
+fondamentales accordées aux citoyens pour l'exercice des libertés publiques.
+
+Ainsi, comme l'a rappelé le Conseil constitutionnel dans une décision récente
+--
+et la recherche des auteurs d'infractions, toutes deux nécessaires à la
+sauvegarde de droits et de principes de valeur constitutionnelle, et, d'autre
+part, 1'exercice des libertés constitutionnellement garanties, au nombre
+desquelles figurent le respect de la vie privée (protégé par l'article 2 de la
+Déclaration des droits de l'homme et du citoyen de 1789), la liberté d'aller et
+venir (protégée par l'article 4 de la Déclaration), ainsi que la liberté
+individuelle, que l'article 66 de la Constitution (en vertu duquel “Nul ne peut
+être arbitrairement détenu”) place sous la surveillance de l'autorité
+--
+
+De même, les mesures de police administrative susceptibles d'affecter
+l'exercice des libertés constitutionnellement garanties doivent être justifiées
+par une menace réelle pour l'ordre public, cette menace devant reposer sur des
+circonstances particulières caractérisant le risque de trouble à l'ordre public
+--
+En mars 2003, lors de l'examen de la “loi pour la sécurité intérieure”, le
+Conseil constitutionnel a eu l'occasion de faire le point sur la nécessaire
+conciliation entre liberté personnelle et ordre public (décision n° 2003-467 DC
+du 13 mars 2003). En particulier, il a exercé un contrôle de proportionnalité
+sur les dispositions critiquées par les parlementaires qui autorisaient, dans
+--
+soupçonner...”). Il est à noter que cette dernière expression est celle
+utilisée par la Convention européenne de sauvegarde des droits de l'homme et
+des libertés fondamentales (art. 5, §1, c).
+
+Un troisième type de fouilles était autorisé dans le but de prévenir une
+--
+fondamentaux.
+
+Il a estimé que le risque, pour les libertés, de conserver dans un fichier de
+police la trace d'une agression commise (peut-être) par M X était moins grave
+que celui de ne pas retrouver cette information si M X était en effet l'auteur
+de faits délictueux et récidivait.
+
+De la même manière, il lui est apparu que le risque, pour les libertés, de
+fouiller le coffre de la voiture de M Y (qui est peut-être vide) était moins
+grand que celui de laisser M Y emporter une bombe vers une foule.
+--
+
+B - L'utilisation de la technique des « réserves d'interprétation » dans la
+conciliation entre libertés et ordre public
+
+C'est dans le domaine de la conciliation entre ordre public et libertés que le
+Conseil a le plus appliqué la technique de “conformité sous réserve”. J'en
+donnerai trois illustrations (b), après avoir rappelé en quoi consiste cette
+--
+
+b - Illustrations de l'utilisation des réserves d'interprétation en matière de
+conciliation entre libertés et ordre public
+
+Je donnerai trois exemples de cette utilisation des réserves d'interprétation
+en matière de conciliation des libertés et de l'ordre public.
+
+Décision n° 94-352 PC du 22 avril 1997 : la loi interdisait la délivrance d'une
+--
+
+Les auteurs des deux saisines estimaient que l'institution de ce délit portait
+« une atteinte grave à la liberté d'expression, de conscience et d'opinion ».
+
+Le Conseil constitutionnel s'est fondé sur les dispositions constitutionnelles
+--
+des opinions est un des droits les plus précieux de l'Homme : tout Citoyen peut
+donc parler, écrire, imprimer librement, sauf à répondre à l'abus de cette
+liberté dans les cas déterminés par la loi”.
+
+Le Conseil constitutionnel a opéré la conciliation qu'il lui appartenait
+--
+
+La décision récente du Conseil constitutionnel sur la sécurité intérieure
+montre que la sauvegarde à la fois des libertés et de l'ordre public conduit le
+législateur, sous le contrôle du Conseil constitutionnel, à opérer de délicats
+arbitrages.
+--
+^ 8 Décision n° 83-162 DC des 19 et 20 juillet 1983.
+
+^ 9 Ainsi les libertés touchant au respect de l'autonomie de la personne se
+rattachent à l'article 2 de la Déclaration de 1789 ; celles relatives à la
+liberté d'agir à son article 4 ; les droits économiques et sociaux sont surtout
+fondés sur le Préambule de la Constitution de 1946 ; la liberté d'association
+est un principe fondamental reconnu par les lois de la République ; la liberté
+individuelle (au sens d'habeas corpus) a son siège dans l'article 66 de te
+Constitution de 1958...

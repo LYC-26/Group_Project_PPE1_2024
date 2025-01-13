@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+        	
+        <meta charset="UTF-8"/>
+
+        <link rel="profile" href="https://gmpg.org/xfn/11"/>
+        <link rel="pingback" href="https://www.cabinetaci.com/xmlrpc.php"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+	<!-- Optimized with WP Meteor v3.4.7 - https://wordpress.org/plugins/wp-meteor/ --><script data-wpmeteor-nooptimize="true" >var _wpmeteor={"gdpr":true,"rdelay":86400000,"preload":true,"elementor-animations":true,"elementor-pp":true,"v":"3.4.7","rest_url":"https:\/\/www.cabinetaci.com\/wp-json\/"};(()=>{try{new MutationObserver(function(){}),new Promise(function(){}),Object.assign({},{}),document.fonts.ready.then(function(){})}catch{s="wpmeteordisable=1",i=document.location.href,i.match(/[?&]wpmeteordisable/)||(o="",i.indexOf("?")==-1?i.indexOf("#")==-1?o=i+"?"+s:o=i.replace("#","?"+s+"#"):i.indexOf("#")==-1?o=i+"&"+s:o=i.replace("#","&"+s+"#"),document.location.href=o)}var s,i,o;})();
+
+</script><script data-wpmeteor-nooptimize="true" >(()=>{var We=()=>Math.round(performance.now())/1e3;var h="addEventListener",pe="removeEventListener",p="getAttribute",v="setAttribute",j="removeAttribute",G="hasAttribute",Gt="querySelector",I=Gt+"All",C="appendChild",Q="removeChild",ue="createElement",T="tagName",ze="getOwnPropertyDescriptor",y="prototype",V="__lookupGetter__",fe="__lookupSetter__",f="DOMContentLoaded",u="load",Ee="error";var l=window,c=document,be=c.documentElement,Ye=()=>{},H=console.error;var $e=!0,K=class{constructor(){this.known=[]}init(){let t,n,s=(r,i)=>{if($e&&r&&r.fn&&!r.__wpmeteor){let o=function(a){return c[h](f,E=>{a.call(c,r,E,"jQueryMock")}),this};this.known.push([r,r.fn.ready,r.fn.init.prototype.ready]),r.fn.ready=o,r.fn.init.prototype.ready=o,r.__wpmeteor=!0}return r};window.jQuery||window.$,Object.defineProperty(window,"jQuery",{get(){return t},set(r){t=s(r,"jQuery")}}),Object.defineProperty(window,"$",{get(){return n},set(r){n=s(r,"$")}})}unmock(){this.known.forEach(([t,n,s])=>{t.fn.ready=n,t.fn.init.prototype.ready=s}),$e=!1}};var me="fpo:first-interaction",ge="fpo:replay-captured-events";var je="fpo:element-loaded",Te="fpo:images-loaded",k="fpo:the-end";var J="click",q=window,Qe=q.addEventListener.bind(q),Ke=q.removeEventListener.bind(q),Ae="removeAttribute",he="getAttribute",Ct="setAttribute",Se=["touchstart","touchmove","touchend","touchcancel","keydown","wheel"],Je=["mouseover","mouseout",J],Ut=["touchstart","touchend","touchcancel","mouseover","mouseout",J],N="data-wpmeteor-";var Ge="dispatchEvent",Xe=e=>{let t=new MouseEvent(J,{view:e.view,bubbles:!0,cancelable:!0});return Object.defineProperty(t,"target",{writable:!1,value:e.target}),t},Ce=class{static capture(){let t=!1,n=[],s=r=>{if(r.target&&Ge in r.target){if(!r.isTrusted)return;if(r.cancelable&&!Se.includes(r.type))try{r.preventDefault()}catch{}r.stopImmediatePropagation(),r.type===J?n.push(Xe(r)):Ut.includes(r.type)&&n.push(r),r.target[Ct](N+r.type,!0),t||(t=!0,q[Ge](new CustomEvent(me)))}};q.addEventListener(ge,()=>{Je.forEach(o=>Ke(o,s,{passive:!1,capture:!0})),Se.forEach(o=>Ke(o,s,{passive:!0,capture:!0}));let r;for(;r=n.shift();){var i=r.target;i[he](N+"touchstart")&&i[he](N+"touchend")&&!i[he](N+J)?(i[he](N+"touchmove")||n.push(Xe(r)),i[Ae](N+"touchstart"),i[Ae](N+"touchend")):i[Ae](N+r.type),i[Ge](r)}}),Je.forEach(r=>Qe(r,s,{passive:!1,capture:!0})),Se.forEach(r=>Qe(r,s,{passive:!0,capture:!0}))}};var Ze=Ce;var X=class{constructor(){this.l=[]}emit(t,n=null){this.l[t]&&this.l[t].forEach(s=>s(n))}on(t,n){this.l[t]||=[],this.l[t].push(n)}off(t,n){this.l[t]=(this.l[t]||[]).filter(s=>s!==n)}};var w=new X;var ve=c[ue]("span");ve[v]("id","elementor-device-mode");ve[v]("class","elementor-screen-only");var Bt=!1,et=()=>(Bt||c.body[C](ve),getComputedStyle(ve,":after").content.replace(/"/g,""));var tt=e=>e[p]("class")||"",rt=(e,t)=>e[v]("class",t),nt=()=>{l[h](u,function(){let e=et(),t=Math.max(be.clientWidth||0,l.innerWidth||0),n=Math.max(be.clientHeight||0,l.innerHeight||0),s=["_animation_"+e,"animation_"+e,"_animation","_animation","animation"];Array.from(c[I](".elementor-invisible")).forEach(r=>{let i=r.getBoundingClientRect();if(i.top+l.scrollY<=n&&i.left+l.scrollX<t)try{let a=JSON.parse(r[p]("data-settings"));if(a.trigger_source)return;let E=a._animation_delay||a.animation_delay||0,d,D;for(var o=0;o<s.length;o++)if(a[s[o]]){D=s[o],d=a[D];break}if(d){let Y=tt(r),$=d==="none"?Y:Y+" animated "+d,At=setTimeout(()=>{rt(r,$.replace(/\belementor-invisible\b/,"")),s.forEach(St=>delete a[St]),r[v]("data-settings",JSON.stringify(a))},E);w.on("fi",()=>{clearTimeout(At),rt(r,tt(r).replace(new RegExp("\b"+d+"\b"),""))})}}catch(a){console.error(a)}})})};var st="data-in-mega_smartmenus",ot=()=>{let e=c[ue]("div");e.innerHTML='<span class="sub-arrow --wp-meteor"><i class="fa" aria-hidden="true"></i></span>';let t=e.firstChild,n=s=>{let r=[];for(;s=s.previousElementSibling;)r.push(s);return r};c[h](f,function(){Array.from(c[I](".pp-advanced-menu ul")).forEach(s=>{if(s[p](st))return;(s[p]("class")||"").match(/\bmega-menu\b/)&&s[I]("ul").forEach(o=>{o[v](st,!0)});let r=n(s),i=r.filter(o=>o).filter(o=>o[T]==="A").pop();if(i||(i=r.map(o=>Array.from(o[I]("a"))).filter(o=>o).flat().pop()),i){let o=t.cloneNode(!0);i[C](o),new MutationObserver(E=>{E.forEach(({addedNodes:d})=>{d.forEach(D=>{if(D.nodeType===1&&D[T]==="SPAN")try{i[Q](o)}catch{}})})}).observe(i,{childList:!0})}})})};var _="readystatechange",S="message";var z="SCRIPT",m="data-wpmeteor-",b=Object.defineProperty,xe=Object.defineProperties,O="javascript/blocked",Ne=/^\s*(application|text)\/javascript|module\s*$/i,gt="requestAnimationFrame",ht="requestIdleCallback",ce="setTimeout",x=l.constructor.name+"::",ae=c.constructor.name+"::",vt=function(e,t){t=t||l;for(var n=0;n<this.length;n++)e.call(t,this[n],n,this)};"NodeList"in l&&!NodeList[y].forEach&&(NodeList[y].forEach=vt);"HTMLCollection"in l&&!HTMLCollection[y].forEach&&(HTMLCollection[y].forEach=vt);_wpmeteor["elementor-animations"]&&nt(),_wpmeteor["elementor-pp"]&&ot();var Z=[],ye=[],ee=[],se=!1,P=[],g={},Me=!1,Nt=0,M=c.visibilityState==="visible"?l[gt]:l[ce],yt=l[ht]||M;c[h]("visibilitychange",()=>{M=c.visibilityState==="visible"?l[gt]:l[ce],yt=l[ht]||M});var U=l[ce],De,F=["src","type"],W=Object,te="definePropert";W[te+"y"]=(e,t,n)=>e===l&&["jQuery","onload"].indexOf(t)>=0||(e===c||e===c.body)&&["readyState","write","writeln","on"+_].indexOf(t)>=0?(["on"+_,"on"+u].indexOf(t)&&n.set&&(g["on"+_]=g["on"+_]||[],g["on"+_].push(n.set)),e):e instanceof HTMLScriptElement&&F.indexOf(t)>=0?(e[t+"Getters"]||(e[t+"Getters"]=[],e[t+"Setters"]=[],b(e,t,{set(s){e[t+"Setters"].forEach(r=>r.call(e,s))},get(){return e[t+"Getters"].slice(-1)[0]()}})),n.get&&e[t+"Getters"].push(n.get),n.set&&e[t+"Setters"].push(n.set),e):b(e,t,n);W[te+"ies"]=(e,t)=>{for(let n in t)W[te+"y"](e,n,t[n]);for(let n of Object.getOwnPropertySymbols(t))W[te+"y"](e,n,t[n]);return e};var Pe=EventTarget[y][h],Lt=EventTarget[y][pe],le=Pe.bind(c),Ot=Lt.bind(c),B=Pe.bind(l),Dt=Lt.bind(l),wt=Document[y].createElement,de=wt.bind(c),_e=c.__proto__[V]("readyState").bind(c),it="loading";b(c,"readyState",{get(){return it},set(e){return it=e}});var ct=e=>P.filter(([t,,n],s)=>{if(!(e.indexOf(t.type)<0)){n||(n=t.target);try{let r=n.constructor.name+"::"+t.type;for(let i=0;i<g[r].length;i++)if(g[r][i]){let o=r+"::"+s+"::"+i;if(!Oe[o])return!0}}catch{}}}).length,oe,Oe={},ie=e=>{P.forEach(([t,n,s],r)=>{if(!(e.indexOf(t.type)<0)){s||(s=t.target);try{let i=s.constructor.name+"::"+t.type;if((g[i]||[]).length)for(let o=0;o<g[i].length;o++){let a=g[i][o];if(a){let E=i+"::"+r+"::"+o;if(!Oe[E]){Oe[E]=!0,c.readyState=n,oe=i;try{Nt++,!a[y]||a[y].constructor===a?a.bind(s)(t):a(t)}catch(d){H(d,a)}oe=null}}}}catch(i){H(i)}}})};le(f,e=>{P.push([new e.constructor(f,e),_e(),c])});le(_,e=>{P.push([new e.constructor(_,e),_e(),c])});B(f,e=>{P.push([new e.constructor(f,e),_e(),l])});B(u,e=>{Me=!0,P.push([new e.constructor(u,e),_e(),l]),R||ie([f,_,S,u])});var _t=e=>{P.push([e,c.readyState,l])},Rt=l[V]("onmessage"),kt=l[fe]("onmessage"),xt=()=>{Dt(S,_t),(g[x+"message"]||[]).forEach(e=>{B(S,e)}),b(l,"onmessage",{get:Rt,set:kt})};B(S,_t);var bt=new K;bt.init();var Ie=()=>{!R&&!se&&(R=!0,c.readyState="loading",M(He),M(A)),Me||B(u,()=>{Ie()})};B(me,()=>{Ie()});w.on(Te,()=>{Ie()});_wpmeteor.rdelay>=0&&Ze.capture();var re=[-1],at=e=>{re=re.filter(t=>t!==e.target),re.length||U(w.emit.bind(w,k))};var R=!1,A=()=>{let e=Z.shift();if(e)e[p](m+"src")?e[G]("async")?(e.isConnected&&re.push(e),Ue(e,at),U(A)):Ue(e,U.bind(null,A)):(e.origtype==O&&Ue(e),U(A));else if(ye.length){for(;ye.length;)Z.push(ye.shift());U(A)}else if(ct([f,_,S]))ie([f,_,S]),U(A);else if(Me)if(ct([u,S]))ie([u,S]),U(A);else if(re.length>1)yt(A);else if(ee.length){for(;ee.length;)Z.push(ee.shift());U(A)}else{if(l.RocketLazyLoadScripts)try{RocketLazyLoadScripts.run()}catch(t){H(t)}c.readyState="complete",xt(),bt.unmock(),R=!1,se=!0,l[ce](()=>at({target:-1}))}else R=!1},Mt=e=>{let t=de(z),n=e.attributes;for(var s=n.length-1;s>=0;s--)n[s].name.startsWith(m)||t[v](n[s].name,n[s].value);let r=e[p](m+"type");r?t.type=r:t.type="text/javascript",(e.textContent||"").match(/^\s*class RocketLazyLoadScripts/)?t.textContent=e.textContent.replace(/^\s*class\s*RocketLazyLoadScripts/,"window.RocketLazyLoadScripts=class").replace("RocketLazyLoadScripts.run();",""):t.textContent=e.textContent;for(let i of["onload","onerror","onreadystatechange"])e[i]&&(t[i]=e[i]);return t},Ue=(e,t)=>{let n=e[p](m+"src");if(n){let s=Pe.bind(e);e.isConnected&&t&&(s(u,t),s(Ee,t)),e.origtype=e[p](m+"type")||"text/javascript",e.origsrc=n,(!e.isConnected||e[G]("nomodule")||e.type&&!Ne.test(e.type))&&t&&t(new Event(u,{target:e}))}else e.origtype===O?(e.origtype=e[p](m+"type")||"text/javascript",e[j]("integrity"),e.textContent=e.textContent+`
+`):t&&t(new Event(u,{target:e}))},Ve=(e,t)=>{let n=(g[e]||[]).indexOf(t);if(n>=0)return g[e][n]=void 0,!0},lt=(e,t,...n)=>{if("HTMLDocument::"+f==oe&&e===f&&!t.toString().match(/jQueryMock/)){w.on(k,c[h].bind(c,e,t,...n));return}if(t&&(e===f||e===_)){let s=ae+e;g[s]=g[s]||[],g[s].push(t),se&&ie([e]);return}return le(e,t,...n)},dt=(e,t,...n)=>{if(e===f){let s=ae+e;Ve(s,t)}return Ot(e,t,...n)};xe(c,{[h]:{get(){return lt},set(){return lt}},[pe]:{get(){return dt},set(){return dt}}});var ne=c.createDocumentFragment(),He=()=>{ne.hasChildNodes()&&(c.head[C](ne),ne=c.createDocumentFragment())},pt={},Le=e=>{if(e)try{let t=new URL(e,c.location.href),n=t.origin;if(n&&!pt[n]&&c.location.host!==t.host){let s=de("link");s.rel="preconnect",s.href=n,ne[C](s),pt[n]=!0,R&&M(He)}}catch{}},we={},Pt=(e,t,n,s)=>{let r=de("link");r.rel=t?"modulepre"+u:"pre"+u,r.as="script",n&&r[v]("crossorigin",n),s&&r[v]("integrity",s);try{e=new URL(e,c.location.href).href}catch{}r.href=e,ne[C](r),we[e]=!0,R&&M(He)},Re=function(...e){let t=de(...e);if(!e||e[0].toUpperCase()!==z||!R)return t;let n=t[v].bind(t),s=t[p].bind(t),r=t[G].bind(t),i=t[V]("attributes").bind(t);return F.forEach(o=>{let a=t[V](o).bind(t),E=t[fe](o).bind(t);W[te+"y"](t,o,{set(d){return o==="type"&&d&&!Ne.test(d)?t[v](o,d):((o==="src"&&d||o==="type"&&d&&t.origsrc)&&n("type",O),d?t[v](m+o,d):t[j](m+o))},get(){let d=t[p](m+o);if(o==="src")try{return new URL(d,c.location.href).href}catch{}return d}}),b(t,"orig"+o,{set(d){return E(d)},get(){return a()}})}),t[v]=function(o,a){if(F.includes(o))return o==="type"&&a&&!Ne.test(a)?n(o,a):((o==="src"&&a||o==="type"&&a&&t.origsrc)&&n("type",O),a?n(m+o,a):t[j](m+o));n(o,a)},t[p]=function(o){let a=F.indexOf(o)>=0?s(m+o):s(o);if(o==="src")try{return new URL(a,c.location.href).href}catch{}return a},t[G]=function(o){return F.indexOf(o)>=0?r(m+o):r(o)},b(t,"attributes",{get(){return[...i()].filter(a=>a.name!=="type").map(a=>({name:a.name.match(new RegExp(m))?a.name.replace(m,""):a.name,value:a.value}))}}),t};Object.defineProperty(Document[y],"createElement",{set(e){e!==Re&&(De=e)},get(){return De||Re}});var Be=new Set,qe=new MutationObserver(e=>{e.forEach(({removedNodes:t,addedNodes:n,target:s})=>{t.forEach(r=>{r.nodeType===1&&z===r[T]&&"origtype"in r&&Be.delete(r)}),n.forEach(r=>{if(r.nodeType===1)if(z===r[T]){if("origtype"in r){if(r.origtype!==O)return}else if(r[p]("type")!==O)return;"origtype"in r||F.forEach(o=>{let a=r[V](o).bind(r),E=r[fe](o).bind(r);b(r,"orig"+o,{set(d){return E(d)},get(){return a()}})});let i=r[p](m+"src");Be.has(r)&&H("Inserted twice",r),r.parentNode?(Be.add(r),(i||"").match(/\/gtm.js\?/)||r[G]("async")?(ee.push(r),Le(i)):r[G]("defer")?(ye.push(r),Le(i)):(i&&!r[G]("nomodule")&&!we[i]&&(Ye(We(),"pre preload",Z.length),Pt(i,r[p](m+"type")=="module",r[G]("crossorigin")&&r[p]("crossorigin"),r[p]("integrity"))),Z.push(r))):(r[h](u,o=>o.target.parentNode[Q](o.target)),r[h](Ee,o=>o.target.parentNode[Q](o.target)),s[C](r))}else r[T]==="LINK"&&r[p]("as")==="script"&&(we[r[p]("href")]=!0)})})}),Tt={childList:!0,subtree:!0};qe.observe(c.documentElement,Tt);var It=HTMLElement[y].attachShadow;HTMLElement[y].attachShadow=function(e){let t=It.call(this,e);return e.mode==="open"&&qe.observe(t,Tt),t};var ut=W[ze](HTMLIFrameElement[y],"src");b(HTMLIFrameElement[y],"src",{get(){return this.dataset.fpoSrc?this.dataset.fpoSrc:ut.get.call(this)},set(e){delete this.dataset.fpoSrc,ut.set.call(this,e)}});w.on(k,()=>{(!De||De===Re)&&(Document[y].createElement=wt,qe.disconnect()),dispatchEvent(new CustomEvent(ge)),dispatchEvent(new CustomEvent(k))});var ke=e=>{let t,n;!c.currentScript||!c.currentScript.parentNode?(t=c.body,n=t.lastChild):(n=c.currentScript,t=n.parentNode);try{let s=de("div");s.innerHTML=e,Array.from(s.childNodes).forEach(r=>{r.nodeName===z?t.insertBefore(Mt(r),n):t.insertBefore(r,n)})}catch(s){H(s)}},ft=e=>ke(e+`
+`);xe(c,{write:{get(){return ke},set(e){return ke=e}},writeln:{get(){return ft},set(e){return ft=e}}});var Et=(e,t,...n)=>{if(x+f==oe&&e===f&&!t.toString().match(/jQueryMock/)){w.on(k,l[h].bind(l,e,t,...n));return}if(x+u==oe&&e===u){w.on(k,l[h].bind(l,e,t,...n));return}if(t&&(e===u||e===f||e===S&&!se)){let s=e===f?ae+e:x+e;g[s]=g[s]||[],g[s].push(t),se&&ie([e]);return}return B(e,t,...n)},mt=(e,t,...n)=>{if(e===u){let s=e===f?ae+e:x+e;Ve(s,t)}return Dt(e,t,...n)};xe(l,{[h]:{get(){return Et},set(){return Et}},[pe]:{get(){return mt},set(){return mt}}});var Fe=e=>{let t;return{get(){return t},set(n){return t&&Ve(e,n),g[e]=g[e]||[],g[e].push(n),t=n}}};B(je,e=>{let{target:t,event:n}=e.detail,s=t===l?c.body:t,r=s[p](m+"on"+n.type);s[j](m+"on"+n.type);try{let i=new Function("event",r);t===l?l[h](u,i.bind(t,n)):i.call(t,n)}catch(i){console.err(i)}});{let e=Fe(x+u);b(l,"onload",e),le(f,()=>{b(c.body,"onload",e)})}b(c,"onreadystatechange",Fe(ae+_));b(l,"onmessage",Fe(x+S));(()=>{let e=l.innerHeight,t=l.innerWidth,n=r=>{let o={"4g":1250,"3g":2500,"2g":2500}[(navigator.connection||{}).effectiveType]||0,a=r.getBoundingClientRect(),E={top:-1*e-o,left:-1*t-o,bottom:e+o,right:t+o};return!(a.left>=E.right||a.right<=E.left||a.top>=E.bottom||a.bottom<=E.top)},s=(r=!0)=>{let i=1,o=-1,a={},E=()=>{o++,--i||l[ce](w.emit.bind(w,Te),_wpmeteor.rdelay)};Array.from(c.getElementsByTagName("*")).forEach(d=>{let D,Y,$;if(d[T]==="IMG"){let L=d.currentSrc||d.src;L&&!a[L]&&!L.match(/^data:/i)&&((d.loading||"").toLowerCase()!=="lazy"||n(d))&&(D=L)}else if(d[T]===z)Le(d[p](m+"src"));else if(d[T]==="LINK"&&d[p]("as")==="script"&&["pre"+u,"modulepre"+u].indexOf(d[p]("rel"))>=0)we[d[p]("href")]=!0;else if((Y=l.getComputedStyle(d))&&($=(Y.backgroundImage||"").match(/^url\s*\((.*?)\)/i))&&($||[]).length){let L=$[0].slice(4,-1).replace(/"/g,"");!a[L]&&!L.match(/^data:/i)&&(D=L)}if(D){a[D]=!0;let L=new Image;r&&(i++,L[h](u,E),L[h](Ee,E)),L.src=D}}),c.fonts.ready.then(()=>{E()})};_wpmeteor.rdelay===0?le(f,s):B(u,s)})();})();
+//1.0.34
+
+</script><script  type="javascript/blocked" data-wpmeteor-type="application/javascript" >var mkdCoreAjaxUrl = "https://www.cabinetaci.com/wp-admin/admin-ajax.php"</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v24.1 (Yoast SEO v24.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>La liberté d&#039;aller et venir : cabinet d&#039;avocats droit pénal</title>
+	<meta name="description" content="La liberté d&#039;aller et venir : est une composante de la liberté individuelle. Elle est inhérente à la personne humaine : se mouvoir, stationner, séjourner..." />
+	<link rel="canonical" href="https://www.cabinetaci.com/la-liberte-daller-et-venir/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="La liberté d&#039;aller et venir" />
+	<meta property="og:description" content="La liberté d&#039;aller et venir : est une composante de la liberté individuelle. Elle est inhérente à la personne humaine : se mouvoir, stationner, séjourner..." />
+	<meta property="og:url" content="https://www.cabinetaci.com/la-liberte-daller-et-venir/" />
+	<meta property="og:site_name" content="Cabinet ACI" />
+	<meta property="article:publisher" content="https://www.facebook.com/CabinetAciPenal" />
+	<meta property="article:author" content="cabinetaci@outlook.com" />
+	<meta property="article:published_time" content="2015-06-23T09:22:45+00:00" />
+	<meta property="article:modified_time" content="2024-05-14T09:05:11+00:00" />
+	<meta name="author" content="Maître" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@https://twitter.com/cabinetaci" />
+	<meta name="twitter:site" content="@CabinetAci" />
+	<meta name="twitter:label1" content="Écrit par" />
+	<meta name="twitter:data1" content="Maître" />
+	<meta name="twitter:label2" content="Durée de lecture estimée" />
+	<meta name="twitter:data2" content="40 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#article","isPartOf":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/"},"author":{"name":"Maître","@id":"https://www.cabinetaci.com/#/schema/person/bdd32e70d2ece5f484a5c10c0b133129"},"headline":"La liberté d&rsquo;aller et venir","datePublished":"2015-06-23T09:22:45+00:00","dateModified":"2024-05-14T09:05:11+00:00","mainEntityOfPage":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/"},"wordCount":8370,"publisher":{"@id":"https://www.cabinetaci.com/#organization"},"articleSection":["Droit pénal"],"inLanguage":"fr-FR"},{"@type":"WebPage","@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/","url":"https://www.cabinetaci.com/la-liberte-daller-et-venir/","name":"La liberté d'aller et venir : cabinet d'avocats droit pénal","isPartOf":{"@id":"https://www.cabinetaci.com/#website"},"datePublished":"2015-06-23T09:22:45+00:00","dateModified":"2024-05-14T09:05:11+00:00","description":"La liberté d'aller et venir : est une composante de la liberté individuelle. Elle est inhérente à la personne humaine : se mouvoir, stationner, séjourner...","breadcrumb":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https://www.cabinetaci.com/la-liberte-daller-et-venir/"]}]},{"@type":"BreadcrumbList","@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.cabinetaci.com/"},{"@type":"ListItem","position":2,"name":"La liberté d&rsquo;aller et venir"}]},{"@type":"WebSite","@id":"https://www.cabinetaci.com/#website","url":"https://www.cabinetaci.com/","name":"Cabinet ACI","description":"Spécialistes en droit pénal","publisher":{"@id":"https://www.cabinetaci.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.cabinetaci.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"},{"@type":["Organization","Place"],"@id":"https://www.cabinetaci.com/#organization","name":"Cabinet ACI - Spécialiste en droit pénal","url":"https://www.cabinetaci.com/","logo":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#local-main-organization-logo"},"image":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#local-main-organization-logo"},"sameAs":["https://www.facebook.com/CabinetAciPenal","https://x.com/CabinetAci","https://www.linkedin.com/in/cabinet-aci-81a008115/"],"address":{"@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#local-main-place-address"},"telephone":[],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"00:00","closes":"00:00"}]},{"@type":"Person","@id":"https://www.cabinetaci.com/#/schema/person/bdd32e70d2ece5f484a5c10c0b133129","name":"Maître","image":{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://www.cabinetaci.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/8eb42904bb4394ea16e2f0face98da56?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/8eb42904bb4394ea16e2f0face98da56?s=96&d=mm&r=g","caption":"Maître"},"description":"Maître Aci avocat spécialiste en droit pénal à 75003 Paris Cabinet d'avocats disposant d'un Site de droit pénal conséquent : https://www.cabinetaci Etudes : diplôme d'étude supérieur de droit, diplôme de sciences po et licencier en sociologie","sameAs":["https://www.cabinetaci.com","cabinetaci@outlook.com","https://www.linkedin.com/in/cabinet-aci-81a008115/","https://x.com/https://twitter.com/cabinetaci"],"url":"https://www.cabinetaci.com/author/contactcabinetaci-com/"},{"@type":"PostalAddress","@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#local-main-place-address","streetAddress":"55 rue de Turbigo","addressLocality":"Paris","postalCode":"75003","addressCountry":"FR"},{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://www.cabinetaci.com/la-liberte-daller-et-venir/#local-main-organization-logo","url":"https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/logo-cabinet-aci.png?fit=200%2C50&ssl=1","contentUrl":"https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/logo-cabinet-aci.png?fit=200%2C50&ssl=1","width":200,"height":50,"caption":"Cabinet ACI - Spécialiste en droit pénal"}]}</script>
+	<meta name="geo.placename" content="Paris" />
+	<meta name="geo.region" content="France" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Cabinet ACI &raquo; Flux" href="https://www.cabinetaci.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cabinet ACI &raquo; Flux des commentaires" href="https://www.cabinetaci.com/comments/feed/" />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpo_min-header-0-css' href='https://www.cabinetaci.com/wp-content/cache/wpo-minify/1735039189/assets/wpo-minify-header-00542c8b.min.css' type='text/css' media='all' />
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="jetpack_related-posts-js-extra">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js" id="jetpack_related-posts-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js" defer async id="revmin-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" ></script><link rel="https://api.w.org/" href="https://www.cabinetaci.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.cabinetaci.com/wp-json/wp/v2/posts/6076" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cabinetaci.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<link rel='shortlink' href='https://www.cabinetaci.com/?p=6076' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.cabinetaci.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cabinetaci.com%2Fla-liberte-daller-et-venir%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.cabinetaci.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cabinetaci.com%2Fla-liberte-daller-et-venir%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["droit-penal"],"pagePostAuthor":"Maître"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KGN8GZ2');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.6.16 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/favicone.png?fit=32%2C19&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/favicone.png?fit=75%2C45&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/favicone.png?fit=75%2C45&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/05/favicone.png?fit=75%2C45&#038;ssl=1" />
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.mkd-dark-logo, .mkd-light-logo {
+	display: none !important;
+}		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body data-rsssl=1 class="post-template-default single single-post postid-6076 single-format-standard mkd-core-1.5.2 libero child-child-ver-1.0.1 libero-ver-2.4.1  mkd-grid-1300 mkd-blog-installed mkd-header-standard mkd-sticky-header-on-scroll-up mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-menu-item-first-level-bg-color mkd-dropdown-default mkd-search-covers-header wpb-js-composer js-comp-ver-8.0.1 vc_responsive">
+
+<div class="mkd-wrapper">
+    <div class="mkd-wrapper-inner">
+        
+<header class="mkd-page-header">
+    <div class="mkd-logo-area" >
+                <div class="mkd-grid">
+                <div class="mkd-vertical-align-containers mkd-25-75">
+            <div class="mkd-position-left">
+                <div class="mkd-position-left-inner">
+                    
+<div class="mkd-logo-wrapper">
+    <a href="https://www.cabinetaci.com/" style="height: 33px;">
+        <img class="mkd-normal-logo" src="https://www.cabinetaci.com/wp-content/uploads/2019/06/logo-cabinet-aci-1.png" alt="logo"/>
+        <img class="mkd-dark-logo" src="https://www.cabinetaci.com/wp-content/uploads/2019/06/logo-cabinet-aci-1.png" alt="logo sombre"/>        <img class="mkd-light-logo" src="https://www.cabinetaci.com/wp-content/uploads/2019/06/logo-cabinet-aci-1.png" alt="logo léger"/>    </a>
+</div>
+
+                </div>
+            </div>
+
+            <div class="mkd-position-right">
+                <div class="mkd-position-right-inner">
+                                            <div id="text-10" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget"><div class="mkd-icon-list-item">
+	<div class="mkd-icon-list-icon-holder">
+        <div class="mkd-icon-list-icon-holder-inner clearfix" data-icon-size=25>
+			<i class="mkd-icon-simple-line-icon icon-clock " style="color:#c18f59;font-size:25px" ></i>		</div>
+	</div>
+	<p class="mkd-icon-list-text" style="color:#ffffff;font-size:27px" data-title-size=27> 9:30 - 19:30</p>
+</div><div class="vc_empty_space"   style="height: 2px"><span class="vc_empty_space_inner"></span></div><p style="text-align:left; font-size:13px;"><span style="color:#fff">Nos heures d'ouverture Lun.- Ven.</span></p></div>
+		</div><div id="text-11" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget">
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 15px;margin-right: 15px"></span></div>
+		</div><div id="text-12" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget"><a href="tel:0142715105"  id="phonetopmenu"><div class="mkd-icon-list-item">
+	<div class="mkd-icon-list-icon-holder">
+        <div class="mkd-icon-list-icon-holder-inner clearfix" data-icon-size=25>
+			<i class="mkd-icon-simple-line-icon icon-earphones-alt " style="color:#c18f59;font-size:25px" ></i>		</div>
+	</div>
+	<p class="mkd-icon-list-text" style="color:#ffffff;font-size:27px" data-title-size=27> 
+01 42 71 51 05</p>
+</div></a><div class="vc_empty_space"   style="height: 2px"><span class="vc_empty_space_inner"></span></div><p style="text-align:center; font-size:13px;"><span style="color:#fff; text-align:center">Nos avocats à votre écoute  </span></p></div>
+		</div><div id="text-13" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget">
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 15px;margin-right: 4px"></span></div>
+		</div><div id="text-14" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget"><div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://web.facebook.com/CabinetAciPenal" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_facebook mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff">Facebook</p>
+        </div>
+    </div>
+</div>
+</div>
+		</div><div id="text-15" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget">
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 4px;margin-right: 13px"></span></div>
+		</div><div id="text-16" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget"><div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://twitter.com/cabinetaci" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_twitter mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff">Twitter</p>
+        </div>
+    </div>
+</div>
+</div>
+		</div><div id="text-17" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget">
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 13px;margin-right: 0px"></span></div>
+		</div><div id="text-27" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget"><div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://www.linkedin.com/in/cabinet-aci-81a008115/" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_linkedin mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff"> Linkedin</p>
+        </div>
+    </div>
+</div>
+</div>
+		</div><div id="text-26" class="widget widget_text mkd-right-from-logo-widget">			<div class="textwidget">
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 13px;margin-right: 0px"></span>
+</div>
+		</div>
+        <a 			data-icon-close-same-position="yes"                        class="mkd-search-opener" href="javascript:void(0)">
+            <span class="mkd-search-opener-holder">
+	            <i class="mkd-icon-ion-icon ion-ios-search " ></i>	            	        </span>
+        </a>
+		                                        </div>
+            </div>
+        </div>
+                </div>
+            </div>
+    <div class="mkd-menu-area" >
+                <div class="mkd-grid">
+                <form action="https://www.cabinetaci.com/" class="mkd-search-cover" method="get">
+		<div class="mkd-container">
+		<div class="mkd-container-inner clearfix">
+						<div class="mkd-form-holder-outer" role="search">
+				<div class="mkd-form-holder">
+					<div class="mkd-form-holder-inner">
+						<input type="text" placeholder="Recherche" name="s" class="mkd-search-field" autocomplete="off" />
+						<a class="mkd-search-submit" href="javascript:void(0)">
+							<span class="arrow_carrot-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+					</div>
+	</div>
+		<div class="mkd-search-close">
+		<a href="#">
+			<i class="mkd-icon-ion-icon ion-close " ></i>		</a>
+	</div>
+</form>        <div class="mkd-vertical-align-containers">
+            <div class="mkd-position-left">
+                <div class="mkd-position-left-inner">
+                    
+<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
+    <ul id="menu-cabinetaci-top-menu" class="clearfix"><li id="nav-menu-item-26670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  narrow"><a href="https://www.cabinetaci.com/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Accueil</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+<li id="nav-menu-item-26666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a title="Présentation du cabinet ACI" href="" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">LE CABINET</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a>
+<div class="second"><div class="inner"><ul >
+	<li id="nav-menu-item-26748" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/avocat-paris-penaliste/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Présentation</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+	<li id="nav-menu-item-32046" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/cabinet-aci/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Compétences du Cabinet ACI</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+	<li id="nav-menu-item-26747" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/honoraires-du-cabinet-aci/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Honoraires</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-26669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Blog</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a>
+<div class="second"><div class="inner"><ul >
+	<li id="nav-menu-item-32045" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/actualites-juridiques/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Actualités juridiques</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-38622" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.cabinetaci.com/contact" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Contact</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></nav>
+
+                </div>
+            </div>
+            <div class="mkd-position-right">
+                <div class="mkd-position-right-inner">
+                                            <div id="text-20" class="widget widget_text mkd-right-from-main-menu-widget">			<div class="textwidget"><a href="https://www.cabinetaci.com/contact" target="_self" style="font-weight: 900" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon"  >
+    <span class="mkd-btn-text"  >Prendre rendez-vous </span><span class="mkd-btn-icon-holder">
+            <span aria-hidden="true" class="mkd-icon-font-elegant arrow_carrot-right mkd-btn-icon-elem" ></span>            <span aria-hidden="true" class="mkd-icon-font-elegant arrow_carrot-right mkd-btn-icon-elem" ></span>        </span>
+    </a>
+</div>
+		</div>                                    </div>
+            </div>
+        </div>
+                </div>
+            </div>
+
+
+    
+<div class="mkd-sticky-header">
+        <div class="mkd-sticky-holder" >
+            <div class="mkd-grid">
+                        <div class=" mkd-vertical-align-containers">
+                <div class="mkd-position-left">
+                    <div class="mkd-position-left-inner">
+                        
+<div class="mkd-logo-wrapper">
+    <a href="https://www.cabinetaci.com/" style="height: 25px;">
+        <img src="https://www.cabinetaci.com/wp-content/uploads/2019/05/favicone-2.png" alt="logo"/>
+    </a>
+</div>
+
+                        
+<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
+    <ul id="menu-cabinetaci-top-menu-1" class="clearfix"><li id="sticky-nav-menu-item-26670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  narrow"><a href="https://www.cabinetaci.com/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Accueil</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+<li id="sticky-nav-menu-item-26666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a title="Présentation du cabinet ACI" href="" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">LE CABINET</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a>
+<div class="second"><div class="inner"><ul >
+	<li id="sticky-nav-menu-item-26748" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/avocat-paris-penaliste/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Présentation</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+	<li id="sticky-nav-menu-item-32046" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/cabinet-aci/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Compétences du Cabinet ACI</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+	<li id="sticky-nav-menu-item-26747" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/honoraires-du-cabinet-aci/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Honoraires</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-26669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Blog</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a>
+<div class="second"><div class="inner"><ul >
+	<li id="sticky-nav-menu-item-32045" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/actualites-juridiques/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Actualités juridiques</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-38622" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.cabinetaci.com/contact" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Contact</span></span><span class="plus"></span></span><span class="bottom-border"><span class="bottom-border-inner"></span></span></a></li>
+</ul></nav>
+
+                    </div>
+                </div>
+                <div class="mkd-position-right">
+                    <div class="mkd-position-right-inner">
+                                                    <div id="text-21" class="widget widget_text mkd-sticky-right">			<div class="textwidget"><a href="https://www.cabinetaci.com/contact" target="_self" style="font-weight: 900" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon"  >
+    <span class="mkd-btn-text"  >Prendre rendez-vous</span><span class="mkd-btn-icon-holder">
+            <span aria-hidden="true" class="mkd-icon-font-elegant arrow_carrot-right mkd-btn-icon-elem" ></span>            <span aria-hidden="true" class="mkd-icon-font-elegant arrow_carrot-right mkd-btn-icon-elem" ></span>        </span>
+    </a>
+</div>
+		</div>                                            </div>
+                </div>
+            </div>
+                    </div>
+            </div>
+</div>
+
+</header>
+
+
+<header class="mkd-mobile-header">
+    <div class="mkd-mobile-header-inner">
+                <div class="mkd-mobile-header-holder">
+            <div class="mkd-vertical-align-containers">
+                <div class="mkd-position-left">
+                    <div class="mkd-position-left-inner">
+                                                
+<div class="mkd-mobile-logo-wrapper">
+    <a href="https://www.cabinetaci.com/" style="height: 33px">
+        <img src="https://www.cabinetaci.com/wp-content/uploads/2019/06/logo-cabinet-aci.png" alt="logo mobile"/>
+    </a>
+</div>
+
+                                            </div>
+                </div>
+
+                <div class="mkd-position-right">
+                    <div class="mkd-position-right-inner">
+                                                                            <div class="mkd-mobile-menu-opener">
+                                <a href="javascript:void(0)">
+                                <span class="mkd-mobile-opener-icon-holder">
+                                    <span class="mkd-lines-holder">
+                                        <span class="mkd-lines-holder-inner">
+                                            <span class="mkd-lines line-1"></span>
+                                            <span class="mkd-lines line-2"></span>
+                                            <span class="mkd-lines line-3"></span>
+                                            <span class="mkd-lines line-4"></span>
+                                            <span class="mkd-lines line-5"></span>
+                                        </span>
+                                    </span>
+                                </span>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+            </div> <!-- close .mkd-vertical-align-containers -->
+        </div>
+        <nav class="mkd-mobile-nav">
+    <div class="mkd-grid">
+        <ul id="menu-cabinetaci-top-menu-2" class=""><li id="mobile-menu-item-26670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home "><a href="https://www.cabinetaci.com/" class=""><span>Accueil</span></a></li>
+<li id="mobile-menu-item-26666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a title="Présentation du cabinet ACI" href="" class=""><span>LE CABINET</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-26748" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/avocat-paris-penaliste/" class=""><span>Présentation</span></a></li>
+	<li id="mobile-menu-item-32046" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/cabinet-aci/" class=""><span>Compétences du Cabinet ACI</span></a></li>
+	<li id="mobile-menu-item-26747" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.cabinetaci.com/honoraires-du-cabinet-aci/" class=""><span>Honoraires</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-26669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Blog</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-32045" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.cabinetaci.com/category/actualites-juridiques/" class=""><span>Actualités juridiques</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-38622" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.cabinetaci.com/contact" class=""><span>Contact</span></a></li>
+</ul>    </div>
+</nav>
+    </div>
+</header> <!-- close .mkd-mobile-header -->
+
+
+
+                    <a id='mkd-back-to-top'  href='#'>
+                <span class="mkd-icon-stack">
+                     <span aria-hidden="true" class="mkd-icon-font-elegant arrow_carrot-up " ></span>                </span>
+            </a>
+        
+        <div class="mkd-content" >
+            <div class="mkd-content-inner">
+    <div class="mkd-title mkd-breadcrumb-type mkd-content-left-alignment mkd-animation-no" style="height: 100px; background-color: #d6d6d6; background-repeat: no-repeat" data-height="100" >
+        <div class="mkd-title-image"></div>
+        <div class="mkd-title-holder" style="height:100px;">
+            <div class="mkd-container clearfix">
+                <div class="mkd-container-inner">
+                    <div class="mkd-title-subtitle-holder" style="">
+                        <div class="mkd-title-subtitle-holder-inner">
+                                                                                <div class="mkd-breadcrumbs-holder"> <div class="mkd-breadcrumbs"><div class="mkd-breadcrumbs-inner"><a href="https://www.cabinetaci.com/">Cabinet ACI</a><span class="mkd-delimiter">&nbsp;&gt;&nbsp;</span><a href="https://www.cabinetaci.com/category/domaines-de-competence/">Domaines de compétence</a> <span class="mkd-delimiter">&nbsp;&gt;&nbsp;</span><a href="https://www.cabinetaci.com/category/domaines-de-competence/droit-penal/">Droit pénal</a> <span class="mkd-delimiter">&nbsp;&gt;&nbsp;</span><span class="mkd-current">La liberté d&rsquo;aller et venir</span></div></div></div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="mkd-container">
+				<div class="mkd-container-inner">
+				<div class="mkd-blog-holder mkd-blog-single">
+		<article id="post-6076" class="post-6076 post type-post status-publish format-standard hentry category-droit-penal">
+	<div class="mkd-post-content">
+		<div class="mkd-post-info-column">
+			<div class="mkd-post-info-column-inner">
+				
+<div class="mkd-post-info-date">
+	
+		<span class="mkd-post-info-date-day">23</span>
+		<span class="mkd-post-info-date-month">juin</span>
+
+		</div><div class="mkd-post-info-comments-holder">
+	<a class="mkd-post-info-comments" href="https://www.cabinetaci.com/la-liberte-daller-et-venir/#respond" target="_self">
+		<span class="mkd-post-info-comments-no">0</span>
+		<span class="mkd-post-info-comments-text">commentaires</span>
+	</a>
+</div><div class ="mkd-blog-share">
+	<div class="mkd-social-share-holder mkd-dropdown">
+	<a href="javascript:void(0)" target="_self" class="mkd-social-share-dropdown-opener">
+		<i class="icon-share social_share"></i>
+		<span class="mkd-social-share-title">Share</span>
+	</a>
+	<div class="mkd-social-share-dropdown">
+		<ul>
+			<li class="mkd-facebook-share" >
+	<a class="mkd-share-link" href="#" onclick="window.open('https://m.facebook.com/sharer.php?u=https%3A%2F%2Fwww.cabinetaci.com%2Fla-liberte-daller-et-venir%2F');">
+					<span class="mkd-social-network-icon social_facebook" ></span>
+			<span class="mkd-social-network-text" >Facebook</span>
+			</a>
+</li><li class="mkd-twitter-share" >
+	<a class="mkd-share-link" href="#" onclick="window.open('https://twitter.com/intent/tweet?text=La+libert%C3%A9+d%26rsquo%3Baller+et+venir+%3A+La+libert%C3%A9+d%E2%80%99aller+et+venir+est+une+composante+de+la+libert%C3%A9++via+%40CabinetAci+ https://www.cabinetaci.com/la-liberte-daller-et-venir/', 'popupwindow', 'scrollbars=yes,width=800,height=400');">
+					<span class="mkd-social-network-icon social_twitter" ></span>
+			<span class="mkd-social-network-text" >Twitter</span>
+			</a>
+</li><li class="mkd-linkedin-share" >
+	<a class="mkd-share-link" href="#" onclick="popUp=window.open('https://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.cabinetaci.com%2Fla-liberte-daller-et-venir%2F&amp;title=La+libert%C3%A9+d%26rsquo%3Baller+et+venir', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+					<span class="mkd-social-network-icon social_linkedin" ></span>
+			<span class="mkd-social-network-text" >LinkedIn</span>
+			</a>
+</li>		</ul>
+	</div>
+</div></div>
+			</div>
+		</div>
+		<div class="mkd-post-content-column">
+			<div class="mkd-post-text">
+				<div class="mkd-post-text-inner">
+					<h1 class="mkd-post-title">
+	La liberté d&rsquo;aller et venir</h1>					<div class="mkd-post-info">
+						<div class="mkd-post-info-author">
+	<span class="mkd-post-info-icon icon-user"></span>
+	posté par	<a class="mkd-post-info-author-link" href="https://www.cabinetaci.com/author/contactcabinetaci-com/">
+		Maître	</a>
+</div>
+<div class="mkd-post-info-category">
+	<span class="mkd-post-info-icon icon-clock"></span>
+	dans <a href="https://www.cabinetaci.com/category/domaines-de-competence/droit-penal/" rel="category tag">Droit pénal</a></div>
+					</div>
+					<p>La liberté d&rsquo;aller et venir :</p>
+<p>La liberté d’aller et venir est une composante de la liberté individuelle.</p>
+<p>Elle est inhérente à la personne humaine :</p>
+<p>se mouvoir, stationner, séjourner fait partie de ses fonctions vitales.</p>
+<p>Pouvoir se déplacer librement sans contraintes et sans autorisation de la puissance étatique est un privilège</p>
+<p>des sociétés démocratiques.</p>
+<p>La libre circulation des personnes est aujourd’hui l’un des piliers de la construction européenne.</p>
+<p>Son exercice doit se concilier avec la nécessité de préserver l’ordre public.</p>
+<h2>I).  &#8212;  Les sources de la liberté d’aller et venir</h2>
+<h2>(La liberté d&rsquo;aller et venir)</h2>
+<p>Aux sources de droit interne se sont ajouté des traités internationaux et le droit communautaire.</p>
+<h3>     A).  &#8212;  Les sources internes :</h3>
+<h3>(La liberté d&rsquo;aller et venir)</h3>
+<h4>          a).  &#8212;  En premier lieu, les sources de droit interne sont tout d’abord d’ordre constitutionnel,</h4>
+<h4>par sa <a href="http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/les-decisions/acces-par-date/decisions-depuis-1959/1979/79-107-dc/decision-n-79-107-dc-du-12-juillet-1979.7726.html">décision du 12 juillet 1979</a> le conseil constitutionnel</h4>
+<p>a reconnu à la liberté d’aller et venir une valeur constitutionnelle.</p>
+<p>La liberté d’aller et venir à une valeur constitutionnelle, cela signifie que ce principe fait partie intégrante</p>
+<p>des droits fondamentaux protégés par le bloc de constitutionnalité.</p>
+<p>Cette liberté se rattache à l’<a href="http://journals.openedition.org/linx/225">article 4</a> de la Déclaration des droits de l’homme et du citoyen de 1789 qui</p>
+<p>consacre le principe de liberté.</p>
+<p>La liberté d’aller et venir est garantie par l’article 66 de la constitution du 4 octobre 1958 qui reconnaît</p>
+<p>la compétence exclusive de l’autorité judiciaire.</p>
+<h4>          b).  &#8212;  En second lieu, les sources législatives    (La liberté d&rsquo;aller et venir)</h4>
+<p>permettent la concrétisation de ce principe, il incombe au législateur de préciser la mise en œuvre</p>
+<p>de la liberté d’aller et venir et d’assurer la conciliation entre l’exercice de cette liberté constitutionnellement garantie</p>
+<p>et la sauvegarde d’autres droits et principes à valeur constitutionnelle comme la prévention de l’ordre public</p>
+<p>et la recherche des auteurs d’<a href="https://www.cabinetaci.com/la-liste-de-certaines-infractions-du-site/">infractions</a>. Les lois qui interviennent pour organiser la liberté d’aller et venir</p>
+<p>doivent respecter cet impératif d’ordre constitutionnel.</p>
+<p>La tâche du législateur consiste à n’intervenir que lorsque cette liberté entre en conflit avec un autre droit,</p>
+<p>une autre liberté.</p>
+<p>L’intervention du législateur peut notamment aider à favoriser l’exercice de cette liberté en prescrivant certains</p>
+<p>comportements, par exemple, l’obligation pour les lieux ouverts au public de prévoir des installations</p>
+<p>spécifiques d’accès pour les personnes handicapées.</p>
+<h4>          c).  &#8212;  En troisième lieu, les sources réglementaires           (La liberté d&rsquo;aller et venir)</h4>
+<p>sont constituées des textes normatifs émanant du pouvoir exécutif, elles ont été fréquentes</p>
+<p>dans le passé à cause de l’absence de contrôle de constitutionnalité et de conventionnalité des lois. Jusqu’en 1958,</p>
+<p>le contrôle de constitutionnalité des lois n’existait pas en France.</p>
+<p>En conséquence, une loi qui portait atteinte au principe de liberté d’aller et venir ne pouvait pas être remise en cause.</p>
+<p>Aujourd’hui, elles sont moins importantes dans la mesure où elles ne peuvent que préciser les actes législatifs</p>
+<p>qui entourent cette liberté.</p>
+<p>Les actes réglementaires constituent le prolongement des prescriptions législatives organisant la liberté d’aller et venir.</p>
+<h3>     B).  &#8212;  Les sources internationales : (La liberté d&rsquo;aller et venir)</h3>
+<p>La liberté d’aller et venir est consacrée par plusieurs instruments internationaux régulièrement ratifiés par la France.</p>
+<h5>La première source concerne les accords internationaux         (La liberté d&rsquo;aller et venir)</h5>
+<p>par lesquels les États s’engagent à respecter à travers leur réglementation la liberté d’aller et venir.</p>
+<h5>La deuxième catégorie de sources internationales concerne les textes internationaux</h5>
+<p>à caractère <em>régional</em> et plus particulièrement les textes <em>européens</em>.</p>
+<p>Leur particularité tient à leur effet direct :</p>
+<p>l’individu peut les invoquer directement devant le juge national comme il ferait pour une norme de droit interne.</p>
+<p>Plusieurs textes peuvent être cités comme l’<a href="https://www.coe.int/en/web/conventions/full-list/-/conventions/rms/0900001680063776">article 5</a> de la Convention de sauvegarde des droits de l’homme</p>
+<p>et des libertés fondamentales ou encore l’<a href="http://www.echr.coe.int/Documents/Library_Collection_P4postP11_STE046F_FRA.pdf">article 2 </a>du Protocole additionnel</p>
+<p>du 16 septembre 1963 qui reconnaît la liberté de circulation et d’établissement.</p>
+<p>L’union européenne a été également présente dans la consécration de la liberté d’aller et venir. Le principe de la liberté</p>
+<p>de circulation est à la base de la construction du Marché commun puisqu’il a été posé dès le <a href="https://www.touteleurope.eu/actualite/les-traites-de-rome-1957.html">Traité de Rome</a>.</p>
+<p>Le traité de Rome du 25 mars 1957 instituant la communauté européenne a reconnu parmi les grandes libertés,</p>
+<p>la libre circulation des personnes et la liberté d’établissement qui représente le noyau dur de la liberté d’aller et venir.</p>
+<p>Ce même traité a reconnu le droit pour tout citoyen de l’Union de circuler et de séjourner librement dans les États membres.</p>
+<p>Ces différentes dispositions constituent un cadre à la protection de la liberté d’aller et venir. Les Accords Schengen</p>
+<p>suppriment les contrôles aux frontières à l’intérieur de la communauté.</p>
+<h2>II).  &#8212;  Les manifestations de la liberté d’aller et venir</h2>
+<h2>(La liberté d&rsquo;aller et venir)</h2>
+<h3>     A).  &#8212;  La restriction à la liberté d’aller et venir</h3>
+<h3>(La liberté d&rsquo;aller et venir)</h3>
+<h4>          a).  &#8212;  Tout d&rsquo;abord, la liberté comprend un certain nombre de restrictions</h4>
+<p>dont les justifications sont parfois légitimes et d’autres parfois sont plus contestables.</p>
+<p>Ainsi, pour les citoyens français, la liberté d’aller et venir sur le territoire national ne peut faire l’objet</p>
+<p>de restrictions non strictement justifiées par les exigences du maintien de l’ordre public.</p>
+<p>Aussi, toute mesure de police générale et absolue est considérée comme illégale.</p>
+<p>Répond, par exemple, à ces critères une mesure, adoptée au nom de la protection de l’enfance, se bornant à fixer</p>
+<p>des couvre-feu en interdisant dans certains quartiers et à certaines heures dans la nuit la circulation des mineurs</p>
+<p>(Conseil d’État, Ordonnance de <a href="http://www.conseil-etat.fr/Decisions-Avis-Publications/Decisions/Selection-des-decisions-faisant-l-objet-d-une-communication-particuliere/Ordonnance-du-juge-des-referes-du-27-juillet-2001">référé, 27 juillet 2001</a>).</p>
+<h4>          b).  &#8212;  Ensuite, les recherches judiciaires ou la prévention de l’ordre public   (La liberté d&rsquo;aller et venir)</h4>
+<p>justifient notamment les restrictions apportées à la liberté d’aller et venir par les opérations de vérification d’identité.</p>
+<p>Il s’agit, par exemple, des restrictions imposées à la liberté d’aller et venir en cas de détention régulière</p>
+<p>(emprisonnement ; mesure d’<a href="https://www.cabinetaci.com/linterdiction-de-sejour/">interdiction de </a><a href="https://www.cabinetaci.com/linterdiction-de-sejour/">séjour</a> ; <a href="https://www.cabinetaci.com/les-obligations-du-controle-judiciaire/">contrôle judiciaire</a>).</p>
+<p>Constituent également une restriction à la liberté d’aller et venir, les mesures de police prises en vue de la prévention</p>
+<p>ou de la répression des troubles causés à l’ordre public. Ces mesures de police administrative ou de police judiciaire</p>
+<p>se caractérisent par des contrôles d’identité.</p>
+<p>Si de tels contrôles ont été admis par le juge constitutionnel, ils ont cependant été encadrés dans la mesure</p>
+<p>où la pratique des contrôles d’identité généralisés et discrétionnaires a été condamnée.</p>
+<p>Par exemple la loi sur l’installation des systèmes de vidéosurveillance sur la voie publique en est la confirmation.</p>
+<p>Bien que ce type de moyens soit autorisé par le législateur, leur installation ne doit pas être fondée sur une autorisation</p>
+<p>tacite de l’autorité administrative.</p>
+<h4>          c).  &#8212;  Dans le cadre européen, la suppression des contrôles douaniers n’empêche pas aux États membres</h4>
+<p>de demander à toute personne entrant sur le territoire de prouver son identité et sa nationalité sous peine</p>
+<p>de <a href="https://www.cabinetaci.com/les-causes-dextinction-de-la-sanction-penale/">sanction pénale</a>.</p>
+<p>L’octroi du passeport peut être rattaché à une forme de restriction de la liberté d’aller et venir. La mise en œuvre</p>
+<p>de la liberté d’aller et venir impose la délivrance d’un titre qui permet le déplacement en dehors du territoire.</p>
+<h3>     B).  &#8212;  Les restrictions à la liberté d’aller et venir des étrangers</h3>
+<h3>(La liberté d&rsquo;aller et venir)</h3>
+<h4>          a).  &#8212;  La situation des étrangers est beaucoup plus sévère que celle des nationaux.</h4>
+<p>Tous les États mettent en œuvre une politique d’immigration permettant le contrôle des entrées</p>
+<p>et des sorties des étrangers sur leur territoire national.</p>
+<p>Le pouvoir d’accorder ou de refuser un visa est une prérogative régalienne de l’État.</p>
+<p>L’étranger doit établir la <a href="https://www.cabinetaci.com/la-preuve-en-droit-penal/">preuve</a> qu’il dispose des moyens d’existence et d’hébergement et qu’il possède un titre</p>
+<p>de transport de retour. Le visa permet de séjourner sur le territoire national pour une durée de trois mois, au-delà</p>
+<p>il doit être titulaire d’une carte de séjour temporaire valable une année et renouvelable ou d’une carte de résident</p>
+<p>d’une durée de dix ans et renouvelable de plein droit.                                            (La liberté d&rsquo;aller et venir)</p>
+<p>Les conditions d’obtention de ces titres se sont durcies, la carte de résident est soumise à l’intégration républicaine</p>
+<p>de l’étranger appréciée au regard de la connaissance de la langue française et des principes qui régissent la république.</p>
+<h4>          b).  &#8212;  L’autorité administrative pourra refuser de lui accorder s’il présente une menace pour l’ordre public.</h4>
+<p>Le degré de protection des étrangers varie en fonction de leur situation sur le territoire français.     (La liberté d&rsquo;aller et venir)</p>
+<p>L’étranger en situation régulière, une fois acquitté des formalités essentielles relatives à l’entrée et au séjour sur le territoire,</p>
+<p>bénéficie des mêmes droits que le national de s’y mouvoir et d’y résider librement.</p>
+<p>Par contre l’étranger qui se trouve irrégulièrement en France ou s’il représente une menace particulière pour l’ordre public,</p>
+<p>sa liberté d’aller et venir est alors réduite au droit de quitter le territoire national. Dans cette situation, la sortie</p>
+<p>du territoire est une obligation pour l’étranger à défaut de régularisation et s’il ne fait pas partie des catégories protégées.</p>
+<p>La sortie du territoire national doit être libre, mais elle peut être forcée dans trois cas :     (La liberté d&rsquo;aller et venir)</p>
+<h5>      &#8212;  Premièrement, la <strong><em>reconduite à la frontière  </em></strong>(La liberté d&rsquo;aller et venir)</h5>
+<p>instituée par<a href="https://www.gisti.org/doc/plein-droit/53-54/etapes.html"> la loi du 10 juillet 1990</a> qui autorise le préfet a retirer les conséquences de l’absence de régularisation</p>
+<p>du séjour de l’étranger.</p>
+<h5>       &#8212;  Deuxièmement, l’<strong><em>expulsion<br />
+</em></strong></h5>
+<p>qui doit être distinguée de la reconduite à la frontière et qui est une mesure prise par le ministre de l’Intérieur</p>
+<p>quand la présence sur le territoire menace gravement l’ordre public. Le législateur a prévu des cas où l’expulsion</p>
+<p>est interdite, il en va ainsi des mineurs de dix-huit ans.</p>
+<p>L’expulsion comporte certaines limites et des garanties pour l’intéressé qui peuvent être supprimées en cas</p>
+<p>d’urgence et lorsqu’elle constitue une nécessité impérieuse pour la sûreté de l’État ou la sécurité publique.</p>
+<p>Les effets de l’arrêté d’expulsion ne s’épuisent pas avec le départ de l’étranger.</p>
+<p>Tant que l’arrêté n’a pas été abrogé, l’individu visé par la mesure ne peut accéder au territoire national.</p>
+<h5>       &#8212;  Troisièmement, l’<strong>extradition            </strong>(La liberté d&rsquo;aller et venir)</h5>
+<p>consiste à mettre à la disposition de la justice étrangère une personne poursuivie ou condamnée dans cet État.</p>
+<p>L’extradition est décidée par décret après avis conforme de la chambre de l’instruction. La mise en œuvre de</p>
+<p>la procédure d’extradition s&rsquo;avère soumise à un double contrôle.</p>
+<p>La cour de cassation peut être saisie pour examiner la régularité de l’avis rendu par la chambre de l’instruction</p>
+<p>et le Conseil d’État est compétent pour examiner la légalité du décret d’extradition.</p>
+<p>Il vérifie la conformité du décret avec les dispositions du droit interne et de la Convention européenne des</p>
+<p>droits de l’homme. Il avait annulé un décret d’extradition qui méconnaissait les droits fondamentaux comme</p>
+<p>le risque de se voir infliger la peine de mort.</p>
+<h2>III).  &#8212;  Le contrôle des atteintes à la liberté d’aller et venir</h2>
+<h2>(La liberté d&rsquo;aller et venir)</h2>
+<p>Il repose sur un partage de compétences entre le juge judiciaire et le juge administratif. Si le juge judiciaire</p>
+<p>s&rsquo;avère le gardien des libertés individuelles, le juge administratif se trouve également amené à se prononcer</p>
+<p>sur les mesures générales restreignant la liberté de circulation des individus.</p>
+<h3>     A).  &#8212;  La répartition des compétences entre le juge judiciaire et le juge administratif</h3>
+<h2>   (La liberté d&rsquo;aller et venir)</h2>
+<p>La compétence du juge judiciaire n’a cependant jamais été exclusive, différentes formes d’atteintes à la liberté</p>
+<p>d’aller et venir ont été portées devant le juge administratif.</p>
+<p>Ce dernier a depuis longtemps intégré le contrôle juridictionnel des atteintes à la liberté d’aller et venir dans le</p>
+<p>contrôle des mesures de police.</p>
+<p>Le juge judiciaire est naturellement saisi dans le cadre de la commission d’une<a href="https://www.cabinetaci.com/les-infractions-de-droit-penal/"> infraction</a> ou dans l’hypothèse</p>
+<p>d’une atteinte grave à la liberté d’aller et venir. Le juge administratif sera compétent pour statuer sur les</p>
+<p>réglementations de police qui s’avèrent contraires au principe de la liberté d’aller et venir, par exemple,</p>
+<p>les arrêtés municipaux.</p>
+<h3>     B).  &#8212;  L’appréciation de l’atteinte à la liberté d’aller et venir</h3>
+<h3>(La liberté d&rsquo;aller et venir)</h3>
+<p>Que la compétence soit dévolue au juge judiciaire ou administratif, ils doivent effectuer un contrôle de proportionnalité</p>
+<p>entre la nécessité de l’atteinte et la gravité du trouble à l’ordre public.</p>
+<p>Le contrôle de proportionnalité réside dans la conciliation entre les moyens employés, la mesure prise et la finalité poursuivie.</p>
+<p>L’appréciation de la licéité de l’atteinte à la liberté varie selon les circonstances de l’espèce.</p>
+<p>Par exemple, une même mesure générale et absolue pourra dans un cas se justifier et dans l’autre être illégale.</p>
+<p>Ce contrôle de proportionnalité n’est pas le seul fait des juges, mais a été renforcé par les textes conventionnels et législatifs.</p>
+<p>Les degrés du contrôle des atteintes à la liberté varient en fonction de plusieurs paramètres :</p>
+<p>le bénéficiaire de la liberté (national ou étranger), la nature de l’atteinte (totale ou partielle), le caractère préventif ou répressif</p>
+<p>de la mesure ayant donné lieu à la méconnaissance de la liberté.</p>
+<h5>Le contrôle exercé à l&rsquo;endroit des étrangers ne donne lieu qu’à un contrôle minimum du juge administratif.</h5>
+<p>Aussi, le principe de la vie privée et familiale est venu renforcer la liberté d’aller et venir à travers le droit de séjourner.</p>
+<p>Le juge vérifie que la mesure ne porte pas une atteinte disproportionnée aux droits garantis par la Convention et par répercussion</p>
+<p>à la liberté d’aller et venir.</p>
+<p>Cette liberté d’aller et venir ne bénéficie pas uniquement d’un contrôle approfondi, elle se trouve notamment protégée</p>
+<p>par un certain nombre de mesures procédurales qui permettent de rendre sa protection plus efficiente.</p>
+<p>Il faut mentionner, par exemple, le référé-liberté (<a href="https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006449327&amp;cidTexte=LEGITEXT000006070933">Article L 521-2 </a>du code de justice administrative) qui permet de saisir le juge</p>
+<p>administratif en urgence lorsque l’administration porte une atteinte grave à une liberté fondamentale.</p>
+<p>Le Conseil d’État a reconnu à la liberté d’aller et venir ce caractère dans une <a href="https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&amp;idTexte=CETATEXT000008036494&amp;fastReqId=731519558&amp;fastPos=1">décision du 9 janvier 2001 </a></p>
+<p>« la liberté d’aller et venir, laquelle comporte le droit de se déplacer hors du territoire français… constitue une liberté</p>
+<p>fondamentale au sens de l’<a href="https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006449327&amp;cidTexte=LEGITEXT000006070933">article L 521-2</a> précité ».</p>
+<h2><strong>IV).  &#8212;  Contacter un avocat</strong></h2>
+<h2>(La liberté d&rsquo;aller et venir)</h2>
+<h3><strong>Pour votre défense</strong></h3>
+<p>annexe au contrat de séjour liberté d’aller et venir*</p>
+<p>annexe contrat de séjour liberté d’aller et venir*</p>
+<p>délit d&rsquo;entrave sanction pénale</p>
+<p>déplacer librement sans contraintes</p>
+<p>annexe liberté d’aller et venir*</p>
+<p>annexe liberté d’aller et venir* ehpad</p>
+<p>article 4 de la déclaration des droits de l&rsquo;homme</p>
+<p>délit d&rsquo;entrave jurisprudence</p>
+<p>délit d&rsquo;entrave Légifrance</p>
+<p>article 4 de la déclaration des droits de l&rsquo;homme explication</p>
+<p>différence liberté de circulation et liberté d’aller et venir*</p>
+<p>article 4 de la déclaration universelle des droits de l&rsquo;homme</p>
+<p>délit d&rsquo;entrave droit pénal</p>
+<p>délit d&rsquo;entrave exemple</p>
+<p>article 4 déclaration des droits de l&rsquo;homme</p>
+<p>article 4 déclaration des droits de l&rsquo;homme et du citoyen</p>
+<p>délit d&rsquo;entrave def</p>
+<h5>délit d&rsquo;entrave définition</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>article 4 déclaration des droits de l&rsquo;homme explication</p>
+<p>article code du travail délit d&rsquo;entrave</p>
+<p>délit d&rsquo;entrave cse code du travail</p>
+<p>délit d&rsquo;entrave cse code pénal</p>
+<p>article code pénal atteinte à la vie privée</p>
+<p>article code pénal complicité</p>
+<p>délit d&rsquo;entrave code du travail Légifrance</p>
+<p>délit d&rsquo;entrave cse article code du travail</p>
+<p>article code pénal sur la complicité</p>
+<p>article du code pénal sur le vol</p>
+<p>délit d&rsquo;entrave code pénal</p>
+<p>délit d&rsquo;entrave code pénal Légifrance</p>
+<p>article liberté d’aller et venir*</p>
+<p>article liberté syndicale</p>
+<p>atteinte à la dignité code civil</p>
+<p>délit d&rsquo;entrave c&rsquo;est quoi</p>
+<p>délit d&rsquo;entrave code du travail</p>
+<p>atteinte à la liberté</p>
+<p>atteinte à la liberté article</p>
+<p>délit d&rsquo;entrave article code pénal</p>
+<p>délit d&rsquo;entrave au travail</p>
+<p>atteinte à la liberté contractuelle</p>
+<p>atteinte à la liberté covid</p>
+<p>délit d&rsquo;entrave à l&rsquo;ivg code pénal</p>
+<p>délit d&rsquo;entrave article code du travail</p>
+<p>atteinte à la liberté d&rsquo;accès ou à l&rsquo;égalité des candidats</p>
+<p>atteinte a la liberté d’aller et venir*</p>
+<p>délit d&rsquo;entrave à la liberté syndicale</p>
+<p>délit d&rsquo;entrave à l&rsquo;exercice de la justice</p>
+<p>atteinte à la liberté d’aller et venir* code pénal</p>
+<h5>atteinte à la liberté d&rsquo;association</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>délit d&rsquo;entrave à la liberté du travail</p>
+<p>délit d&rsquo;entrave à la liberté syndicale</p>
+<p>atteinte a la liberté d&rsquo;autrui</p>
+<p>atteinte à la liberté de circulation</p>
+<p>délit d&rsquo;entrave à la liberté d&rsquo;expression</p>
+<p>délit d&rsquo;entrave à la liberté du travail</p>
+<p>atteinte à la liberté de commerce</p>
+<p>atteinte à la liberté de conscience</p>
+<p>délit d&rsquo;entrave à la circulation</p>
+<p>délit d&rsquo;entrave à la justice</p>
+<p>atteinte à la liberté de la presse</p>
+<p>délit d&rsquo;entrave fonctionnement cse code du travail</p>
+<p>atteinte à la liberté de la presse en france</p>
+<p>entorse travail</p>
+<p>atteinte à la liberté individuelle définition</p>
+<p>atteinte à la liberté individuelle exemple</p>
+<p>entrave à</p>
+<p>entrave a interpellation</p>
+<p>atteinte à la liberté individuelle code pénal</p>
+<p>atteinte à la liberté individuelle coronavirus</p>
+<p>entrave à la circulation à pied</p>
+<p>entrave à la circulation amende</p>
+<p>atteinte à la liberté exemple</p>
+<p>atteinte à la liberté individuelle</p>
+<p>entrave à la circulation code de la route</p>
+<p>entrave à la circulation code pénal</p>
+<p>atteinte à la liberté en français</p>
+<p>atteinte a la liberté en france</p>
+<p>entrave à la circulation des piétons</p>
+<p>entrave à la circulation des trains</p>
+<p>atteinte à la liberté du commerce et de l&rsquo;industrie</p>
+<h5>atteinte à la liberté du travail</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave a la circulation des véhicules sur une voie publique</p>
+<p>entrave à la circulation manifestation</p>
+<p>atteinte à la liberté d&rsquo;expression en france</p>
+<p>atteinte à la liberté d&rsquo;opinion</p>
+<p>entrave a la circulation natinf</p>
+<p>entrave à la circulation routière</p>
+<p>atteinte à la liberté des femmes</p>
+<p>atteinte a la liberté d&rsquo;expression charlie hebdo</p>
+<p>meilleur cabinet d&rsquo;avocat paris</p>
+<p>atteinte a la liberté* d&rsquo;expression dans le monde</p>
+<p>atteinte a la liberté* d&rsquo;expression</p>
+<p>entrave a la circulation routière Légifrance</p>
+<p>entrave a la circulation routière natinf</p>
+<p>atteinte à la liberté* définition</p>
+<p>atteinte à la liberté* d&rsquo;entreprendre</p>
+<p>entrave à la grève</p>
+<p>entrave à la justice</p>
+<p>atteinte à la liberté* de travailler</p>
+<p>atteinte à la liberté* def</p>
+<p>entrave à la justice code pénal</p>
+<p>entrave à la justice def</p>
+<p>atteinte à la liberté* de presse</p>
+<p>atteinte à la liberté* de travail</p>
+<p>entrave à la justice définition</p>
+<p>entrave à la justice definition français</p>
+<p>atteinte à la liberté de penser</p>
+<p>atteinte à la liberté de penser mots fléchés</p>
+<p>entrave à la justice definition français</p>
+<p>entrave à la justice meaning</p>
+<p>atteinte a l&rsquo;honneur code penal</p>
+<p>atteinte a l&rsquo;honneur Cody</p>
+<h5>entrave a la justice peine</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave à la justice sanction</p>
+<p>atteinte a l&rsquo;honneur code penal</p>
+<p>atteinte a l&rsquo;honneur Cody</p>
+<p>entrave a la liberté*</p>
+<p>entrave à la liberté* d’aller et venir*</p>
+<p>atteinte à l&rsquo;honneur article</p>
+<p>atteinte à l&rsquo;honneur code civil</p>
+<p>entrave à la liberté* d’aller et venir* code pénal</p>
+<p>entrave à la liberté* d&rsquo;association</p>
+<p>atteinte à la vie privée liberté*</p>
+<p>atteinte à la vie privée presse</p>
+<p>entrave à la liberté* de circulation</p>
+<p>entrave a la liberté* de commerce</p>
+<p>atteinte à la vie privée code civil</p>
+<p>atteinte a la vie privée code pénal</p>
+<p>entrave à la liberté* de culte</p>
+<p>entrave à la liberté* de la presse</p>
+<p>atteinte à la réputation peine</p>
+<p>atteinte à la vie d&rsquo;autrui</p>
+<p>entrave à la liberté* de travail</p>
+<p>entrave à la liberté* def</p>
+<p>atteinte à la propriété d&rsquo;autrui</p>
+<p>atteinte à la réputation code pénal</p>
+<p>entrave à la liberté* définition</p>
+<p>entrave à la liberté* d&rsquo;entreprendre</p>
+<p>atteinte a la liberté* vaccin</p>
+<p>atteinte a la libre circulation</p>
+<p>entrave à la liberté* des enchères</p>
+<p>entrave à la liberté* des enchères</p>
+<p>atteinte à la liberté* signification</p>
+<h5>atteinte à la liberté*syndicale</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave à la liberté* d&rsquo;exercer</p>
+<p>entrave à la liberté* d&rsquo;expression</p>
+<p>atteinte a la liberté* religieuse dans le monde</p>
+<p>atteinte a la liberté* religieuse en france</p>
+<p>entrave à la liberté* du commerce</p>
+<p>entrave a la liberté* du mouvement dada</p>
+<p>atteinte à la liberté* personnelle</p>
+<p>atteinte à la liberté* religieuse</p>
+<p>entrave à la liberté* du travail</p>
+<p>entrave à la liberté* du travail définition</p>
+<p>atteinte a la liberté* matrimoniale</p>
+<p>atteinte à la liberté* pass sanitaire</p>
+<p>entrave à la liberté* exemple</p>
+<p>entrave à la liberté* individuelle</p>
+<p>atteinte à sa liberté* individuelle</p>
+<p>atteinte à une liberté*</p>
+<p>entrave à la liberté* mots croisés</p>
+<p>atteinte à nos libertés*</p>
+<p>atteinte à sa liberté*</p>
+<p>entrave à la liberté* philosophie</p>
+<p>entrave à la liberté* publique</p>
+<p>atteinte à l&rsquo;ordre public code pénal</p>
+<p>atteinte à l&rsquo;ordre public définition</p>
+<p>entrave à la liberté* syndicale</p>
+<p>entrave à la libre circulation</p>
+<p>atteinte à l&rsquo;intégrité psychique code pénal</p>
+<p>atteinte à l&rsquo;ordre public</p>
+<p>entrave à la libre circulation des marchandises</p>
+<p>entrave à la libre circulation des personnes</p>
+<h5>atteinte à l&rsquo;intégrité physique définition</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>atteinte à l&rsquo;intégrité physique et psychique</p>
+<p>entrave a la libre circulation des piétons</p>
+<p>entrave à la libre circulation sur la voie publique</p>
+<p>atteinte à l&rsquo;intégrité physique article</p>
+<p>atteinte à l&rsquo;intégrité physique code pénal</p>
+<p>entrave à la libre concurrence</p>
+<p>entrave à la loi</p>
+<p>atteinte à liberté individuelle</p>
+<p>atteinte à l&rsquo;intégrité physique</p>
+<p>entrave a la manifestation de la vérité</p>
+<p>entrave a la règle</p>
+<p>atteinte à l&rsquo;honneur synonyme</p>
+<p>atteinte à liberté</p>
+<p>entrave à la saisine de la justice</p>
+<p>entrave à l&rsquo;action de la justice</p>
+<p>atteinte à l&rsquo;honneur exemple</p>
+<p>atteinte à l&rsquo;honneur personne morale</p>
+<p>entrave à l&rsquo;activité syndicale</p>
+<p>entrave à l&rsquo;enquête</p>
+<p>atteinte à l&rsquo;honneur et à la réputation code civil</p>
+<p>atteinte à l&rsquo;honneur et à la réputation code pénal</p>
+<p>entrave à l&rsquo;enquête pénale</p>
+<p>entrave à l&rsquo;exercice de la justice</p>
+<p>atteinte à l&rsquo;honneur et à la probité</p>
+<p>atteinte à l&rsquo;honneur et à la réputation</p>
+<p>entrave à l&rsquo;exercice de la justice code pénal</p>
+<p>entrave à l&rsquo;exercice de la justice police</p>
+<p>atteinte à l&rsquo;honneur codycross</p>
+<p>atteinte à l&rsquo;honneur et à la considération</p>
+<p>entrave à l&rsquo;exercice du droit syndical</p>
+<h5>entrave a liberté</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>atteinte à une liberté* fondamentale</p>
+<p>atteinte à une liberté* individuelle</p>
+<p>entrave cheval transport</p>
+<p>entrave circulation voie publique</p>
+<p>atteinte arbitraire à la liberté* individuelle</p>
+<p>atteinte arbitraire à la liberté* par une personne exerçant une fonction publique</p>
+<p>entrave au travail d&rsquo;un policier</p>
+<p>entrave aux libertés* individuelles</p>
+<p>atteinte au liberté* fondamentale</p>
+<p>atteinte au liberté individuelle</p>
+<p>entrave au travail des policiers code criminel</p>
+<p>entrave au travail d&rsquo;un agent de la paix</p>
+<p>atteinte au libertés*</p>
+<p>atteinte aux droits et libertés*</p>
+<p>entrave au travail de la police</p>
+<p>entrave au travail des policiers</p>
+<p>atteinte aux libertés*</p>
+<p>atteinte aux libertés* covid</p>
+<p>entrave au travail</p>
+<p>entrave au travail de la justice</p>
+<p>atteinte aux libertés* de la personne</p>
+<p>atteinte aux libertés* des salariés</p>
+<p>entrave au droit syndical fonction publique territoriale</p>
+<p>entrave au syndicat</p>
+<p>atteinte aux libertés* fondamentales</p>
+<p>atteinte aux libertés* individuelles</p>
+<h5>entrave au droit du travail</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave au droit syndical code du travail</p>
+<p>atteinte aux libertés* individuelles covid</p>
+<p>atteinte aux libertés* pass sanitaire</p>
+<p>entrave activité syndicale</p>
+<p>entrave au droit de grève</p>
+<p>atteinte aux libertés* publiques</p>
+<p>atteinte de la liberté* individuelle</p>
+<p>entrave à une intervention de police</p>
+<p>entrave à une liberté*</p>
+<p>atteinte de liberté*</p>
+<p>atteinte de liberté* individuelle</p>
+<p>entrave à une enquête judiciaire</p>
+<p>entrave à une interpellation</p>
+<p>atteinte disproportionnée liberté*d&rsquo;entreprendre</p>
+<p>atteinte grave aux libertés*</p>
+<p>entrave a une action de police</p>
+<p>entrave à une enquête de police</p>
+<p>atteinte grave et manifestement illégale à une liberté* fondamentale</p>
+<p>atteinte involontaire à l&rsquo;intégrité physique code pénal</p>
+<p>entrave à liberté* d&rsquo;expression</p>
+<p>entrave à ma liberté*</p>
+<p>atteinte volontaire à l&rsquo;intégrité physique code pénal</p>
+<p>atteintes aux libertés* de la presse</p>
+<p>entrave flanc</p>
+<p>entrave fonctionnement cse code du travail</p>
+<p>atteinte liberté* individuelle covid</p>
+<p>atteinte liberté* pass sanitaire</p>
+<p>entrave inspecteur du travail</p>
+<p>entrave juridique</p>
+<p>atteinte liberté* fondamentale</p>
+<p>atteinte liberté* individuelle</p>
+<h5>entrave justice</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave justice code penal</p>
+<p>atteinte liberté* d&rsquo;expression</p>
+<p>atteinte liberté* d&rsquo;opinion</p>
+<p>entrave la liberté*</p>
+<p>entrave la liberté* de façon rigoureuse</p>
+<p>atteinte liberté*</p>
+<p>atteinte liberté* covid</p>
+<p>entrave le bon fonctionnement</p>
+<p>entrave liberté* de circulation</p>
+<p>atteinte liberté* d’aller et venir*</p>
+<p>atteinte li</p>
+<p>entrave code de procédure pénale</p>
+<p>entrave code du travail</p>
+<p>atteintes aux libertés* état d&rsquo;urgence</p>
+<p>atteintes liberté* de la presse</p>
+<p>attentat charlie hebdo atteinte à la liberté* d&rsquo;expression</p>
+<p>attestation code civil</p>
+<p>attestation code civil article 202</p>
+<p>entrave code pénal</p>
+<p>attestation code penal</p>
+<p>avocat spécialisé droit pénal</p>
+<p>attestation sur l&rsquo;honneur code civil</p>
+<p>attestation sur l&rsquo;honneur code commande publique</p>
+<p>entrave et bloque</p>
+<p>entrave exercice syndical</p>
+<p>attestation sur l&rsquo;honneur code de procédure civile</p>
+<p>attestation sur l&rsquo;honneur code du travail</p>
+<p>entrave enquête judiciaire</p>
+<p>entrave équipe</p>
+<p>attestation sur l&rsquo;honneur code pénal</p>
+<p>attestation sur l&rsquo;honneur condamnation</p>
+<h5>entrave droit syndical</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entrave droit syndical fonction publique</p>
+<p>attestation sur l&rsquo;honneur condamnation définitive</p>
+<p>attestation sur l&rsquo;honneur condamnation pénale</p>
+<p>entrave de travail</p>
+<p>entrave délégué syndical</p>
+<p>attestation sur l&rsquo;honneur contre une personne</p>
+<p>attestation sur l&rsquo;honneur de non condamnation pénale</p>
+<p>entravé dans son travail</p>
+<p>entrave de la liberté d&rsquo;expression</p>
+<p>attestation sur l&rsquo;honneur de non condamnation pénale avec filiation</p>
+<p>attestation sur l&rsquo;honneur paiement congés payés</p>
+<p>entrave communication syndicale</p>
+<p>entrave dans le travail</p>
+<p>citation dissertation juridique</p>
+<p>citation dissertation juste la fin du monde</p>
+<p>attestation sur l&rsquo;honneur penal</p>
+<p>attestation sur l&rsquo;honneur permis b cpf</p>
+<p>cas d&rsquo;atteinte a la liberté* d&rsquo;expression</p>
+<p>ce qui entrave la liberté*</p>
+<p>chrétiens en liberté*</p>
+<p>citation dissertation droit</p>
+<p>citation dissertation droit administratif</p>
+<p>définition juridique liberté* d&rsquo;expression</p>
+<p>définition liberté* d’aller et venir*</p>
+<p>citation dissertation droit constitutionnel</p>
+<p>citation juridique divorce</p>
+<p>comment les libertés* ont-elles été acquises en france</p>
+<p>comment les libertés* ont-elles été conquises</p>
+<p>citation juridique en droit constitutionnel</p>
+<h5>citation juridique liberté* d&rsquo;expression</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>code pénal suisse atteinte à l&rsquo;honneur</p>
+<p>code pénal suisse attouchement</p>
+<p>citation juridique sur le droit</p>
+<p>citation juridique vice de consentement</p>
+<p>code penal entrave a la circulation</p>
+<p>code pénal entrave à la justice</p>
+<p>citation liberté* d’aller et venir*</p>
+<p>citation liberté* manifestation</p>
+<p>code pénal atteinte à la personne</p>
+<p>code pénal atteinte à l&rsquo;honneur</p>
+<p>comment les libertés* ont été acquise en france</p>
+<p>comment se manifeste la liberté* d&rsquo;expression</p>
+<p>confinement atteinte aux libertés*</p>
+<p>conseil constitutionnel 12 juillet 1979 liberté d’aller et venir*</p>
+<p>conseil constitutionnel liberté* d’aller et venir*</p>
+<p>constitution liberté d’aller et venir*</p>
+<p>covid atteinte a la liberté*</p>
+<p>Décret liberté d’aller et venir* en ehpad</p>
+<p>Défile historique pour la liberté*</p>
+<p>définition de entrave à la justice</p>
+<p>définition juridique de la liberté *d&rsquo;expression</p>
+<p>dissertation philosophique sur la liberté* d&rsquo;expression</p>
+<p>dissertation sur la liberté* d&rsquo;expression</p>
+<p>définition liberté Kant*</p>
+<p>définitions liberté* d&rsquo;expression</p>
+<p>différence liberté* individuelle et liberté* personnelle</p>
+<p>différence liberté* individuelle et personnelle</p>
+<p>dissertation sur la liberté* d&rsquo;expression et ses limites</p>
+<p>doit-on mettre des limites à la liberté* d&rsquo;expression</p>
+<h5>droit à la liberté d&rsquo;expression</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>droit à la liberté* d&rsquo;expression code civil</p>
+<p>entrave liberté* definition</p>
+<p>entrave liberté* d&rsquo;expression</p>
+<p>droit à la liberté* d&rsquo;expression code civil La liberté d’aller et venir*</p>
+<p>entrave syndicale</p>
+<p>entrave syndicale code du travail</p>
+<p>droit aller et venir</p>
+<p>entrave liberté* travail</p>
+<p>entrave libre circulation</p>
+<p>droit d&rsquo;aller et venir*</p>
+<p>droit d&rsquo;aller et venir*constitution</p>
+<p>entrave libre circulation des travailleurs</p>
+<p>entrave mandat syndical</p>
+<p>droit de grève et liberté* de circulation</p>
+<p>droit de grève et liberté* syndicale</p>
+<p>entrave méchante à la circulation code pénal</p>
+<p>entrave Moyen Âge</p>
+<p>droit de grève liberté* individuelle ou collective</p>
+<p>droit de l&rsquo;homme liberté* d’aller et venir*</p>
+<p>entrave notre travail</p>
+<p>entrave sur la voie publique</p>
+<p>droit de l&rsquo;homme liberté* d&rsquo;expression</p>
+<p>droit et liberté* d’aller et venir*ehpad liberté d’aller et venir*</p>
+<p>emploi travaux en hauteur</p>
+<p>en france la liberté* d&rsquo;association</p>
+<p>en france la liberté* d&rsquo;association est quoi</p>
+<p>la liberté* d’aller et venir* en ehpad</p>
+<p>la liberté* de manifestation en france</p>
+<p>en france la liberté* d&rsquo;association liberté absolue</p>
+<h5>en liberté wiki</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entorse cheville peut-on travailler</p>
+<p>entorse cheville travail</p>
+<p>entrave syndicale exemple</p>
+<p>entrave syndicale fonction publique</p>
+<p>exemple de dissertation juridique sur la constitution</p>
+<p>exemple de dissertation sur la liberté* d&rsquo;expression</p>
+<p>entrave syndicale fonction publique hospitalière</p>
+<p>entrave syndicale fonction publique territoriale</p>
+<p>exemples de limites à la liberté* d&rsquo;expression</p>
+<p>exercice travail en hauteur</p>
+<p>entrave syndicale fph</p>
+<p>entrave travail</p>
+<p>grève et droit du travail</p>
+<p>grève et entrave à la liberté* du travail</p>
+<p>entrave travail des policiers</p>
+<p>entrave travail policier</p>
+<p>infraction entrave à la circulation</p>
+<p>infraction entrave à la justice</p>
+<p>entrave volontaire à la circulation</p>
+<p>entraver la liberté* de travail</p>
+<p>la contention et la liberté* d’aller et venir*</p>
+<p>la contrainte libère</p>
+<p>entraver la liberté* définition</p>
+<p>la liberté* d’aller et venir* des étrangers</p>
+<p>la liberté* d’aller et venir* droit pénal</p>
+<p>entraver le travail</p>
+<p>entraver un travail</p>
+<p>la liberté* d&rsquo;aller et de venir*</p>
+<h5>la liberté* d’aller et venir*</h5>
+<p>meilleur cabinet d&rsquo;avocat de paris</p>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>entraves à la liberté* d&rsquo;expression définition</p>
+<p>entre justice et la vengeance</p>
+<p>entre justice et vengeance épisode 1</p>
+<p>la liberté* d’aller et venir* dans le soin et l&rsquo;accompagnement</p>
+<p>la liberté* d’aller et venir* définition</p>
+<p>entre justice et vengeance épisode 6</p>
+<p>entreprise travail en hauteur</p>
+<p>est-ce que la liberté* d&rsquo;expression est respectée en france</p>
+<p>Entrave travaux</p>
+<p>être une atteinte à la liberté*</p>
+<p>exemple d&rsquo;atteinte a la liberté* d&rsquo;expression</p>
+<p>exemple d&rsquo;atteinte aux libertés* individuelles justifiée et proportionnée</p>
+<p>existe-t-il des limites à la liberté* d&rsquo;expression</p>
+<p>extra travail week-end</p>
+<p>extradition code de procédure pénale</p>
+<p>faire atteinte aux libertés* individuelles</p>
+<p>fausse attestation sur l&rsquo;honneur code pénal</p>
+<p>faut-il</p>
+<p>grève et télétravail</p>
+<p>il entrave la liberté*</p>
+<p>infraction entrave à la justice ail</p>
+<p>jambe en l&rsquo;air circulation</p>
+<p>jurisprudence entrave à la circulation</p>
+<p>la liberté* de religion en france</p>
+<p>la liberté* d&rsquo;expression a ses limites</p>
+<p>les atteintes aux libertés* syndicales</p>
+<p>les entraves à la libre circulation des travailleurs</p>
+<p>la loi est-elle un obstacle à la liberté*</p>
+<p>la loi est-elle un obstacle à la liberté* du citoyen</p>
+<h5>les atteintes à la liberté de la presse</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>les atteintes à la liberté* nuptiale dans les actes juridiques</p>
+<p>la loi est-elle un obstacle à la liberté* introduction</p>
+<p>la loi est-elle un obstacle à ma liberté*</p>
+<p>le rôle du législateur dans la protection des droits fondamentaux</p>
+<p>les atteinte aux libertés* individuelles</p>
+<p>la loi est-elle un obstacle à ma liberté* dissertation philosophie</p>
+<p>la loi est-elle un obstacle à notre liberté*</p>
+<p>le régime juridique des principales libertés* publiques</p>
+<p>le régime répressif des libertés* publiques</p>
+<p>la loi est-elle une contrainte à la liberté*</p>
+<p>la loi est-elle une entrave à l&rsquo;expression de la liberté*</p>
+<p>le régime juridique des libertés* publiques</p>
+<p>le régime juridique des ordonnances</p>
+<p>la religion entrave la liberté*</p>
+<p>la religion est un obstacle à la liberté*</p>
+<p>le régime juridique de la liberté* d’aller et venir*</p>
+<p>le régime juridique des actes administratifs unilatéraux</p>
+<p>la religion est une imposture</p>
+<p>la religion est-elle un obstacle à la liberté* citation</p>
+<p>le principe d&rsquo;égalité en droit public</p>
+<p>le régime du service public</p>
+<p>la religion est-elle un obstacle à la liberté* de penser</p>
+<p>le droit d&rsquo;aller et de venir*</p>
+<p>le principe d&rsquo;égalité en droit des libertés* fondamentales</p>
+<p>la religion est-elle un obstacle à la liberté* humaine</p>
+<p>la religion un enjeu géopolitique</p>
+<p>le juge judiciaire et la protection des libertés* fondamentales</p>
+<p>le principe de liberté* en droit public français</p>
+<p>la religion une entrave à la liberté*</p>
+<p>la religion une invention</p>
+<p>l&rsquo;atteinte à une liberté* fondamentale</p>
+<h5>le droit d aller a l ecole</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>le droit d&rsquo;aller au cinéma</p>
+<p>la liberté* d&rsquo;expression sans limites</p>
+<p>la liberté* d&rsquo;expression ses limites</p>
+<p>liberté* d’aller et venir*</p>
+<p>liberté* d’aller et venir* article</p>
+<p>la liberté* d&rsquo;expression sur internet dissertation</p>
+<p>la liberté* d&rsquo;expression texte de loi</p>
+<p>liberté* d&rsquo;aller et de venir cedh</p>
+<p>liberté d&rsquo;aller et de venir constitution</p>
+<p>la liberté* d&rsquo;expression un droit fondamental</p>
+<p>la liberté* dissertation philosophie</p>
+<p>liberté* constitutionnelle d&rsquo;aller et venir</p>
+<p>liberté* d&rsquo;aller et de venir*</p>
+<p>la liberté* d&rsquo;opinion définition juridique</p>
+<p>la liberté* d&rsquo;opinion définition simple</p>
+<p>liberté* aller et venir*</p>
+<p>liberté *aller et venir constitution</p>
+<p>la liberté* est-elle une conquête</p>
+<p>la liberté* et la religion</p>
+<p>les sources des libertés fondamentales</p>
+<p>l&rsquo;exercice de la justice</p>
+<p>la liberté* individuelle</p>
+<p>la liberté* individuelle de</p>
+<p>les manifestations ne servent à rien</p>
+<p>les sources de la liberté* d’aller et venir*</p>
+<p>la liberté* individuelle philosophie</p>
+<p>la liberté* un droit fondamental</p>
+<p>les manifestations de la liberté*</p>
+<p>les manifestations de la liberté* d’aller et venir*</p>
+<p>la liberté* un droit fondamental 4ème</p>
+<p>cabinet avocat paris droit penal</p>
+<h5>la liberté* une illusion</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>les manifestations contre le pass sanitaire</p>
+<p>les manifestations d&rsquo;aujourd&rsquo;hui</p>
+<p>la loi est-elle un obstacle a la liberté******</p>
+<p>la loi est-elle une condition ou une limite à ma liberté*</p>
+<p>les limites à la liberté* d&rsquo;expression lumni</p>
+<p>les limites de la liberté* d&rsquo;expression en ligne</p>
+<p>la loi est-elle une entrave à la liberté*</p>
+<p>la loi est-elle une entrave a l&rsquo;expression de la liberté*</p>
+<p>liberté* d’aller et venir* article cedh</p>
+<p>liberté* d’aller et venir* cedh</p>
+<p>la liberté* d&rsquo;expression et ses limites</p>
+<p>la liberté* d&rsquo;expression et ses limites lumni</p>
+<p>liberté* d’aller et venir* citation</p>
+<p>liberté d’aller et venir* code civil</p>
+<p>la liberté* d&rsquo;expression est un droit</p>
+<p>la liberté* d&rsquo;expression est un droit fondamental</p>
+<p>liberté *d’aller et venir* code de la santé publique</p>
+<p>liberté* d’aller et venir* confinement</p>
+<p>la liberté* d&rsquo;expression en france et ses limites</p>
+<p>la liberté* d&rsquo;expression en france histoire</p>
+<p>liberté* d’aller et venir* conseil constitutionnel</p>
+<p>liberté* d’aller et venir* constitution</p>
+<p>la liberté* d&rsquo;expression des salariés et ses limites</p>
+<p>la liberté* d&rsquo;expression du salarié</p>
+<p>liberté* d’aller et venir* covid</p>
+<p>liberté* d’aller et venir* dans les établissements médico-sociaux</p>
+<p>la liberté* d&rsquo;expression définition simple</p>
+<p>la liberté* d&rsquo;expression des journalistes</p>
+<p>liberté* d’aller et venir* ddhc*</p>
+<h5>liberté d’aller et venir* def</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>la liberté d&rsquo;expression définition facile</p>
+<p>meilleur cabinet d&rsquo;avocat paris</p>
+<p>la liberté* d&rsquo;expression definition juridique</p>
+<p>liberté* d’aller et venir* definition</p>
+<p>liberté* d’aller et venir* droit constitutionnel</p>
+<p>la liberté* d&rsquo;expression definition courte</p>
+<p>la liberté* d&rsquo;expression définition droit</p>
+<p>liberté* d’aller et venir* ehpad</p>
+<p>liberté* d’aller et venir* ehpad loi</p>
+<p>la liberté* d&rsquo;expression de l&rsquo;avocat</p>
+<p>la liberté* d&rsquo;expression def philo</p>
+<p>liberté* d’aller et venir* en ehpad</p>
+<p>la liberté* d&rsquo;expression a-t-elle des limites dissertation</p>
+<p>liberté* d’aller et venir* en esms</p>
+<p>liberté d’aller et venir* en france</p>
+<p>avocat paris droit pénal</p>
+<p>liberté d’aller et venir* en psychiatrie</p>
+<p>liberté d’aller et venir* esms</p>
+<p>limites liberté d&rsquo;expression lumni</p>
+<p>liberté d’aller et venir* et covid</p>
+<p>liberté d’aller et venir* et liberté* de circulation</p>
+<p>limites liberté* d&rsquo;expression cedh</p>
+<p>liberté* d’aller et venir* exemple</p>
+<p>liberté* d’aller et venir* fondement</p>
+<p>limites juridiques de la liberté* d&rsquo;expression</p>
+<p>liberté* d’aller et venir* has</p>
+<p>liberté d’aller et venir* hôpital</p>
+<p>limites de la liberté* d&rsquo;expression en France*</p>
+<p>liberté* d’aller et venir* Légifrance</p>
+<p>liberté* d’aller et venir* liberté fondamentale</p>
+<p>limites de la liberté* d&rsquo;expression en entreprise</p>
+<p>liberté* d’aller et venir* liberté individuelle</p>
+<h5>liberté</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>limites de la liberté* d&rsquo;expression définition</p>
+<p>liberté* d’aller et venir* pass sanitaire</p>
+<p>liberté* d’aller et venir* principe constitutionnel</p>
+<p>limites de la liberté* d&rsquo;expression artistique</p>
+<p>liberté* d’aller et venir* psychiatrie</p>
+<p>liberté* d’aller et venir* référé liberté</p>
+<p>limites de la liberté* d&rsquo;expression</p>
+<p>liberté* d’aller et venir* texte</p>
+<p>liberté* d’aller et venir* valeur constitutionnelle</p>
+<p>limites à la liberté* d&rsquo;expression en france</p>
+<p>limites à la liberté* d&rsquo;expression sur internet</p>
+<p>liberté* d’aller et venir* vie publique</p>
+<p>liberté* d’aller et venir* Wikipédia</p>
+<p>limites a la liberté* d&rsquo;expression</p>
+<p>liberté*de circulation et liberté d’aller et venir*</p>
+<p>liberté* de la presse Wikipédia</p>
+<p>limites à la liberté* d’aller et venir*</p>
+<p>liberté* d&rsquo;expression atteinte à la vie privée</p>
+<p>liberté* d&rsquo;expression def juridique</p>
+<p>limite légale à la liberté* d&rsquo;expression</p>
+<p>liberté* d&rsquo;expression définition juridique</p>
+<p>liberté* d&rsquo;expression définition Wikipédia</p>
+<p>limite de la liberté* d&rsquo;expression sur internet</p>
+<p>liberté* d&rsquo;expression dissertation droit</p>
+<p>liberté* d&rsquo;expression droit au blasphème</p>
+<p>limite de la liberté *d&rsquo;expression loi</p>
+<p>liberté* d&rsquo;expression droit constitutionnel</p>
+<p>liberté* d&rsquo;expression droit de l&rsquo;homme</p>
+<p>limite de la liberté* d&rsquo;expression exemple</p>
+<h5>liberté* d&rsquo;expression droit du travail</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>liberté* d&rsquo;expression en droit français</p>
+<p>limite de la liberté* d&rsquo;expression citation</p>
+<p>liberté* d&rsquo;expression limites philosophie</p>
+<p>liberté* d&rsquo;opinion def juridique</p>
+<p>limite de la liberté* d&rsquo;expression au travail</p>
+<p>liberté* en philosophie terminale</p>
+<p>liberté* entravée</p>
+<p>limite à la liberté* d&rsquo;expression syndicale</p>
+<p>liberté* et contrainte philosophie</p>
+<p>liberté* et religion</p>
+<p>limite à la liberté* d&rsquo;expression du salarié</p>
+<p>liberté religieuse en entreprise</p>
+<p>liberté** religieuse en France</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;expression sur internet</p>
+<p>qu&rsquo;est-ce qui encadre la liberté* d&rsquo;expression en France</p>
+<p>liberté* religieuse et laïcité</p>
+<p>liberté* syndicale en France</p>
+<p>loi du 4 mars 2002 refus de vaccination</p>
+<p>loi du 4 mars 2002 relative aux droits des malades</p>
+<p>liberté syndicale et droit de grève</p>
+<p>liberté* syndicale liberté fondamentale</p>
+<p>loi du 4 mars 2002 liberté d’aller et venir*</p>
+<p>loi du 4 mars 2002 refus de soin</p>
+<p>liberté* syndicale limites</p>
+<p>liberté* transcendantale</p>
+<p>loi du 4 mars 2002 consentement libre et éclairé</p>
+<p>loi du 4 mars 2002 droit à l&rsquo;information</p>
+<p>liberté* transcendantale Kant</p>
+<p>liste manifestations 4 septembre</p>
+<p>loi atteinte à la liberté*</p>
+<h6>liberté Wiktionnaire</h6>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>libre d&rsquo;agir sans contraintes</p>
+<p>loi du 4 mars 2002 vaccination</p>
+<p>loi sur la liberté* d’aller et venir*</p>
+<p>Macron atteinte aux libertés*</p>
+<p>Macron atteinte libertés*</p>
+<p>manifestation à forte</p>
+<p>manifestation de la vérité définition</p>
+<p>masque atteinte libertés*</p>
+<p>manifestation liberté* d&rsquo;expression</p>
+<p>méthodologie de la dissertation juridique exemple</p>
+<p>ne pas porter atteinte à la liberté*</p>
+<p>nouvelles atteintes à la liberté* d&rsquo; expression en Chine</p>
+<p>obstruction à la justice définition</p>
+<p>obstruction à la justice peine</p>
+<p>porter atteinte aux libertés*</p>
+<p>porter atteinte aux libertés* fondamentales</p>
+<p>obstruction of justice penal code ça</p>
+<p>pass sanitaire atteinte aux libertés* individuelles</p>
+<p>pass vaccinal atteinte aux libertés*</p>
+<p>pourquoi la liberté* d&rsquo;expression est un droit fondamental</p>
+<p>pourquoi la manifestation aujourd&rsquo;hui</p>
+<p>passe vaccinal atteinte à la liberté*</p>
+<p>passeport vaccinal atteinte aux libertés*</p>
+<p>peine pour entrave à la justice</p>
+<p>peut-on limiter la liberté* d&rsquo;expression dissertation</p>
+<p>pgd liberté* d’aller et venir*</p>
+<p>plainte entrave syndicale</p>
+<p>plainte pour entrave syndicale</p>
+<p>port du masque atteinte à la liberté*</p>
+<p>porter atteinte a liberté* d&rsquo;expression</p>
+<p>pour atteinte à la liberté* d&rsquo;expression</p>
+<h5>pour se déplacer</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>pourquoi il y a des manifestations en france</p>
+<p>pourquoi les libertés* sont fondamentales</p>
+<p>que signifie liberté* dans la devise</p>
+<p>que signifie liberté* égalité fraternité</p>
+<p>pourquoi les manifestations à paris</p>
+<p>pourquoi mettre des limites à la liberté* d&rsquo;expression</p>
+<p>prévention travail en hauteur</p>
+<p>problématique dissertation juridique exemple</p>
+<p>qu&rsquo;est-ce que la liberté* d expression</p>
+<p>liberté individuelle liberté* personnelle</p>
+<p>qu&rsquo;est-ce que liberté* d expression</p>
+<p>que signifie entrave à la liberté*</p>
+<p>liberté individuelle Wikipédia</p>
+<p>que signifie la liberté* d&rsquo;expression</p>
+<p>que signifie liberté*</p>
+<p>liberté* philosophie introduction</p>
+<p>que veut dire entrave</p>
+<p>que veut dire entrave à la liberté*</p>
+<p>liberté* individuelle respect d&rsquo;autrui</p>
+<p>liberté* individuelle vie privée</p>
+<p>que veut dire entrave à la liberté d&rsquo;expression</p>
+<p>que veut dire la liberté d&rsquo;expression</p>
+<p>quelle liberté</p>
+<p>quelle liberté individuelle est mise en cause</p>
+<p>liberté individuelle liste</p>
+<p>Liberté* individuelle ou sûreté</p>
+<p>quelle manifestation aujourd&rsquo;hui</p>
+<h5>quelle manifestation demain</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>liberté individuelle liberté* collective</p>
+<p>quelles sont les limites à la liberté d&rsquo;expression</p>
+<p>quelles sont les limites à la liberté* d&rsquo;expression en France</p>
+<p>liberté* individuelle et personnelle</p>
+<p>liberté* individuelle inhérente à la personne humaine</p>
+<p>quelles sont les limites à la liberté* d&rsquo;expression sur internet</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;association en France</p>
+<p>liberté individuelle et liberté fondamentale</p>
+<p>liberté individuelle et liberté personnelle</p>
+<p>qu&rsquo;est-ce que la liberté* de manifestation</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;expression definition</p>
+<p>liberté* individuelle et droit de l&rsquo;homme</p>
+<p>liberté individuelle et liberté* collective</p>
+<p>qu&rsquo;est-ce que c&rsquo;est la liberté* d&rsquo;expression</p>
+<p>qu&rsquo;est-ce que la liberté* d’aller et venir*</p>
+<p>liberté individuelle contre liberté collective</p>
+<p>liberté individuelle en Ehpad</p>
+<p>qu&rsquo;est-ce que la liberté d’aller et venir*</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;association</p>
+<p>liberté* individuelle article 66 constitution</p>
+<p>liberté* individuelle au travail</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;association en France</p>
+<p>qu&rsquo;est-ce que la liberté*d&rsquo;expression</p>
+<p>liberté* et travail citation</p>
+<p>liberté* humaine philosophie</p>
+<p>qu&rsquo;est-ce que la liberté* d&rsquo;expression en France</p>
+<p>qui atteinte aux libertés* individuelles</p>
+<p>régime des libertés* publiques</p>
+<p>régime juridique des libertés* fondamentales</p>
+<p>religion en liberté*</p>
+<h5>religion étrange</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>restriction liberté* d’aller et venir*</p>
+<p>sans la liberté* il n&rsquo;y a rien dans le monde</p>
+<p>se déplacer sans polluer</p>
+<p>selon vous la liberté d&rsquo;expression en France est-elle absolue</p>
+<p>sujet de dissertation sur la liberté* d&rsquo;expression</p>
+<p>synonyme entrave à la liberté*</p>
+<p>travail entrave a la liberté*</p>
+<p>travail.Genève</p>
+<p>une atteinte à la liberté* d&rsquo;expression</p>
+<p>une atteinte à la liberté* individuelle</p>
+<p>travail entrave definition</p>
+<p>une atteinte à une liberté* fondamentale</p>
+<p>une entrave</p>
+<p>qui s&rsquo;est battu pour la liberté* d&rsquo;expression en france</p>
+<p>une entrave à la justice définition</p>
+<p>une entrave à la liberté*</p>
+<p>religion et liberté* d&rsquo;expression</p>
+<p>une entrave à la liberté* définition</p>
+<p>une entrave à la liberté* synonyme</p>
+<p>religion entrave à la liberté*</p>
+<p>une entrave à la libre circulation des membres</p>
+<p>une entrave def</p>
+<p>qui porte atteinte aux libertés 11 lettres</p>
+<p>une entrave synonyme</p>
+<p>une liberté* individuelle</p>
+<p>qui porte atteinte aux libertés*</p>
+<p>une limite à la liberté* d&rsquo;expression</p>
+<p>vaccination obligatoire atteinte aux libertés*</p>
+<p>y a-t-il des limites à la liberté* d&rsquo;expression</p>
+<p>youtube la liberté* de la presse</p>
+<p>youtube philosophie liberté*</p>
+<h5><strong>à cause de cela,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>à cause de,</p>
+<p>ainsi,</p>
+<p>à nouveau,</p>
+<p>à partir de là,</p>
+<p>Ainsi,</p>
+<p>Alors que,</p>
+<p>Alors,</p>
+<p>Après cela,</p>
+<p>Après que,</p>
+<p>Aussi,</p>
+<p>bien que,</p>
+<p>car,</p>
+<h5><strong>Cependant,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>c&rsquo;est ainsi que,</p>
+<p>c&rsquo;est pour cela que,</p>
+<p>par ailleurs,</p>
+<p>c&rsquo;est pourquoi,</p>
+<p>Considérons,</p>
+<p>Contraste,</p>
+<p>D’autant plus,</p>
+<p>d&rsquo;après,</p>
+<p>de ce fait,</p>
+<p>de façon,</p>
+<p>manière que,</p>
+<h5><strong>De la même manière,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>De même,</p>
+<p>enfin,</p>
+<p>de nouveau</p>
+<p>de plus,</p>
+<p>en dernier lieu,</p>
+<p>De plus,</p>
+<p>de sorte que,</p>
+<p>deuxièmement,</p>
+<p>Donc,</p>
+<p>en ce qui concerne,</p>
+<p>En conclusion,</p>
+<p>par ailleurs,</p>
+<p>En conséquence,</p>
+<p>En dernier lieu,</p>
+<p>dommage encore,</p>
+<p>En fait,</p>
+<p>puis,</p>
+<p>En outre,</p>
+<p>finalement,</p>
+<h5><strong>en particulier,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>En premier lieu,</p>
+<p>finalement,</p>
+<p>En revanche,</p>
+<p>En somme,</p>
+<p>encore une fois,</p>
+<p>Enfin,</p>
+<p>ensuite,</p>
+<p>étant donné que,</p>
+<p>Finalement,</p>
+<p>grâce à,</p>
+<p>il est question de,</p>
+<p>de même,</p>
+<p>Il s&rsquo;agit de,</p>
+<p>il y a aussi,</p>
+<h5><strong>Mais,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Malgré cela,</p>
+<p>Malgré tout,</p>
+<p>Néanmoins,</p>
+<p>Outre cela,</p>
+<p>Par ailleurs ,</p>
+<p>Par conséquent,</p>
+<p>et aussi,</p>
+<p>Par contre,</p>
+<p>par exemple,</p>
+<p>évidemment,</p>
+<p>Par la suite,</p>
+<p>par rapport à,</p>
+<p>parce que,</p>
+<p>plus précisément,</p>
+<p>plus tard,</p>
+<h5><strong>Pour commencer,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Pour conclure,</p>
+<p>Pourtant,</p>
+<p>Premièrement,</p>
+<p>Prenons le cas de,</p>
+<p>Puis,</p>
+<p>puisque,</p>
+<p>Qui plus est,</p>
+<p>Selon,</p>
+<p>Suivant,</p>
+<p>Tandis que,</p>
+<p>touchant à,</p>
+<p>Tout d’abord,</p>
+<h5><strong>Toutefois,</strong></h5>
+<p>troisièmement</p>
+<p>et ensuite,</p>
+<p>Une fois de plus,</p>
+<p>et puis,</p>
+<p>et aussi,</p>
+<h5><strong>à cause de cela,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>à cause de,</p>
+<p>ainsi,</p>
+<p>à nouveau,</p>
+<p>à partir de là,</p>
+<p>Ainsi,</p>
+<p>Alors que,</p>
+<p>Alors,</p>
+<p>Après cela,</p>
+<p>Après que,</p>
+<p>Aussi,</p>
+<p>bien que,</p>
+<p>car,</p>
+<h5><strong>Cependant,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>c&rsquo;est ainsi que,</p>
+<p>c&rsquo;est pour cela que,</p>
+<p>par ailleurs,</p>
+<p>c&rsquo;est pourquoi,</p>
+<p>Considérons,</p>
+<p>Contraste,</p>
+<p>D’autant plus,</p>
+<p>d&rsquo;après,</p>
+<p>de ce fait,</p>
+<p>de façon,</p>
+<p>manière que,</p>
+<h5><strong>De la même manière,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>De même,</p>
+<p>enfin,</p>
+<p>de nouveau</p>
+<p>de plus,</p>
+<p>en dernier lieu,</p>
+<p>De plus,</p>
+<p>de sorte que,</p>
+<p>deuxièmement,</p>
+<p>Donc,</p>
+<p>en ce qui concerne,</p>
+<p>En conclusion,</p>
+<p>par ailleurs,</p>
+<p>En conséquence,</p>
+<p>En dernier lieu,</p>
+<p>dommage encore,</p>
+<p>En fait,</p>
+<p>puis,</p>
+<p>En outre,</p>
+<p>finalement,</p>
+<h5><strong>en particulier,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>En premier lieu,</p>
+<p>finalement,</p>
+<p>En revanche,</p>
+<p>En somme,</p>
+<p>encore une fois,</p>
+<p>Enfin,</p>
+<p>ensuite,</p>
+<p>étant donné que,</p>
+<p>Finalement,</p>
+<p>grâce à,</p>
+<p>il est question de,</p>
+<p>de même,</p>
+<p>Il s&rsquo;agit de,</p>
+<p>il y a aussi,</p>
+<p><strong>Mais,</strong></p>
+<h5>Malgré cela,</h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Malgré tout,</p>
+<p>Néanmoins,</p>
+<p>Outre cela,</p>
+<p>Par ailleurs ,</p>
+<p>Par conséquent,</p>
+<p>et aussi,</p>
+<p>Par contre,</p>
+<p>par exemple,</p>
+<p>évidemment,</p>
+<p>Par la suite,</p>
+<p>par rapport à,</p>
+<p>parce que,</p>
+<p>plus précisément,</p>
+<p>plus tard,</p>
+<h5><strong>Pour commencer,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Pour conclure,</p>
+<p>Pourtant,</p>
+<p>Premièrement,</p>
+<p>Prenons le cas de,</p>
+<p>Puis,</p>
+<p>puisque,</p>
+<p>Qui plus est,</p>
+<p>Selon,</p>
+<p>Suivant,</p>
+<p>Tandis que,</p>
+<p>touchant à,</p>
+<p>Tout d’abord,</p>
+<h5><strong>Toutefois,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>troisièmement</p>
+<p>et ensuite,</p>
+<p>Une fois de plus,</p>
+<p>et puis,</p>
+<p>et aussi,</p>
+<h5><strong>à cause de cela,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>à cause de,</p>
+<p>ainsi,</p>
+<p>à nouveau,</p>
+<p>à partir de là,</p>
+<p>Ainsi,</p>
+<p>Alors que,</p>
+<p>Alors,</p>
+<p>Après cela,</p>
+<p>Après que,</p>
+<p>Aussi,</p>
+<p>bien que,</p>
+<p>car,</p>
+<h5><strong>Cependant,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>c&rsquo;est ainsi que,</p>
+<p>c&rsquo;est pour cela que,</p>
+<p>par ailleurs,</p>
+<p>c&rsquo;est pourquoi,</p>
+<p>Considérons,</p>
+<p>Contraste,</p>
+<p>D’autant plus,</p>
+<p>d&rsquo;après,</p>
+<p>de ce fait,</p>
+<p>de façon,</p>
+<p>manière que,</p>
+<h5><strong>De la même manière,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>De même,</p>
+<p>enfin,</p>
+<p>de nouveau</p>
+<p>de plus,</p>
+<p>en dernier lieu,</p>
+<p>De plus,</p>
+<p>de sorte que,</p>
+<p>deuxièmement,</p>
+<p>Donc,</p>
+<p>en ce qui concerne,</p>
+<p>En conclusion,</p>
+<p>par ailleurs,</p>
+<p>En conséquence,</p>
+<p>En dernier lieu,</p>
+<p>dommage encore,</p>
+<p>En fait,</p>
+<p>puis,</p>
+<p>En outre,</p>
+<p>finalement,</p>
+<h5><strong>en particulier,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>En premier lieu,</p>
+<p>finalement,</p>
+<p>En revanche,</p>
+<p>En somme,</p>
+<p>encore une fois,</p>
+<p>Enfin,</p>
+<p>ensuite,</p>
+<p>étant donné que,</p>
+<p>Finalement,</p>
+<p>grâce à,</p>
+<p>il est question de,</p>
+<p>de même,</p>
+<p>Il s&rsquo;agit de,</p>
+<p>il y a aussi,</p>
+<h5><strong>Mais,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Malgré cela,</p>
+<p>Malgré tout,</p>
+<p>Néanmoins,</p>
+<p>Outre cela,</p>
+<p>Par ailleurs ,</p>
+<p>Par conséquent,</p>
+<p>et aussi,</p>
+<p>Par contre,</p>
+<p>par exemple,</p>
+<p>évidemment,</p>
+<p>Par la suite,</p>
+<p>par rapport à,</p>
+<p>parce que,</p>
+<p>plus précisément,</p>
+<p>plus tard,</p>
+<h5><strong>Pour commencer,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Pour conclure,</p>
+<p>Pourtant,</p>
+<p>Premièrement,</p>
+<p>Prenons le cas de,</p>
+<p>Puis,</p>
+<p>puisque,</p>
+<p>Qui plus est,</p>
+<p>Selon,</p>
+<p>Suivant,</p>
+<p>Tandis que,</p>
+<p>touchant à,</p>
+<p>Tout d’abord,</p>
+<h5><strong>Toutefois,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>troisièmement</p>
+<p>et ensuite,</p>
+<p>Une fois de plus,</p>
+<p>et puis,</p>
+<p>et aussi,</p>
+<h5><strong>à cause de cela,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>à cause de,</p>
+<p>ainsi,</p>
+<p>à nouveau,</p>
+<p>à partir de là,</p>
+<p>Ainsi,</p>
+<p>Alors que,</p>
+<p>Alors,</p>
+<p>Après cela,</p>
+<p>Après que,</p>
+<p>Aussi,</p>
+<p>bien que,</p>
+<p>car,</p>
+<h5><strong>Cependant,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>c&rsquo;est ainsi que,</p>
+<p>c&rsquo;est pour cela que,</p>
+<p>par ailleurs,</p>
+<p>c&rsquo;est pourquoi,</p>
+<p>Considérons,</p>
+<p>Contraste,</p>
+<p>D’autant plus,</p>
+<p>d&rsquo;après,</p>
+<p>de ce fait,</p>
+<p>de façon,</p>
+<p>manière que,</p>
+<h5><strong>De la même</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<h5><strong>manière,</strong></h5>
+<p>De même,</p>
+<p>enfin,</p>
+<p>de nouveau</p>
+<p>de plus,</p>
+<p>en dernier lieu,</p>
+<p>De plus,</p>
+<p>de sorte que,</p>
+<p>deuxièmement,</p>
+<p>Donc,</p>
+<p>en ce qui concerne,</p>
+<p>En conclusion,</p>
+<p>par ailleurs,</p>
+<p>En conséquence,</p>
+<p>En dernier lieu,</p>
+<p>dommage encore,</p>
+<p>En fait,</p>
+<p>puis,</p>
+<p>En outre,</p>
+<p>finalement,</p>
+<h5><strong>en particulier,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>En premier lieu,</p>
+<p>finalement,</p>
+<p>En revanche,</p>
+<p>En somme,</p>
+<p>encore une fois,</p>
+<p>Enfin,</p>
+<p>ensuite,</p>
+<p>étant donné que,</p>
+<p>Finalement,</p>
+<p>grâce à,</p>
+<p>il est question de,</p>
+<p>de même,</p>
+<p>Il s&rsquo;agit de,</p>
+<p>il y a aussi,</p>
+<h5><strong>Mais,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Malgré cela,</p>
+<p>Malgré tout,</p>
+<p>Néanmoins,</p>
+<p>Outre cela,</p>
+<p>Par ailleurs ,</p>
+<p>Par conséquent,</p>
+<p>et aussi,</p>
+<p>Par contre,</p>
+<p>par exemple,</p>
+<p>évidemment,</p>
+<p>Par la suite,</p>
+<p>par rapport à,</p>
+<p>parce que,</p>
+<p>plus précisément,</p>
+<p>plus tard,</p>
+<h5><strong>Pour commencer,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>Pour conclure,</p>
+<p>Pourtant,</p>
+<p>Premièrement,</p>
+<p>Prenons le cas de,</p>
+<p>Puis,</p>
+<p>puisque,</p>
+<p>Qui plus est,</p>
+<p>Selon,</p>
+<p>Suivant,</p>
+<p>Tandis que,</p>
+<p>touchant à,</p>
+<p>Tout d’abord,</p>
+<h5><strong>Toutefois, </strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)<br />
+</strong></h5>
+<p>troisièmement</p>
+<p>et ensuite,</p>
+<p>Une fois de plus,</p>
+<p>et puis,</p>
+<p>et aussi,</p>
+<h5><strong>à cause de cela,</strong></h5>
+<h5><strong>(La liberté d&rsquo;aller et venir)</strong></h5>
+<p>à cause de,</p>
+<p>ainsi,</p>
+<p>à nouveau,</p>
+<p>à partir de là,</p>
+<p>Ainsi,</p>
+<p>Alors que,</p>
+<p>Alors,</p>
+<p>Après cela,</p>
+<p>Après que,</p>
+<p>Aussi,</p>
+<p>bien que,</p>
+<p>car,</p>
+<h5><strong>Cependant, </strong></h5>
+<h5><strong> (La liberté d&rsquo;aller et venir)<br />
+</strong></h5>
+<p>c&rsquo;est ainsi que,</p>
+<p>c&rsquo;est pour cela que,</p>
+<p>par ailleurs,</p>
+<p>c&rsquo;est pourquoi,</p>
+<p>Considérons,</p>
+<p>Contraste,</p>
+<p>D’autant plus,</p>
+<p>d&rsquo;après,</p>
+<p>de ce fait,</p>
+<p>de façon,</p>
+<p>manière que,</p>
+<p><strong>De la même manière,</strong></p>
+<p><em><strong>du cabinet Aci assurera efficacement votre défense.</strong></em></p>
+<p><em><strong>Il vous appartient de prendre l’initiative en l’appelant au téléphone, ou bien en envoyant un mail.</strong></em></p>
+<p><em><strong>Quelle que soit votre situation : auteur, co-auteur, complice, receleur ou victime d’infractions,</strong></em></p>
+<p><em><strong>nos avocats vous accompagnent et assurent votre défense durant la phase d’enquête (garde à vue) ;</strong></em></p>
+<p><em><strong>d’instruction (juge d’instruction, chambre de l’instruction) ; devant la chambre de jugement et enfin,</strong></em></p>
+<p><em><strong>pendant la phase judiciaire (après le procès, auprès de l’administration pénitentiaire par exemple).</strong></em></p>
+<h2><strong>V).  &#8212;  Les domaines d&rsquo;intervention du cabinet Aci </strong></h2>
+<h2><strong>Cabinet d&rsquo;avocats pénalistes parisiens  </strong></h2>
+<p><strong>D&rsquo;abord, Adresse :</strong> 55, rue de Turbigo</p>
+<p>75 003 PARIS</p>
+<p><strong>Puis, Tél.</strong> <a href="tel:0142715105">01 42 71 51 05</a></p>
+<p><strong>Ensuite, Fax</strong> 01 42 71 66 80</p>
+<p><strong>Engagement, E-mail :</strong> <a href="mailto:contact@cabinetaci.com">contact@cabinetaci.com</a></p>
+<p><strong>Enfin, Catégories</strong></p>
+<p>Premièrement, LE CABINET</p>
+<p>En premier lieu, <a href="https://www.cabinetaci.com/avocat-penaliste/">Rôle de l’avocat pénaliste </a> (La liberté d&rsquo;aller et venir)</p>
+<p>En somme, <a href="https://www.cabinetaci.com/avocat-specialiste-en-droit-penal/">Droit pénal</a>  (La liberté d&rsquo;aller et venir)</p>
+<p>Tout d’abord, <a href="https://www.cabinetaci.com/le-droit-penal-general/">pénal général</a> (La liberté d&rsquo;aller et venir)</p>
+<p>Après cela, <a href="https://www.cabinetaci.com/avocat-specialiste-en-droit-penal/droit-penal-special/">Droit pénal spécial : les infractions du code pénal</a></p>
+<p>Puis, <a href="https://www.cabinetaci.com/droit-penal-des-affaires/">pénal des affaires</a> (La liberté d&rsquo;aller et venir)</p>
+<p>Aussi, <a href="https://www.cabinetaci.com/droit-penal-fiscal/">Droit pénal fiscal</a> (La liberté d&rsquo;aller et venir)</p>
+<p>Malgré tout, <a href="https://www.cabinetaci.com/droit-penal-de-lurbanisme/">Droit pénal de l’urbanisme</a> (La liberté d&rsquo;aller et venir)</p>
+<p>De même, <a href="https://www.cabinetaci.com/droit-penal-douanier/">Le droit pénal douanier</a> (La liberté d&rsquo;aller et venir)</p>
+<p>En outre, <a href="https://www.cabinetaci.com/droit-penal-de-la-presse/">Droit pénal de la presse</a> (La liberté d&rsquo;aller et venir)</p>
+<h4><strong>                 Et ensuite,  (La liberté d&rsquo;aller et venir)</strong></h4>
+<p><a href="https://www.cabinetaci.com/droit-penal-des-nuisances/">pénal des nuisances</a></p>
+<p>Donc, <a href="https://www.cabinetaci.com/droit-penal-routier/">pénal routier infractions</a></p>
+<p>Outre cela, <a href="https://www.cabinetaci.com/droit-penal-du-travail-3/">Droit pénal du travail</a></p>
+<p>Malgré tout, <a href="https://www.cabinetaci.com/droit-penal-de-lenvironnement/">Droit pénal de l’environnement</a></p>
+<p>Cependant, <a href="https://www.cabinetaci.com/le-droit-penal-famille/">pénal de la famille</a></p>
+<p>En outre, <a href="https://www.cabinetaci.com/droit-penal-des-mineurs/">Droit pénal des mineurs</a></p>
+<p>Ainsi, <a href="https://www.cabinetaci.com/droit-penal-de-l-informatique/">Droit pénal de l’informatique</a></p>
+<p>En fait, <a href="https://www.cabinetaci.com/droit-penal-international/">pénal international</a></p>
+<p>Tandis que, <a href="https://www.cabinetaci.com/droit-penal-des-societes/">Droit pénal des sociétés</a></p>
+<p>Néanmoins, <a href="https://www.cabinetaci.com/droit-penal-de-la-consommation-2/">Le droit pénal de la consommation</a></p>
+<p>Toutefois, <a href="https://www.cabinetaci.com/lexique-de-droit-penal/">Lexique de droit pénal</a></p>
+<p>Alors, <a href="https://www.cabinetaci.com/la-liste-de-certaines-infractions-du-site/">Principales infractions en droit péna</a><a href="https://www.cabinetaci.com/la-liste-de-certaines-infractions-du-site/">l</a></p>
+<p>Puis, Procédure pénale</p>
+<p>Pourtant, <a href="https://www.cabinetaci.com/notions-criminologie/">Notions de criminologie</a></p>
+<p>En revanche, <a href="https://www.cabinetaci.com/defense-penale-avocat/">DÉFENSE PÉNALE</a></p>
+<p>Aussi, <a href="https://www.cabinetaci.com/autres-domaines/">AUTRES DOMAINES</a></p>
+<p>Enfin, <a href="https://www.cabinetaci.com/contact-2/">CONTACT</a>.</p>
+
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Articles similaires</em></h3>
+</div>				</div>
+			</div>
+		</div>
+	</div>
+	</article><div class="mkd-comment-holder clearfix" id="comments">
+	<div class="mkd-comment-number">
+		<div class="mkd-comment-number-inner">
+			<span class="mkd-comment-number-icon icon-bubbles"></span>
+			<h4>Sans commentaires</h4>
+		</div>
+	</div>
+<div class="mkd-comments">
+		<!-- If comments are open, but there are no comments. -->
+
+	 
+		<!-- If comments are closed. -->
+		<p>Désolé, le formulaire de commentaire est fermé pour le moment.</p>
+
+	</div></div>
+ <div class="mkd-comment-form">
+	</div>
+								
+							
+
+
+	</div>
+		</div>
+			</div>
+</div> <!-- close div.content_inner -->
+</div> <!-- close div.content -->
+
+<footer >
+	<div class="mkd-footer-inner clearfix">
+
+		
+<div class="mkd-footer-top-holder">
+	<div class="mkd-footer-top ">
+		
+		<div class="mkd-container">
+			<div class="mkd-container-inner">
+
+		<div class="mkd-four-columns mkd-footer-top-columns clearfix">
+	<div class="mkd-four-columns-inner">
+		<div class="mkd-column">
+			<div class="mkd-column-inner">
+				<div id="text-4" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><a href="https://www.cabinetaci.com/"><img data-recalc-dims="1" src="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/06/logo-cabinet-aci-1.png?resize=250%2C66&#038;ssl=1" width="250" height="66" alt="Cabinet droit pénal à Paris" /></a>
+
+<div class="vc_empty_space"   style="height: 12px"><span class="vc_empty_space_inner"></span></div>
+
+Le cabinet d’avocats en droit pénal ACI assiste les personnes mise en cause dans une infraction ainsi que les victimes d’une infraction. Les spécialistes en droit pénal de notre <a href="https://www.cabinetaci.com/quest-ce-quun-avocat-penaliste/">cabinet d’avocats pénalistes</a> à paris ont une vaste expérience professionnelle dans la défense des intérêts des personnes physiques et morales.
+
+<div class="vc_empty_space"   style="height: 39px"><span class="vc_empty_space_inner"></span></div>
+
+
+</div>
+		</div>			</div>
+		</div>
+		<div class="mkd-column">
+			<div class="mkd-column-inner">
+				
+		<div id="recent-posts-2" class="widget mkd-footer-column-2 widget_recent_entries">
+		<h4 class="mkd-footer-widget-title">Articles récents</h4>
+		<ul>
+											<li>
+					<a href="https://www.cabinetaci.com/cabinet-davocats-aci-le-penaliste/">CABINET d&rsquo;Avocats ACI &#8211; Le pénaliste</a>
+									</li>
+											<li>
+					<a href="https://www.cabinetaci.com/difference-entre-lextorsion-et-le-vol/">Différence entre l’extorsion et le vol</a>
+									</li>
+											<li>
+					<a href="https://www.cabinetaci.com/lincrimination-autorite-maniere-comportement-infraction/">L’incrimination : autorité, manière, comportement, infraction</a>
+									</li>
+											<li>
+					<a href="https://www.cabinetaci.com/la-recidive-pour-les-personnes-physiques/">La récidive pour les personnes physiques</a>
+									</li>
+											<li>
+					<a href="https://www.cabinetaci.com/la-responsabilite-penale-elements-caracteristiques-qualite/">La responsabilité pénale : éléments, caractéristiques, qualité</a>
+									</li>
+					</ul>
+
+		</div>			</div>
+		</div>
+		<div class="mkd-column">
+			<div class="mkd-column-inner">
+				<div id="text-28" class="widget mkd-footer-column-3 widget_text"><h4 class="mkd-footer-widget-title">LES TROPHÉES DE LA COMMUNICATION</h4>			<div class="textwidget"><p><a id="trophees-communication" title="LES TROPHÉES DE LA COMMUNICATION" href="https://www.cabinetaci.com/trophees" target="_blank" rel="noopener nofollow"><img loading="lazy" decoding="async" data-recalc-dims="1" class="alignnone size-full wp-image-28462" src="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/09/trophees-communication-2019.png?resize=300%2C300&#038;ssl=1" alt="Les Trophées de la communication 2019" width="300" height="300" srcset="https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/09/trophees-communication-2019.png?w=300&amp;ssl=1 300w, https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/09/trophees-communication-2019.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.cabinetaci.com/wp-content/uploads/2019/09/trophees-communication-2019.png?resize=100%2C100&amp;ssl=1 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></p>
+</div>
+		</div>			</div>
+		</div>
+		<div class="mkd-column">
+			<div class="mkd-column-inner">
+				<div id="text-7" class="widget mkd-footer-column-4 widget_text">			<div class="textwidget"><div class="vc_empty_space"   style="height: 12px"><span class="vc_empty_space_inner"></span></div>
+
+<div class="mkd-icon-list-item">
+	<div class="mkd-icon-list-icon-holder">
+        <div class="mkd-icon-list-icon-holder-inner clearfix" data-icon-size=18>
+			<i class="mkd-icon-simple-line-icon icon-earphones-alt " style="color:#c18f59;font-size:18px" ></i>		</div>
+	</div>
+	<p class="mkd-icon-list-text" style="color:#ffffff;font-size:16px;padding-left:12px;text-transform:uppercase;font-weight:700" data-title-size=16> Informations de contact</p>
+</div>
+
+<div class="vc_empty_space"   style="height: 17px"><span class="vc_empty_space_inner"></span></div>
+
+<strong><i class="fa fa-street-view" style="margin-right: 5px"></i>Adresse :</strong><br>55 Rue de Turbigo<br> 75003 Paris<br> France<br>
+                <strong>Tel:</strong> <a id="phonefooter" href="tel:0142715105">01.42.71.51.05</a><br>
+                <strong>Fax:</strong> 01.42.71.66.80<br>
+                <strong><i class="fa fa-at" style="margin-right: 5px"></i>E-mail:</strong> <a  id="mailfooter" href="mailto:contact[@]cabinetaci.com">contact[@]cabinetaci.com</a><br><br> 
+                <strong><i class="fa fa-internet-explorer" style="margin-right: 5px"></i>Site web:</strong> <a  id="acicontact" href="https://www.cabinetaci.com/">www.cabinetaci.com</a><br><br> </div>
+		</div><div id="text-5" class="widget mkd-footer-column-4 widget_text">			<div class="textwidget"><div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://twitter.com/cabinetaci" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_twitter mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff">Twitter</p>
+        </div>
+    </div>
+</div>
+
+
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 7px;margin-right: 7px"></span>
+
+<div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://web.facebook.com/CabinetAciPenal" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_facebook mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff">Facebook</p>
+        </div>
+    </div>
+</div>
+
+
+<span class='mkd-vertical-separator' style="border-right-color: rgba(255,255,255,0.1);height: 48px;margin-left: 7px;margin-right: 7px"></span>
+
+<div class="mkd-iwt clearfix mkd-iwt-icon-top mkd-iwt-icon-normal mkd-iwt-icon-small">
+    <div class="mkd-iwt-icon-holder">
+                    
+    <span class="mkd-icon-shortcode normal mkd-icon-linked"  data-hover-color="#c18f59" data-color="#ffffff" >
+                    <a href="https://www.linkedin.com/in/cabinet-aci-81a008115/" target="_blank">
+        
+        <span aria-hidden="true" class="mkd-icon-font-elegant social_linkedin mkd-icon-element" style="color: #ffffff;font-size:23px" ></span>
+                    </a>
+                <span  class="mkd-background"></span>
+    </span>
+
+            </div>
+    <div class="mkd-iwt-content-holder" >
+        <div class="mkd-iwt-title-holder">
+                                </div>
+        <div class="mkd-iwt-text-holder">
+            <p style="color: #ffffff">LinkedIn</p>
+        </div>
+    </div>
+</div>
+</div>
+		</div>			</div>
+		</div>
+	</div>
+</div>			</div>
+		</div>
+		</div>
+</div>
+
+<div class="mkd-footer-bottom-holder">
+	<div class="mkd-footer-bottom-holder-inner">
+					<div class="mkd-container">
+				<div class="mkd-container-inner">
+
+		<div class="mkd-two-columns-50-50 clearfix">
+	<div class="mkd-two-columns-50-50-inner">
+		<div class="mkd-footer-btm-table-holder">
+			<div class="mkd-column">
+				<div class="mkd-column-inner">
+					<div id="nav_menu-3" class="widget mkd-footer-bottom-left widget_nav_menu"><div class="menu-footer_bottom_menu-container"><ul id="menu-footer_bottom_menu" class="menu"><li id="menu-item-41036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-41036"><a href="https://www.cabinetaci.com/">Accueil</a></li>
+<li id="menu-item-26851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26851"><a href="https://www.cabinetaci.com/avocat-paris-penaliste/">Présentation</a></li>
+<li id="menu-item-38372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38372"><a href="https://www.cabinetaci.com/sitemap_index.xml">Sitemap</a></li>
+<li id="menu-item-26854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26854"><a href="https://www.cabinetaci.com/mentions-legales/">Mentions Légales</a></li>
+</ul></div></div>				</div>
+			</div>
+			<div class="mkd-column">
+				<div class="mkd-column-inner">
+					<div id="text-9" class="widget mkd-footer-bottom-left widget_text">			<div class="textwidget">Copyright 2019 - 2022 - <span style= "color:#c18f59;"> Cabinet ACI </span> All Right Reserved</a></div>
+		</div>				</div>
+			</div>
+		</div>
+	</div>
+</div>				</div>
+			</div>
+				</div>
+	</div>
+
+	</div>
+</footer>
+
+</div> <!-- close div.mkd-wrapper-inner  -->
+</div> <!-- close div.mkd-wrapper -->
+
+		<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<div id="pum-34490" role="dialog" aria-modal="false" aria-labelledby=&quot;pum_popup_title_34490&quot; class="pum pum-overlay pum-theme-34153 pum-theme-theme-par-defaut popmake-overlay pum-click-to-close auto_open click_open" data-popmake="{&quot;id&quot;:34490,&quot;slug&quot;:&quot;prendre-rendez-vous&quot;,&quot;theme_id&quot;:34153,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-34490-aci&quot;],&quot;delay&quot;:&quot;8000&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;fa fa-close&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-34490" class="pum-container popmake theme-34153 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+							<div id="pum_popup_title_34490" class="pum-title popmake-title">
+				Prendre rendez-vous			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<p><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></p>
+
+		</div>
+	</div>
+</div></div></div></div></div><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p> </span></span></span></span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></p>
+
+		</div>
+	</div>
+</div></div></div></div></div><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p> </span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p style="text-align: center;">Vous recherchez un avocat spécialisé en droit pénal ? Laissez-nous vos coordonnées et nous vous contacterons.</p>
+<p> </p>
+
+		</div>
+	</div>
+</div></div></div></div></div><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpcf7 no-js" id="wpcf7-f38587-o1" lang="fr-FR" dir="ltr" data-wpcf7-id="38587">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/la-liberte-daller-et-venir/#wpcf7-f38587-o1" method="post" class="wpcf7-form init" aria-label="Formulaire de contact" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="38587" />
+<input type="hidden" name="_wpcf7_version" value="6.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="fr_FR" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f38587-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="row" style="padding:0;">
+	<div class="vc_col-sm-6" style="padding:0px 15px 0px 0px;">
+		<p><label> Nom *</label><br />
+<span class="wpcf7-form-control-wrap" data-name="text-800"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Nom*" value="" type="text" name="text-800" /></span>
+		</p>
+	</div>
+	<div class="vc_col-sm-6" style="padding:0;">
+		<p><label>Email *</label><br />
+<span class="wpcf7-form-control-wrap" data-name="email-183"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email *" value="" type="email" name="email-183" /></span>
+		</p>
+	</div>
+</div>
+<div class="row">
+	<p><label>Lieu de l'infraction ou tribunal compétent *</label><br />
+<span class="wpcf7-form-control-wrap" data-name="menu-732"><select class="wpcf7-form-control wpcf7-select" aria-invalid="false" name="menu-732"><option value="Paris (75)">Paris (75)</option><option value="Seine-et-Marne (77)">Seine-et-Marne (77)</option><option value="Yvelines (78)">Yvelines (78)</option><option value="Essonne (91)">Essonne (91)</option><option value="Hauts-de-Seine (92)">Hauts-de-Seine (92)</option><option value="Seine-saint-Denis (93)">Seine-saint-Denis (93)</option><option value="Val-de-Marne (94)">Val-de-Marne (94)</option><option value="Val-d&#039;Oise (95)">Val-d&#039;Oise (95)</option><option value="Oise (60)">Oise (60)</option></select></span>
+	</p>
+</div>
+<div class="row">
+	<p><label> Téléphone * </label><br />
+<span class="wpcf7-form-control-wrap" data-name="tel-706"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" aria-invalid="false" value="" type="tel" name="tel-706" /></span>
+	</p>
+</div>
+<div class="row">
+	<p><label> Objet de la prise de contact </label><br />
+<span class="wpcf7-form-control-wrap" data-name="textarea-727"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="textarea-727"></textarea></span>
+	</p>
+</div>
+<div class="row">
+	<p><span class="wpcf7-form-control-wrap" data-name="capital-quiz"><label><span class="wpcf7-quiz-label">18 + 9 = ?</span> <input size="40" class="wpcf7-form-control wpcf7-quiz" autocomplete="off" aria-required="true" aria-invalid="false" type="text" name="capital-quiz" /></label><input type="hidden" name="_wpcf7_quiz_answer_capital-quiz" value="143ceb91d74ba4268b5fba79ea99c501" /></span>
+	</p>
+</div>
+<div class="row">
+	<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Envoyer" />
+	</p>
+</div><p style="display: none !important;" class="akismet-fields-container" data-prefix="_wpcf7_ak_"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="190"/><script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div></div></div></div></div><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+</div></div></div></div></div><div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section mkd-content-aligment-left" style=""><div class="clearfix mkd-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+</div></div></div></div></div></p>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Fermer">
+			<i class="fa fa-close"></i>			</button>
+		
+	</div>
+
+</div>
+<script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script><link rel='stylesheet' id='wpo_min-footer-0-css' href='https://www.cabinetaci.com/wp-content/cache/wpo-minify/1735039189/assets/wpo-minify-footer-660c11e3.min.css' type='text/css' media='all' />
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2024-10-17 17:27:10+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"This contact form is placed in the wrong place.":["Ce formulaire de contact est plac\u00e9 dans un mauvais endroit."],"Error:":["Erreur\u00a0:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.cabinetaci.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.cabinetaci.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="dscf7_refresh_script-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/www.cabinetaci.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/ds-cf7-math-captcha/assets/js/script.js" id="dscf7_refresh_script-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js" id="gtm4wp-form-move-tracker-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/jquery/ui/tabs.min.js" id="jquery-ui-tabs-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/jquery/ui/accordion.min.js" id="jquery-ui-accordion-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"fr","strings":{"mejs.download-file":"T\u00e9l\u00e9charger le fichier","mejs.install-flash":"Vous utilisez un navigateur qui n\u2019a pas le lecteur Flash activ\u00e9 ou install\u00e9. Veuillez activer votre extension Flash ou t\u00e9l\u00e9charger la derni\u00e8re version \u00e0 partir de cette adresse\u00a0: https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Plein \u00e9cran","mejs.play":"Lecture","mejs.pause":"Pause","mejs.time-slider":"Curseur de temps","mejs.time-help-text":"Utilisez les fl\u00e8ches droite\/gauche pour avancer d\u2019une seconde, haut\/bas pour avancer de dix secondes.","mejs.live-broadcast":"\u00c9mission en direct","mejs.volume-help-text":"Utilisez les fl\u00e8ches haut\/bas pour augmenter ou diminuer le volume.","mejs.unmute":"R\u00e9activer le son","mejs.mute":"Muet","mejs.volume-slider":"Curseur de volume","mejs.video-player":"Lecteur vid\u00e9o","mejs.audio-player":"Lecteur audio","mejs.captions-subtitles":"L\u00e9gendes\/Sous-titres","mejs.captions-chapters":"Chapitres","mejs.none":"Aucun","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanais","mejs.arabic":"Arabe","mejs.belarusian":"Bi\u00e9lorusse","mejs.bulgarian":"Bulgare","mejs.catalan":"Catalan","mejs.chinese":"Chinois","mejs.chinese-simplified":"Chinois (simplifi\u00e9)","mejs.chinese-traditional":"Chinois (traditionnel)","mejs.croatian":"Croate","mejs.czech":"Tch\u00e8que","mejs.danish":"Danois","mejs.dutch":"N\u00e9erlandais","mejs.english":"Anglais","mejs.estonian":"Estonien","mejs.filipino":"Filipino","mejs.finnish":"Finnois","mejs.french":"Fran\u00e7ais","mejs.galician":"Galicien","mejs.german":"Allemand","mejs.greek":"Grec","mejs.haitian-creole":"Cr\u00e9ole ha\u00eftien","mejs.hebrew":"H\u00e9breu","mejs.hindi":"Hindi","mejs.hungarian":"Hongrois","mejs.icelandic":"Islandais","mejs.indonesian":"Indon\u00e9sien","mejs.irish":"Irlandais","mejs.italian":"Italien","mejs.japanese":"Japonais","mejs.korean":"Cor\u00e9en","mejs.latvian":"Letton","mejs.lithuanian":"Lituanien","mejs.macedonian":"Mac\u00e9donien","mejs.malay":"Malais","mejs.maltese":"Maltais","mejs.norwegian":"Norv\u00e9gien","mejs.persian":"Perse","mejs.polish":"Polonais","mejs.portuguese":"Portugais","mejs.romanian":"Roumain","mejs.russian":"Russe","mejs.serbian":"Serbe","mejs.slovak":"Slovaque","mejs.slovenian":"Slov\u00e9nien","mejs.spanish":"Espagnol","mejs.swahili":"Swahili","mejs.swedish":"Su\u00e9dois","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turc","mejs.ukrainian":"Ukrainien","mejs.vietnamese":"Vietnamien","mejs.welsh":"Ga\u00e9lique","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js" id="mediaelement-core-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js" id="mediaelement-migrate-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/mediaelement/wp-mediaelement.min.js" id="wp-mediaelement-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.appear.js" id="appear-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/modernizr.custom.85257.js" id="modernizr-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.plugin.js" id="jquery-plugin-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.countdown.min.js" id="countdown-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/owl.carousel.min.js" id="owl-carousel-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/parallax.min.js" id="parallax-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/select2.min.js" id="select2-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/easypiechart.min.js" id="easypiechart-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.waypoints.min.js" id="waypoints-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/Chart.min.js" id="Chart-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/counter.js" id="counter-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/counter-random.min.js" id="counter-random-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/fluidvids.min.js" id="fluidvids-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.prettyPhoto.js" id="prettyPhoto-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.nicescroll.min.js" id="nicescroll-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/ScrollToPlugin.min.js" id="ScrollToPlugin-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/TweenLite.min.js" id="TweenLite-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.mixitup.min.js" id="mixitup-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.waitforimages.js" id="waitforimages-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.infinitescroll.min.js" id="infinitescroll-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.easing.1.3.js" id="easing-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules/plugins/jquery.flexslider-min.js" id="flexslider-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/isotope-layout/dist/isotope.pkgd.min.js" id="isotope-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="libero-mikado-modules-js-extra">
+/* <![CDATA[ */
+var mkdGlobalVars = {"vars":{"mkdAddForAdminBar":0,"mkdElementAppearAmount":-150,"mkdFirstMainColor":"#c18f59","mkdMessage":"Chargement de nouveaux messages...","mkdTopBarHeight":0,"mkdStickyHeaderHeight":60,"mkdStickyHeaderTransparencyHeight":60,"mkdLogoAreaHeight":0,"mkdMenuAreaHeight":152,"mkdStickyHeight":60}};
+var mkdPerPageVars = {"vars":{"mkdStickyScrollAmount":0,"mkdHeaderTransparencyHeight":0}};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/modules.min.js" id="libero-mikado-modules-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/blog.min.js" id="libero-mikado-blog-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="libero-mikado-like-js-extra">
+/* <![CDATA[ */
+var mkdLike = {"ajaxurl":"https:\/\/www.cabinetaci.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/themes/libero/assets/js/like.min.js" id="libero-mikado-like-js"></script>
+<script  defer type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.cabinetaci.com/wp-content/plugins/akismet/_inc/akismet-frontend.js" id="akismet-frontend-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.20.2","pm_dir_url":"https:\/\/www.cabinetaci.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/www.cabinetaci.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/www.cabinetaci.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"34153","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https:\/\/www.cabinetaci.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/www.cabinetaci.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-34490":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-34490-aci"],"delay":"8000"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"34153","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"theme-par-defaut","id":34490,"slug":"prendre-rendez-vous"}};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="//www.cabinetaci.com/wp-content/uploads/pum/pum-site-scripts.js?defer&amp;generated=1728421644&amp;ver=1.20.2" id="popup-maker-site-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://stats.wp.com/e-202502.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"163749635\",\"post\":\"6076\",\"tz\":\"1\",\"srv\":\"www.cabinetaci.com\",\"j\":\"1:13.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "163749635", "6076" ]);
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" ></script>
+<!-- This site is optimized with Phil Singleton's WP SEO Structured Data Plugin v2.7.11 - https://kcseopro.com/wordpress-seo-structured-data-schema-plugin/ -->
+
+<!-- / WP SEO Structured Data Plugin. -->
+
+</body>
+</html><!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+5159 objets récupérés (2 Mo) depuis Redis grâce à PhpRedis (v6.0.2).
+-->
+
+<!-- Cached by WP-Optimize - https://getwpo.com - Last modified: 7 January 2025 9 h 21 min (Europe/Paris UTC:1) -->

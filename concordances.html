@@ -62,8 +62,21 @@
       link.textContent = `Lien vers ${fileName}`;
       arabeDropdown.appendChild(link);
     }
+    // Generate links for Tableau Français
+    const françaisDropdown = document.getElementById('français-dropdown');
+    françaisDropdown.innerHTML = ''; // Clear any previous links
+    for (let i = 1; i <= 49; i++) {
+      const fileName = `concordancier_lang_fr-${i}.html`;
+      const link = document.createElement('a');
+      link.href = basePath + fileName;
+      link.textContent = `Link to ${fileName}`;
+      françaisDropdown.appendChild(link);
   }
-
+  
+  }
+  
+  
+   
   // Call function to generate links for both tables
   generateDynamicLinks();
 </script>

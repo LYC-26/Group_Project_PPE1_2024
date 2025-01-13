@@ -1,0 +1,306 @@
+ 2. Titre VII
+ 3. N° 7, octobre 2021
+ 4. Le concept de la liberté individuelle dans la per…
+
+  • Rainer ARNOLD
+--
+N° 7 - octobre 2021
+
+Le concept de la liberté individuelle dans la perspective du droit
+constitutionnel allemand
+
+--
+Sommaire
+
+  • A. Liberté individuelle - une comparaison avec le droit constitutionnel
+    allemand, un bref aperçu
+      □ 1. La liberté générale d'action (art. 2 (1) LF)
+      □ 2. Le droit général de la personnalité (DGP)
+      □ 3. Droit à l'inviolabilité du domicile
+      □ 4. La protection du secret de la correspondance (art. 10 LF).
+  • B. La liberté de la personne (art. 2 (2) 2e phrase LF en liaison avec
+    l'art. 104 LF)
+      □ 1. Classification
+--
+Résumé
+
+Le principe de la liberté est le fondement de l'ordre constitutionnel allemand
+et un élément essentiel de la valeur constitutionnelle suprême de la dignité
+humaine. La conception de la liberté individuelle, qui est aujourd'hui comprise
+de manière étroite par le Conseil constitutionnel français, correspond à la
+« liberté de la personne » en droit allemand, ancrée dans l'art. 2 (2) phrase 2
+de la Loi fondamentale (LF) et concrétisée par l'art. 104 LF, qui précise les
+conditions d'intervention pour la restriction et la privation de liberté. Sur
+la base de la jurisprudence de la Cour constitutionnelle fédérale (CCF), les
+aspects essentiels de cette garantie de liberté - après une brève démarcation
+par rapport aux autres garanties de liberté - sont présentés, qui est d'une
+grande importance avant tout en tant que garantie d'habeas corpus, mais qui
+protège également la liberté de mouvement au-delà.
+Mots clés
+liberté de la personne ; restriction de la liberté ; privation de la liberté ;
+liberté générale d'action ; droit à l'autodétermination informationnelle
+
+A. Liberté individuelle - une comparaison avec le droit constitutionnel
+allemand, un bref aperçu
+
+--
+tant que personne autonome, qui n'est pas « un individu souverain isolé », mais
+un individu « lié à la communauté et lié par la communauté sans perdre sa
+valeur intrinsèque »^(2). Sa liberté en tant que principe, spécifiée par les
+droits fondamentaux concrets, est directement liée à sa dignité. Cependant, la
+liberté est soumise à des restrictions nécessaires au profit des autres membres
+de la communauté, c'est-à-dire au profit du bien commun. Le principe de
+proportionnalité est le critère de délimitation entre liberté et restriction.
+
+La notion de liberté individuelle, telle qu'elle est utilisée par l'article 66
+de la Constitution et comprise dans la jurisprudence récente du Conseil
+constitutionnel, n'a pas d'équivalent terminologique en droit constitutionnel
+allemand. Elle correspond, en droit allemand, dans son contenu, à la notion de
+« liberté de la personne » de l'article 2 (2) phrase 2 de la Loi fondamentale
+(LF), qui peut être limitée conformément aux exigences procédurales de l'art.
+104 LF.
+
+Le droit général à la liberté, tel qu'exprimé dans l'article 2 (1) LF, est
+désigné par la Cour constitutionnelle fédérale (CCF) comme « liberté générale
+d'action » dans sa décision fondamentale Elfes de 1957^(3). Ce terme a depuis
+lors prévalu sur celui de « droit au libre développement de la personnalité »
+utilisé dans le texte même de cet article. Car, comme le souligne à juste titre
+la CCF, l'objectif de ce dernier est de protéger de manière globale la liberté
+d'action de l'homme, liberté qui est liée à la dignité humaine.
+
+La notion française de « nbsp ;liberté individuelle » qui, par rapport au droit
+constitutionnel allemand, fait l'objet de cette considération, avant d'être
+limitée au champ de protection de l'article 66 de la Constitution, englobait,
+--
+l'article 2 (2) phrase 2 LF : le droit de la personnalité, le droit à
+l'inviolabilité du domicile, le droit à la protection de la correspondance et
+la « liberté d'aller et venir ». Afin de permettre une comparaison conceptuelle
+avec l'Allemagne, ces domaines seront également examinés de manière succincte
+pour le droit allemand.
+
+1. La liberté générale d'action (art. 2 (1) LF)
+
+La CCF considère l'article 2 (1) LF comme une source générale de libertés dites
+« non nommées », comme une incarnation du principe général de liberté, par
+opposition aux droits fondamentaux spécifiques exprimés dans le texte de la LF.
+Contrairement à la formulation plus étroite (« droit au libre développement de
+la personnalité »), la CCF voit dans l'article 2 (1) LF la garantie de la « 
+liberté d'action au sens large », une « protection d'un poids substantiel »^(5)
+. Cela correspond à l'opinion de la Cour selon laquelle la dignité humaine et
+la « libre personnalité humaine » qui lui est associée ont la plus haute valeur
+^(6). Cette compréhension globale découle également des larges limites
+auxquelles est soumise la liberté comprenant l'ordre constitutionnel
+(c'est-à-dire toutes les lois constitutionnelles formelles et matérielles), la
+loi morale et les droits d'autrui.
+
+La liberté générale d'action est subsidiaire aux « droits désignés » ;
+toutefois, un certain nombre de domaines fonctionnels importants ont déjà été
+traités par la jurisprudence comme étant ancrés dans la liberté générale
+d'action : les libertés économiques (y compris l'autonomie privée, la liberté
+contractuelle ou la liberté de concurrence), les impôts et, en outre, des
+libertés concrètes, telles que la liberté de quitter le pays et le séjour des
+étrangers.
+
+Les tentatives de la doctrine de limiter la liberté générale d'action à un
+noyau d'activités importantes liées à la personne de l'individu sont
+généralement rejetées à juste titre, car sinon, le principe général de liberté
+associé à la dignité humaine ne serait pas soumis à la protection de la
+Constitution^(7). Mais c'est précisément ce qui correspond au principe de la
+liberté, qui, comme nous l'avons déjà souligné, est un élément essentiel de la
+dignité humaine.
+
+--
+Le DGP est un droit fondamental « non nommé » et est garanti par l'article 2
+(1) LF en liaison avec l'article 1 (1) LF ; il complète les droits spéciaux de
+liberté « nommés », qui protègent également les « éléments constitutifs de la
+personnalité ». La tâche du DGP est de garantir « au sens du principe
+constitutionnel suprême de la dignité humaine (...) la sphère personnelle plus
+étroite et la préservation de ses conditions fondamentales, qui ne peuvent être
+couvertes de manière exhaustive par les garanties concrètes traditionnelles de
+la liberté ». Comme le souligne la CCF, ceci est particulièrement important au
+vu des développements modernes et donc des nouvelles menaces qui pèsent sur la
+protection de la liberté humaine. Cette conception fonctionnelle du DGP
+formulée par la CCF^(8) et confirmée par une jurisprudence constante complète
+la liberté d'action générale de l'article 2 (1) LF par le « respect de la
+sphère protégée ».
+
+--
+
+Le droit à l'oubli est l'une des applications les plus récentes du droit de la
+personnalité dans le compromis entre la liberté de la presse et les droits de
+la personnalité « liés à l'expression »^(32). C'est ici qu'interviennent de
+manière particulière les nouveaux aspects qui prennent de plus en plus
+--
+droits de la personnalité.
+
+B. La liberté de la personne (art. 2 (2) 2^e phrase LF en liaison avec l'art.
+104 LF)
+
+1. Classification
+
+La Loi fondamentale qualifie la liberté de la personne d' « inviolable » et
+documente ainsi son rang élevé parmi les droits fondamentaux. Comme l'a exprimé
+la CCF, il s'agit d'une « décision de valeur objective qui s'applique à tous
+--
+ne constitue pas un droit fondamental, mais une règle de procédure qui se
+trouve dans la Constitution allemande sous la rubrique « jurisprudence ».
+Toutefois, la liberté de la personne protégée par l'article 2 (2), phrase 2 LF
+est indissociable des dispositions formelles de l'article 104 LF : ainsi,
+celles-ci non seulement reprennent la garantie de l'article 2 (2) phrase 2 LF,
+mais imposent en même temps des exigences supplémentaires quand il s'agit de
+limiter la garantie de la liberté. Les normes procédurales de l'article 104 LF
+participent à cet égard à la garantie matérielle de la liberté^(56). C'est
+pourquoi il était même prévu à l'origine d'intégrer le contenu de l'article 104
+LF dans l'article 2 (2) phrase 2 LF, mais cela n'a pas été fait pour des
+raisons uniquement rédactionnelles -- pour éviter une section des droits
+fondamentaux trop chargée en texte^(57). Par conséquent, une violation formelle
+signifie également une violation de la liberté elle-même, qui peut être
+contestée par le recours juridique d'une plainte constitutionnelle (article 93
+(1) n° 4a LF)^(58).
+--
+2. Les garanties particulières de l'article 104 LF
+
+L'article 104 LF garantit en principe la liberté de mouvement physique ; cette
+disposition protège donc contre la coercition directe^(59). Le texte distingue
+plusieurs types d'ingérence, à savoir les restrictions de liberté (alinéa 1) et
+les privations de liberté (alinéas 2 et 3). Une limitation de la liberté d'une
+personne n'est admissible que sur la base d'une loi (article 104 (1) phrase 1
+LF). Dans le cas d'une privation de liberté, la norme impose des exigences
+supplémentaires, notamment l'exigence d'une décision judiciaire. Cette
+combinaison de réserves juridiques et judiciaires illustre l'importance
+particulière de la liberté de la personne dans la Constitution allemande^(60).
+Cependant, à l'exception de l'article 104 (1) phrase 2 LF, selon lequel les
+personnes détenues ne peuvent être maltraitées physiquement ou mentalement, la
+disposition ne contient pas d'autres spécifications concernant la manière dont
+les privations de liberté peuvent être exécutées.
+
+2.1. Restriction de la liberté et privation de liberté
+
+Les privations de liberté sont des formes particulières de restrictions de la
+liberté ; elles y sont donc également incluses^(61). À cet égard, les
+privations de liberté doivent toujours être conformes aux exigences de l'alinéa
+1, c'est-à-dire notamment à la réserve de la loi^(62). La question de savoir
+s'il s'agit d'une restriction de liberté (cf. article 104 (1) LF) ou d'une
+privation de liberté (article 104 (2) LF) est principalement déterminée par
+l'intensité de l'ingérence^(63).
+
+Il y a restriction de liberté lorsque l'autorité publique empêche une personne,
+contre sa volonté, de se rendre ou de séjourner dans un lieu auquel elle a
+effectivement ou légalement accès^(64). En d'autres termes, l'exercice de la
+liberté de mouvement physique est rendu difficile ou impossible^(65). Parmi les
+exemples de restrictions à la liberté, on peut citer l'empêchement d'être dans
+un certain endroit^(66), mais pas, par exemple, l'obligation de suivre des
+cours de circulation^(67). À ce propos, les obligations de présence ne sont
+soumises qu'à la liberté générale d'action de l'article 2 (1) LF, car elles ne
+sont que la conséquence d'une obligation d'agir^(68).
+
+La privation de liberté est la forme la plus sévère de restriction de la
+liberté^(69). Cela signifie la suspension de la liberté physique de mouvement
+-- existant en fait et en droit -- dans toute direction par le pouvoir public^
+(70). Il est donc impossible pour la personne concernée de quitter le lieu où
+elle se trouve^(71). Une certaine durée minimale de la mesure est également
+requise comme élément constitutif^(72). Une privation de liberté est donc, par
+exemple, le placement dans une institution psychiatrique^(73), la garde à vue
+et l'arrestation^(74) ou la détention^(75). Selon le législateur, les
+restrictions de sortie pendant la crise de Covid-19 ne devraient toutefois
+constituer qu'un empiètement sur la liberté d'action générale^(76).
+
+2.2. La réserve de la loi et le principe de détermination
+
+L'article 104 (1) phrase 1 LF dispose -- tout comme l'article 2 (2) phrase 3 LF
+-- qu'une limitation de la liberté d'une personne n'est admissible que sur la
+base d'une loi formelle adoptée dans le cadre de la procédure législative ; les
+règlements exécutifs ne remplissent donc pas cette condition^(77). Il en va de
+même en cas d'application analogue d'une loi, puisque dans ce cas également, ce
+n'est pas le législateur lui-même qui déciderait de l'admissibilité de
+l'atteinte à la liberté^(78). En particulier, les privations de liberté
+nécessitent par conséquent l'interaction des trois pouvoirs, à savoir le
+pouvoir judiciaire, le pouvoir exécutif et le pouvoir législatif^(79).
+--
+Il est en outre nécessaire que la loi soit suffisamment précise. En d'autres
+termes, le législateur doit définir clairement les cas d'admissibilité de la
+restriction de la liberté. Cela découle de l'article 104 (1) phrase 1 LF qui
+exprime, dans son propre texte, toutes les exigences du principe général de
+l'État de droit^(80). Dans ce cadre, il est particulièrement évident que plus
+--
+104 (1) phrase 1 LF concrétise ainsi les principes de l'État de droit^(83).
+
+2.3. La réserve de la décision judiciaire en cas de privation de liberté
+
+La Constitution allemande et le législateur supposent que les juges, en raison
+de leur indépendance et de leur position, sont les mieux à même de sauvegarder
+les droits des personnes concernées^(84). Pour cette raison, l'admissibilité et
+le maintien de la privation de liberté nécessitent en outre une décision
+judiciaire préalable (article 104 (2) phrase 1 LF). Dans le cas contraire,
+cette décision doit être prise ultérieurement sans délai (article 104 (2)
+phrase 2 LF). Un tel décalage dans le temps n'est admissible que si l'objectif
+poursuivi par la privation de liberté ne peut être atteint si la décision
+judiciaire devait être prise avant^(85). À cet égard, ces restrictions de la
+réserve de la loi lient le législateur lui-même^(86). Il s'agit d'un principe
+--
+2 LF).
+
+2.4. L'obligation de notification en cas de privation de liberté
+
+Avant toute décision judiciaire de privation de liberté, un parent ou une
+personne de confiance de la personne détenue doit être informé sans délai
+(article 104 (4) LF). Cette disposition a pour but d'éviter que des personnes
+--
+du 29 décembre 1983 ; déc. n° 84-184 DC du 29 décembre 1984 ; déc. n° 94-352 DC
+du 18 janvier 1995 ; déc. n° 97-389 DC du 22 avril 1997 ; P. de Montalivet,
+« La liberté individuelle », in M. Verpeaux, P. de Montalivet, A.
+Roblot-Troizier, A. Vidal-Naquet, Droit constitutionnel. Les grandes décisions
+de la jurisprudence, 2^e éd., 2017, p. 557 -- 565.
+--
+le cas d'une conception globale de l'art. 2 (1) LF, le principe de l'État de
+droit, qui n'est garanti qu'objectivement par la Loi fondamentale, serait « 
+subjectivisé » et « deviendrait en réalité une liberté d'intervention générale
+ » (vol. 80, 167/168).
+
+--
+Citer cet article
+
+Rainer ARNOLD ; Toni FICKENTSCHER . « Le concept de la liberté individuelle
+dans la perspective du droit constitutionnel allemand », Titre VII [en ligne],
+n° 7, La liberté individuelle, octobre 2021. URL complète : https://
+www.conseil-constitutionnel.fr/publications/titre-vii/
+le-concept-de-la-liberte-individuelle-dans-la-perspective-du-droit-constitutionnel-allemand
+--
+Dans le même dossier
+
+  • Positions et composition dans la genèse d’une liberté fondamentale - Les
+    contours évolutifs de la liberté individuelle dans la jurisprudence du
+    Conseil constitutionnel
+
+--
+
+  • La jurisprudence constitutionnelle sur l’autorité judiciaire gardienne de
+    la liberté individuelle
+
+    Par Raphaële PARIZOT
+
+  • Le point de vue d’un avocat sur l’apport de la jurisprudence sur les
+    garanties inhérentes à la liberté individuelle mises au jour par le Conseil
+    constitutionnel
+
+    Par Claire WAQUET
+
+  • Le droit à la liberté et à la sûreté dans la jurisprudence de la Cour
+    européenne des droits de l’homme
+
+    Par Joël ANDRIANTSIMBAZOVINA
+
+  • La jurisprudence de la CJUE relative au droit à la liberté et à la sûreté
+
+    Par Loïc ROBERT
+--
+  • Autour du monde
+
+      □ Le concept de la liberté individuelle dans la perspective du droit
+        constitutionnel allemand
+      □ Revue doctrinale - Liberté individuelle
+  • Les chroniques
+
+      □ Chronique de droits fondamentaux et libertés publiques
+      □ Chronique de droit pénal et procédure pénale
+      □ Chronique de droit privé
